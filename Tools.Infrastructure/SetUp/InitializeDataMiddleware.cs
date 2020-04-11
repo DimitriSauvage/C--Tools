@@ -24,9 +24,9 @@ namespace Tools.Infrastructure.SetUp
     {
         private readonly RequestDelegate next;
         private readonly InitializeDataOptions options;
-        private readonly IWritableOptions<AppSettings> appSettings;
+        private readonly IWritableOptions<DatabaseSettings> appSettings;
 
-        public InitializeDataMiddleware(RequestDelegate next, InitializeDataOptions options, IWritableOptions<AppSettings> appSettings)
+        public InitializeDataMiddleware(RequestDelegate next, InitializeDataOptions options, IWritableOptions<DatabaseSettings> appSettings)
         {
             this.next = next;
             this.options = options;

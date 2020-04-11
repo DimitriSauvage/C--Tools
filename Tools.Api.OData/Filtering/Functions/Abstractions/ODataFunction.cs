@@ -1,9 +1,9 @@
-﻿using Tools.OData.Filtering.Abstractions;
+﻿using Tools.Api.OData.Filtering.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tools.OData.Filtering.Functions.Abstractions
+namespace Tools.Api.OData.Filtering.Functions.Abstractions
 {
     public abstract class ODataFunction : IODataFunction, IODataElement
     {

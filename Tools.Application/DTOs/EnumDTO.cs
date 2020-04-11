@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Globalization;
-using Tools.Helpers;
 using Tools.Helpers;
 
 namespace Tools.Application.DTOs

@@ -1,6 +1,6 @@
-﻿using Tools.OData.Filtering.Abstractions;
-using Tools.OData.Filtering.Enums;
-using Tools.OData.Filtering.Models;
+﻿using Tools.Api.OData.Filtering.Abstractions;
+using Tools.Api.OData.Filtering.Enums;
+using Tools.Api.OData.Filtering.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

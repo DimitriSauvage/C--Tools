@@ -2962,24 +2962,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrateur\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\dimit\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrateur\\Downloads\\SoPerf.Tools\\Tools.OpenXml\\Tools.OpenXml.csproj",
+      "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.OpenXml\\Tools.OpenXml.csproj",
       "projectName": "Tools.OpenXml",
-      "projectPath": "C:\\Users\\Administrateur\\Downloads\\SoPerf.Tools\\Tools.OpenXml\\Tools.OpenXml.csproj",
-      "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrateur\\Downloads\\SoPerf.Tools\\Tools.OpenXml\\obj\\",
+      "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.OpenXml\\Tools.OpenXml.csproj",
+      "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.OpenXml\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -3018,10 +3019,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

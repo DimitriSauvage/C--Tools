@@ -1,12 +1,12 @@
-﻿using Tools.OData.Filtering.Abstractions;
-using Tools.OData.Filtering.Enums;
-using Tools.OData.Filtering.Functions.Abstractions;
+﻿using Tools.Api.OData.Filtering.Abstractions;
+using Tools.Api.OData.Filtering.Enums;
+using Tools.Api.OData.Filtering.Functions.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Tools.OData.Filtering.Models
+namespace Tools.Api.OData.Filtering.Models
 {
     public class ODataFilterQueryParameter : ODataQueryParameter
     {

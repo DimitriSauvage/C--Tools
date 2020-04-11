@@ -1,13 +1,13 @@
-﻿using Tools.OData.Filtering.Enums;
-using Tools.OData.Filtering.Functions.Abstractions;
-using Tools.OData.Filtering.Functions.Implementations.ArithmeticsComparison;
-using Tools.OData.Filtering.Functions.Implementations.LogicalFunctions;
-using Tools.OData.Filtering.Functions.Implementations.StringFunctions;
+﻿using Tools.Api.OData.Filtering.Enums;
+using Tools.Api.OData.Filtering.Functions.Abstractions;
+using Tools.Api.OData.Filtering.Functions.Implementations.ArithmeticsComparison;
+using Tools.Api.OData.Filtering.Functions.Implementations.LogicalFunctions;
+using Tools.Api.OData.Filtering.Functions.Implementations.StringFunctions;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tools.OData.Filtering.Functions.Factories
+namespace Tools.Api.OData.Filtering.Functions.Factories
 {
     public class ODataFunctionFactory
     {

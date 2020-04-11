@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tools.OData.Filtering.Abstractions
+namespace Tools.Api.OData.Filtering.Abstractions
 {
     public interface IODataElement
     {

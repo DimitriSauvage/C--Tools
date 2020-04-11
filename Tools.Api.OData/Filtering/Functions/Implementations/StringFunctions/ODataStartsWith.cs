@@ -1,9 +1,9 @@
-﻿using Tools.OData.Filtering.Functions.Abstractions;
+﻿using Tools.Api.OData.Filtering.Functions.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tools.OData.Filtering.Functions.Implementations.StringFunctions
+namespace Tools.Api.OData.Filtering.Functions.Implementations.StringFunctions
 {
     public class ODataStartsWith : ODataStringFunction
     {

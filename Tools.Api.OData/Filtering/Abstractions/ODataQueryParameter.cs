@@ -1,9 +1,9 @@
-﻿using Tools.OData.Filtering.Enums;
+﻿using Tools.Api.OData.Filtering.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tools.OData.Filtering.Abstractions
+namespace Tools.Api.OData.Filtering.Abstractions
 {
     public abstract class ODataQueryParameter : IODataElement, IODataQueryParameter
     {

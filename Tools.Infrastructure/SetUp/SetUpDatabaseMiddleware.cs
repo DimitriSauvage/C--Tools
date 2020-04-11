@@ -21,9 +21,9 @@ namespace Tools.Infrastructure.SetUp
     {
         private readonly RequestDelegate next;
         private readonly SetUpDatabaseOptions options;
-        private readonly IWritableOptions<AppSettings> appSettings;
+        private readonly IWritableOptions<DatabaseSettings> appSettings;
 
-        public SetUpDatabaseMiddleware(RequestDelegate next, SetUpDatabaseOptions options, IWritableOptions<AppSettings> appSettings)
+        public SetUpDatabaseMiddleware(RequestDelegate next, SetUpDatabaseOptions options, IWritableOptions<DatabaseSettings> appSettings)
         {
             this.next = next;
             this.options = options;
@@ -69,7 +69,7 @@ namespace Tools.Infrastructure.SetUp
                         else
                             settings.ConnectionStrings.Add(new ConnectionStringSettings { Name = defaultConnectionStringName, ConnectionString = connectionString });
 
-                        settings.UseConnectionString = defaultConnectionStringName;
+                        settings.UsedConnectionString = defaultConnectionStringName;
                     });
 
                     // Application des migrations
