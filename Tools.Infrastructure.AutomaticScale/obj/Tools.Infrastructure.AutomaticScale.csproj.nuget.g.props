@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Infrastructure.AutomaticScale\obj\project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Administrateur\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">4.9.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUnity Condition=" '$(PkgUnity)' == '' ">C:\Users\Administrateur\.nuget\packages\unity\2.1.505</PkgUnity>
+    <PkgUnity_Interception Condition=" '$(PkgUnity_Interception)' == '' ">C:\Users\Administrateur\.nuget\packages\unity.interception\2.1.505</PkgUnity_Interception>
+    <PkgTransientFaultHandling_Core Condition=" '$(PkgTransientFaultHandling_Core)' == '' ">C:\Users\Administrateur\.nuget\packages\transientfaulthandling.core\5.1.1209</PkgTransientFaultHandling_Core>
+    <PkgEnterpriseLibrary_Common Condition=" '$(PkgEnterpriseLibrary_Common)' == '' ">C:\Users\Administrateur\.nuget\packages\enterpriselibrary.common\5.0.505</PkgEnterpriseLibrary_Common>
+    <PkgEnterpriseLibrary_WindowsAzure_TransientFaultHandling Condition=" '$(PkgEnterpriseLibrary_WindowsAzure_TransientFaultHandling)' == '' ">C:\Users\Administrateur\.nuget\packages\enterpriselibrary.windowsazure.transientfaulthandling\5.1.1212</PkgEnterpriseLibrary_WindowsAzure_TransientFaultHandling>
+  </PropertyGroup>
+</Project>
