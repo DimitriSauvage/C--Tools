@@ -15,29 +15,4 @@ namespace Tools.Domain.Abstractions
         /// <returns>Copie</returns>
         void CopyFrom(IEntity other);
     }
-
-    public interface IEntityWithId<TId> : IEntity
-    {
-        TId Id { get; set; }
-    }
-
-    public interface IEntityWithId : IEntityWithId<long>
-    {
-
-    }
-
-    public interface IEntityWithCompositeId : IEntity
-    {
-
-    }
-
-    public interface IEntityWithTracking : IEntityWithId<long>
-    {
-        DateTime CreatedAt { get; set; }
-        string CreatedBy { get; set; }
-        DateTime? UpdatedAt { get; set; }
-        string UpdatedBy { get; set; }
-    }
-
-    
 }

@@ -36,7 +36,7 @@ namespace Tools.Infrastructure.Helpers
             }
             catch (SqlException e)
             {
-                throw new ToolsException($"Failed to connect to SQL database with connection string : {masterDbConnectionString}");
+                throw new AppException($"Failed to connect to SQL database with connection string : {masterDbConnectionString}");
             }
         }
 

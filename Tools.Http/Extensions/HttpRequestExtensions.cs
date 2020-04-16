@@ -2,25 +2,40 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Tools.Http.Enums;
 
 namespace Tools.Http.Extensions
 {
     public static class HttpRequestExtensions
     {
         private const string AUTHORIZE = "Authorization";
+        private const string BEARER_NAME = "Bearer ";
 
         /// <summary>
         /// Extrait la valeur du jeton d'authorization depuis l'entête de la requête 
         /// </summary>
-        /// <param name="request"></param>
+        /// <param name="request">Requête reçue</param>
+        /// <param name="source">Source ou récupérer le token</param>
         /// <returns></returns>
-        public static string GetJWTAuthorizeToken(this HttpRequest request)
+        public static string GetJWTAuthorizeToken(this HttpRequest request,
+            JWTAuthorizeTokenSource source = JWTAuthorizeTokenSource.Header)
         {
-            string authorizeToken = request.Headers[AUTHORIZE];
-            if (!string.IsNullOrEmpty(authorizeToken))
-                return authorizeToken.Remove(0, "Bearer ".Length);
+            string authorizeToken = null;
 
-            return null;
+            if (source == JWTAuthorizeTokenSource.Header)
+            {
+                //Récupération depuis le header
+                authorizeToken = request.Headers[AUTHORIZE];
+                if (!string.IsNullOrEmpty(authorizeToken))
+                    authorizeToken = authorizeToken.Remove(0, BEARER_NAME.Length);
+            }
+            else
+            {
+                //On récupère le token depuis les cookies
+                request.Cookies.TryGetValue(AUTHORIZE, out authorizeToken);
+            }
+
+            return authorizeToken;
         }
     }
 }

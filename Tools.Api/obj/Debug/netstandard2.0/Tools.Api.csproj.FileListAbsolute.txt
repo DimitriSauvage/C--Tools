@@ -7,3 +7,11 @@ C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Api\bin\Debug\netstandard2.
 C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Api\obj\Debug\netstandard2.0\Tools.Api.csprojAssemblyReference.cache
 C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Api\obj\Debug\netstandard2.0\Tools.Api.dll
 C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Api\obj\Debug\netstandard2.0\Tools.Api.pdb
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api\bin\Debug\netstandard2.0\Tools.Api.deps.json
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api\bin\Debug\netstandard2.0\Tools.Api.dll
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api\bin\Debug\netstandard2.0\Tools.Api.pdb
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api\obj\Debug\netstandard2.0\Tools.Api.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api\obj\Debug\netstandard2.0\Tools.Api.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api\obj\Debug\netstandard2.0\Tools.Api.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api\obj\Debug\netstandard2.0\Tools.Api.dll
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api\obj\Debug\netstandard2.0\Tools.Api.pdb

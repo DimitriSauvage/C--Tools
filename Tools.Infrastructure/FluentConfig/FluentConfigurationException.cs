@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Tools.Infrastructure.FluentConfig
 {
-    public class FluentConfigurationException : ToolsException
+    public class FluentConfigurationException : AppException
     {
         public FluentConfigurationException()
         {

@@ -26,7 +26,8 @@ namespace Tools.Helpers
         /// <param name="attributeType">Type de l'attribut à rechercher. Seuls les attributs pouvant être assignés à ce type sont retournés.</param>
         /// <param name="attributeInherit">true pour rechercher les attributs dans la chaîne d'héritage de ce membre ; sinon, false.</param>
         /// <returns></returns>
-        public static IDictionary<string, object> GetValueAndPropertyNameDictionary(object obj, Type attributeType, bool attributeInherit)
+        public static IDictionary<string, object> GetValueAndPropertyNameDictionary(object obj, Type attributeType,
+            bool attributeInherit)
         {
             IDictionary<string, object> result = new Dictionary<string, object>();
             foreach (var property in obj.GetType().GetProperties())
@@ -48,7 +49,8 @@ namespace Tools.Helpers
         /// <param name="exceptAttributeTypes">Tableau de types d'attributs à éviter. Seuls les attributs qui ne sont pas des types donnés sont retournée</param>
         /// <param name="attributeInherit">true pour rechercher les attributs dans la chaîne d'héritage de ce membre ; sinon, false.</param>
         /// <returns></returns>
-        public static IDictionary<string, object> GetValueAndPropertyNameWithAttributeExceptions(object obj, Type[] exceptAttributeTypes, bool attributeInherit)
+        public static IDictionary<string, object> GetValueAndPropertyNameWithAttributeExceptions(object obj,
+            Type[] exceptAttributeTypes, bool attributeInherit)
         {
             IDictionary<string, object> result = new Dictionary<string, object>();
             foreach (var property in obj.GetType().GetProperties())
@@ -65,8 +67,29 @@ namespace Tools.Helpers
                     }
                 }
 
-                if(addValue)
+                if (addValue)
                     result.Add(property.Name, property.GetValue(obj));
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// Obtient un dictionnaire contenant les propriétés / valeurs pour l'objet passé en paramètre
+        /// </summary>
+        /// <param name="obj">Objet à évaluer</param>
+        /// <param name="propertyNames">Liste des propriétés à rechercher</param>
+        /// <returns></returns>
+        public static IDictionary<string, object> GetValueAndPropertyNameDictionary(object obj,
+            IEnumerable<string> propertyNames)
+        {
+            IDictionary<string, object> result = new Dictionary<string, object>();
+            foreach (var propName in propertyNames)
+            {
+                var property = obj.GetType().GetProperty(propName);
+                var value = property.GetValue(obj);
+
+                result.Add(property.Name, value);
             }
 
             return result;

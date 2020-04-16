@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Tools.Infrastructure.Exceptions
 {
-    public class EntityAlreadyExistsException<TEntity> : ToolsException where TEntity : IEntity
+    public class EntityAlreadyExistsException<TEntity> : AppException where TEntity : IEntity
     {
         public EntityAlreadyExistsException() : base($"Cannot create a duplicate {(typeof(TEntity)).Name.ToLower()}.")
         {

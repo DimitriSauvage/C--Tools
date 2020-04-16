@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Tools.Mvc.Abstractions
 {
-    public abstract class SoPerfViewComponent : ViewComponent
+    public abstract class BaseViewComponent : ViewComponent
     {
         /// <summary>
         /// Obtient le gestionnaire de ressources <see cref="IStringLocalizer"/>
@@ -16,9 +16,9 @@ namespace Tools.Mvc.Abstractions
 
         #region Constructors
         /// <summary>
-        /// Instancie un nouveau <see cref="SoPerfViewComponent"/>
+        /// Instancie un nouveau <see cref="BaseViewComponent"/>
         /// </summary>
-        protected SoPerfViewComponent(IStringLocalizerFactory stringLocalizerFactory)
+        protected BaseViewComponent(IStringLocalizerFactory stringLocalizerFactory)
         {
             // Localisation des ressources propres au module
             this.Localizer = stringLocalizerFactory.Create($"Views.Shared.Components.{this.GetType().Name.Replace("ViewComponent", string.Empty)}.Default", Assembly.GetCallingAssembly().GetName().Name);

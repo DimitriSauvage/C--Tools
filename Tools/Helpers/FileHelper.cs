@@ -34,7 +34,7 @@ namespace Tools.Helpers
         public static Encoding DetectEncoding(string filePath)
         {
             if (!File.Exists(filePath))
-                throw new ToolsException("Détection de l'encodage impossible, le fichier spécifié n'existe pas.");
+                throw new AppException("Détection de l'encodage impossible, le fichier spécifié n'existe pas.");
 
             using (FileStream fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read))
                 return DetectEncoding(fileStream);

@@ -2143,6 +2143,7 @@
       "path": "polly/6.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/netstandard1.1/Polly.deps.json",
         "lib/netstandard1.1/Polly.dll",
         "lib/netstandard1.1/Polly.pdb",
@@ -4304,7 +4305,7 @@
   },
   "packageFolders": {
     "C:\\Users\\dimit\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4316,7 +4317,7 @@
       "outputPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Infrastructure.AutomaticScale\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4397,7 +4398,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "EnterpriseLibrary.WindowsAzure.TransientFaultHandling 5.1.1212 depends on EnterpriseLibrary.Common (>= 5.0.0) but EnterpriseLibrary.Common 5.0.0 was not found. An approximate best match of EnterpriseLibrary.Common 5.0.505 was resolved.",
+      "message": "EnterpriseLibrary.WindowsAzure.TransientFaultHandling 5.1.1212 dépend de EnterpriseLibrary.Common (>= 5.0.0), mais EnterpriseLibrary.Common 5.0.0 est introuvable. Une meilleure correspondance approximative de EnterpriseLibrary.Common 5.0.505 a été résolue.",
       "libraryId": "EnterpriseLibrary.Common",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -4407,7 +4408,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "EnterpriseLibrary.WindowsAzure.TransientFaultHandling 5.1.1212 depends on TransientFaultHandling.Core (>= 5.1.0) but TransientFaultHandling.Core 5.1.0 was not found. An approximate best match of TransientFaultHandling.Core 5.1.1209 was resolved.",
+      "message": "EnterpriseLibrary.WindowsAzure.TransientFaultHandling 5.1.1212 dépend de TransientFaultHandling.Core (>= 5.1.0), mais TransientFaultHandling.Core 5.1.0 est introuvable. Une meilleure correspondance approximative de TransientFaultHandling.Core 5.1.1209 a été résolue.",
       "libraryId": "TransientFaultHandling.Core",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -4417,7 +4418,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Unity.Interception 2.1.505 depends on Unity (>= 2.1.0) but Unity 2.1.0 was not found. An approximate best match of Unity 2.1.505 was resolved.",
+      "message": "Unity.Interception 2.1.505 dépend de Unity (>= 2.1.0), mais Unity 2.1.0 est introuvable. Une meilleure correspondance approximative de Unity 2.1.505 a été résolue.",
       "libraryId": "Unity",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -4427,7 +4428,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "EnterpriseLibrary.Common 5.0.505 depends on Unity.Interception (>= 2.1.0) but Unity.Interception 2.1.0 was not found. An approximate best match of Unity.Interception 2.1.505 was resolved.",
+      "message": "EnterpriseLibrary.Common 5.0.505 dépend de Unity.Interception (>= 2.1.0), mais Unity.Interception 2.1.0 est introuvable. Une meilleure correspondance approximative de Unity.Interception 2.1.505 a été résolue.",
       "libraryId": "Unity.Interception",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -4437,7 +4438,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'CommonServiceLocator 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Le package 'CommonServiceLocator 1.0.0' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETStandard,Version=v2.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
       "libraryId": "CommonServiceLocator",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -4447,7 +4448,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'EnterpriseLibrary.Common 5.0.505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Le package 'EnterpriseLibrary.Common 5.0.505' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETStandard,Version=v2.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
       "libraryId": "EnterpriseLibrary.Common",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -4457,7 +4458,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'EnterpriseLibrary.WindowsAzure.TransientFaultHandling 5.1.1212' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Le package 'EnterpriseLibrary.WindowsAzure.TransientFaultHandling 5.1.1212' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETStandard,Version=v2.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
       "libraryId": "EnterpriseLibrary.WindowsAzure.TransientFaultHandling",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -4467,7 +4468,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Azure.SqlDatabase.ElasticScale.Client 1.3.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Le package 'Microsoft.Azure.SqlDatabase.ElasticScale.Client 1.3.3' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETStandard,Version=v2.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
       "libraryId": "Microsoft.Azure.SqlDatabase.ElasticScale.Client",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -4477,7 +4478,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'TransientFaultHandling.Core 5.1.1209' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Le package 'TransientFaultHandling.Core 5.1.1209' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETStandard,Version=v2.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
       "libraryId": "TransientFaultHandling.Core",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -4487,7 +4488,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Unity 2.1.505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Le package 'Unity 2.1.505' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETStandard,Version=v2.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
       "libraryId": "Unity",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
@@ -4497,7 +4498,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Unity.Interception 2.1.505' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Le package 'Unity.Interception 2.1.505' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETStandard,Version=v2.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
       "libraryId": "Unity.Interception",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"

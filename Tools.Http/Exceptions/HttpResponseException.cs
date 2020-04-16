@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Tools.Http.Exceptions
 {
-    public class HttpResponseException : ToolsException
+    public class HttpResponseException : AppException
     {
         #region Constructors
         public HttpResponseException(string uri) : base($"Une erreur est survenue durant l'appel de la ressource {uri}")

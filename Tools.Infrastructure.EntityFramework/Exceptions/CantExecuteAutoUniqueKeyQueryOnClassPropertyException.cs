@@ -1,8 +1,9 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.Text;
+ using Tools.Infrastructure.EntityFramework.Exceptions;
 
-namespace Tools.Infrastructure.EntityFramework.Exceptions
+ namespace Nestor.Tools.Infrastructure.EntityFramework.Exceptions
 {
     /// <summary>
     /// Exception déclenchée par la fonction GetByUniqueKey si une des propriétés [UniqueKey] est placée sur une propriété qui est une instance de classe

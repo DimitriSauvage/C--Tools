@@ -28,7 +28,7 @@ namespace Tools.Infrastructure.Idempotency
             var exists = await ExistAsync(id);
 
             var request = exists ?
-                throw new ToolsException($"La requêtre portant l'id {id} existe déjà") :
+                throw new AppException($"La requêtre portant l'id {id} existe déjà") :
                 new ClientRequest()
                 {
                     Id = id,
