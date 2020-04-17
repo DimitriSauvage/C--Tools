@@ -1,0 +1,80 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Infrastructure.RabbitMQ\\Tools.Infrastructure.RabbitMQ.csproj",
+    "projectName": "Tools.Infrastructure.RabbitMQ",
+    "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Infrastructure.RabbitMQ\\Tools.Infrastructure.RabbitMQ.csproj",
+    "outputPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Infrastructure.RabbitMQ\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Microsoft\\Xamarin\\NuGet"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "projectReferences": {
+          "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Infrastructure\\Tools.Infrastructure.csproj": {
+            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Infrastructure\\Tools.Infrastructure.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.1": {
+      "dependencies": {
+        "EasyNetQ": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        },
+        "Microsoft.CSharp": {
+          "target": "Package",
+          "version": "[4.5.0, )"
+        },
+        "Microsoft.Extensions.Logging": {
+          "target": "Package",
+          "version": "[2.1.1, )"
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[11.0.2, )"
+        },
+        "RabbitMQ.Client": {
+          "target": "Package",
+          "version": "[5.1.0, )"
+        },
+        "System.ValueTuple": {
+          "target": "Package",
+          "version": "[4.4.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "NETStandard.Library": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

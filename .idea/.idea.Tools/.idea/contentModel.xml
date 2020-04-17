@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\dimit\.Rider2019.3\Config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\dimit\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\dimit\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Tools.1108386181.00" t="ExcludeRecursive" />
+    <e p="C:\Users\dimit\Github\CSharp-Tools" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Tools" t="IncludeRecursive">
+        <e p="Algorithms" t="Include">
+          <e p="BankingCommon.cs" t="Include" />
+          <e p="CreditCard.cs" t="Include" />
+          <e p="IBAN.cs" t="Include" />
+          <e p="Levenshtein.cs" t="Include" />
+          <e p="Luhn.cs" t="Include" />
+          <e p="NIR.cs" t="Include" />
+          <e p="RIB.cs" t="Include" />
+          <e p="Siren.cs" t="Include" />
+          <e p="Siret.cs" t="Include" />
+        </e>
+        <e p="Assemblies" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Attributes" t="Include">
+          <e p="IgnoreMemberAttribute.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Exceptions" t="Include">
+          <e p="AppException.cs" t="Include" />
+          <e p="NullReferenceException.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="AddressHelper.cs" t="Include" />
+          <e p="AllMySmsHelper.cs" t="Include" />
+          <e p="AttributeHelper.cs" t="Include" />
+          <e p="Base64Helper.cs" t="Include" />
+          <e p="CollectionHelper.cs" t="Include" />
+          <e p="ColorHelper.cs" t="Include" />
+          <e p="ConvertHelper.cs" t="Include" />
+          <e p="CryptographyHelper.cs" t="Include" />
+          <e p="CsvHelper.cs" t="Include" />
+          <e p="CultureHelper.cs" t="Include" />
+          <e p="DateTimeHelper.cs" t="Include" />
+          <e p="DistinctByHelper.cs" t="Include" />
+          <e p="EmailHelper.cs" t="Include" />
+          <e p="EnumerableHelper.cs" t="Include" />
+          <e p="EnumHelper.cs" t="Include" />
+          <e p="EquationSolvingHelper.cs" t="Include" />
+          <e p="FileHelper.cs" t="Include" />
+          <e p="IOHelper.cs" t="Include" />
+          <e p="LevenshteinHelper.cs" t="Include" />
+          <e p="MathHelper.cs" t="Include" />
+          <e p="MD5Helper.cs" t="Include" />
+          <e p="NumberHelper.cs" t="Include" />
+          <e p="ObjectHelper.cs" t="Include" />
+          <e p="ODataHelper.cs" t="Include" />
+          <e p="OvhServicesHelper.cs" t="Include" />
+          <e p="PhoneHelper.cs" t="Include" />
+          <e p="PhoneticHelper.cs" t="Include" />
+          <e p="PrimitiveTypesHelper.cs" t="Include" />
+          <e p="RandomHelper.cs" t="Include" />
+          <e p="ReflectionHelper.cs" t="Include" />
+          <e p="RegexHelper.cs" t="Include" />
+          <e p="SHA1Helper.cs" t="Include" />
+          <e p="SHA256Helper.cs" t="Include" />
+          <e p="SoundexHelper.cs" t="Include" />
+          <e p="StringHelper.cs" t="Include" />
+          <e p="TimeHelper.cs" t="Include" />
+          <e p="TypeHelper.cs" t="Include" />
+          <e p="UniqueIdHelper.cs" t="Include" />
+          <e p="XmlHelper.cs" t="Include" />
+        </e>
+        <e p="Languages" t="Include">
+          <e p="ExceptionMessage.Designer.cs" t="Include" />
+          <e p="ExceptionMessage.en.resx" t="Include" />
+          <e p="ExceptionMessage.resx" t="Include" />
+          <e p="Sentences.Designer.cs" t="Include" />
+          <e p="Sentences.resx" t="Include" />
+        </e>
+        <e p="Logging" t="Include">
+          <e p="ApplicationLogging.cs" t="Include" />
+          <e p="ConsoleProvider.cs" t="Include" />
+          <e p="Log4NetAdapter.cs" t="Include" />
+          <e p="Log4NetProvider.cs" t="Include" />
+          <e p="LoggingExtensions.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.Api.OData" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Filtering" t="Include">
+          <e p="Abstractions" t="Include">
+            <e p="IODataElement.cs" t="Include" />
+            <e p="IODataQueryParameter.cs" t="Include" />
+            <e p="ODataQueryParameter.cs" t="Include" />
+          </e>
+          <e p="Enums" t="Include">
+            <e p="ODataLogicalOperators.cs" t="Include" />
+          </e>
+          <e p="Functions" t="Include">
+            <e p="Abstractions" t="Include">
+              <e p="IODataFunction.cs" t="Include" />
+              <e p="ODataArithmeticComparisonFunction.cs" t="Include" />
+              <e p="ODataFunction.cs" t="Include" />
+              <e p="ODataLogicalFunction.cs" t="Include" />
+              <e p="ODataStringFunction.cs" t="Include" />
+            </e>
+            <e p="Factories" t="Include">
+              <e p="ODataFunctionFactory.cs" t="Include" />
+            </e>
+            <e p="Implementations" t="Include">
+              <e p="ArithmeticsComparison" t="Include">
+                <e p="ODataEqual.cs" t="Include" />
+                <e p="ODataGreaterThan.cs" t="Include" />
+                <e p="ODataGreaterThanOrEqual.cs" t="Include" />
+                <e p="ODataLessThan.cs" t="Include" />
+                <e p="ODataLessThanOrEqual.cs" t="Include" />
+                <e p="ODataNotEqual.cs" t="Include" />
+              </e>
+              <e p="LogicalFunctions" t="Include">
+                <e p="ODataAndFunction.cs" t="Include" />
+                <e p="ODataNotFunction.cs" t="Include" />
+                <e p="ODataOrFunction.cs" t="Include" />
+              </e>
+              <e p="StringFunctions" t="Include">
+                <e p="ODataStartsWith.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Models" t="Include">
+            <e p="ODataFilterQueryParameter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.Api.OData.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.Api.OData.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.Application" t="IncludeRecursive">
+        <e p="Abstractions" t="Include">
+          <e p="BaseService.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="IdentifiedCommand.cs" t="Include" />
+          <e p="IdentifiedCommandHandler.cs" t="Include" />
+        </e>
+        <e p="DTOs" t="Include">
+          <e p="ComponentInfoDTO.cs" t="Include" />
+          <e p="EnumDTO.cs" t="Include" />
+          <e p="PluginInfoDTO.cs" t="Include" />
+          <e p="ViewInfoDTO.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.Application.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.Application.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.Domain" t="IncludeRecursive">
+        <e p="Abstractions" t="Include">
+          <e p="Entity.cs" t="Include" />
+          <e p="EntityWithCompositeId.cs" t="Include" />
+          <e p="EntityWithId.cs" t="Include" />
+          <e p="EntityWithTracking.cs" t="Include" />
+          <e p="Enumeration.cs" t="Include" />
+          <e p="IEntity.cs" t="Include" />
+          <e p="IEntityWithCompositeId.cs" t="Include" />
+          <e p="IEntityWithId.cs" t="Include" />
+          <e p="IEntityWithTracking.cs" t="Include" />
+          <e p="ValueObject.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataAnnotations" t="Include">
+          <e p="CompareValuesAttribute.cs" t="Include" />
+          <e p="FrenchPhoneAttribute.cs" t="Include" />
+          <e p="IdAttribute.cs" t="Include" />
+          <e p="MinAttribute.cs" t="Include" />
+          <e p="MultiValueComparerAttribute.cs" t="Include" />
+          <e p="NotifyAttribute.cs" t="Include" />
+          <e p="SiretAttribute.cs" t="Include" />
+          <e p="UniqueByAttribute.cs" t="Include" />
+          <e p="UniqueKeyAttribute.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="IEntityExtension.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="HashCodeHelper.cs" t="Include" />
+          <e p="NamespaceHelper.cs" t="Include" />
+          <e p="ValidatorHelper.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.Domain.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.GeoLocation.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entities" t="Include">
+          <e p="LatLng.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.GeoLocation.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.GeoLocation.Domain.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.Http" t="IncludeRecursive">
+        <e p="Abstraction" t="Include">
+          <e p="IHttpClient.cs" t="Include" />
+          <e p="IResilientHttpClientFactory.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Config" t="Include">
+          <e p="HttpConfig.cs" t="Include" />
+        </e>
+        <e p="Content" t="Include">
+          <e p="FileContent.cs" t="Include" />
+          <e p="JsonContent.cs" t="Include" />
+          <e p="PatchContent.cs" t="Include" />
+        </e>
+        <e p="Enums" t="Include">
+          <e p="JWTAuthorizeTokenSource.cs" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include">
+          <e p="HttpResponseException.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="AppBuilderExtensions.cs" t="Include" />
+          <e p="HttpRequestExtensions.cs" t="Include" />
+          <e p="HttpResponseExtension.cs" t="Include" />
+          <e p="ReadQueryBodyExtensions.cs" t="Include" />
+          <e p="WebHostBuilderExtensions.cs" t="Include" />
+        </e>
+        <e p="Failing" t="Include">
+          <e p="FailingMiddleware.cs" t="Include" />
+          <e p="FailingOptions.cs" t="Include" />
+          <e p="FailingStartupFilter.cs" t="Include" />
+        </e>
+        <e p="HttpRequestBuilder.cs" t="Include" />
+        <e p="HttpRequestFactory.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.Http.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Resilience" t="Include">
+          <e p="ResilientHttpClient.cs" t="Include" />
+          <e p="ResilientHttpClientFactory.cs" t="Include" />
+          <e p="StandardHttpClient.cs" t="Include" />
+        </e>
+        <e p="Tools.Http.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.Infrastructure" t="IncludeRecursive">
+        <e p="Abstraction" t="Include">
+          <e p="IEmailSender.cs" t="Include" />
+          <e p="IRepository.cs" t="Include" />
+          <e p="ISmsSender.cs" t="Include" />
+          <e p="IWritableOptions.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Exceptions" t="Include">
+          <e p="EntityAlreadyExistsException.cs" t="Include" />
+          <e p="EntityNotFoundException.cs" t="Include" />
+          <e p="UnexpectedTransiantObjectException.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="AppBuilderExtensions.cs" t="Include" />
+          <e p="WebHostBuilderExtensions.cs" t="Include" />
+        </e>
+        <e p="FluentConfig" t="Include">
+          <e p="FluentConfigurationAssemblyCollection.cs" t="Include" />
+          <e p="FluentConfigurationAssemblyElement.cs" t="Include" />
+          <e p="FluentConfigurationDatabaseDispatcherCollection.cs" t="Include" />
+          <e p="FluentConfigurationDatabaseDispatcherElement.cs" t="Include" />
+          <e p="FluentConfigurationException.cs" t="Include" />
+          <e p="FluentConfigurationSectionHandler.cs" t="Include" />
+          <e p="Schema" t="Include">
+            <e p="FluentConfiguration.xsd" t="Include" />
+          </e>
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="FluentConfigHelper.cs" t="Include" />
+          <e p="SqlServerDbHelper.cs" t="Include" />
+        </e>
+        <e p="Idempotency" t="Include">
+          <e p="ClientRequest.cs" t="Include" />
+          <e p="IRequestManager.cs" t="Include" />
+          <e p="RequestManager.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="CompanySettingsDTO.cs" t="Include" />
+          <e p="DatabaseSettingsDTO.cs" t="Include" />
+          <e p="SetUpDTO.cs" t="Include" />
+          <e p="SuperAdminSettingsDTO.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Options" t="Include">
+          <e p="WritableOptions.cs" t="Include" />
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="ComponentInfo.cs" t="Include" />
+          <e p="GlobalConfiguration.cs" t="Include" />
+          <e p="IPluginInitializer.cs" t="Include" />
+          <e p="PluginInfo.cs" t="Include" />
+          <e p="ViewInfo.cs" t="Include" />
+        </e>
+        <e p="Settings" t="Include">
+          <e p="AppSettingsExtensions.cs" t="Include" />
+          <e p="DatabaseSettings.cs" t="Include" />
+        </e>
+        <e p="SetUp" t="Include">
+          <e p="InitializeDataMiddleware.cs" t="Include" />
+          <e p="InitializeDataOptions.cs" t="Include" />
+          <e p="InitializeDataStartupFilter.cs" t="Include" />
+          <e p="SetUpDatabaseMiddleware.cs" t="Include" />
+          <e p="SetUpDatabaseOptions.cs" t="Include" />
+          <e p="SetUpDatabaseStartupFilter.cs" t="Include" />
+        </e>
+        <e p="Tools.Infrastructure.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.Infrastructure.EntityFramework" t="IncludeRecursive">
+        <e p="Abstractions" t="Include">
+          <e p="AppDbContext.cs" t="Include" />
+          <e p="AppEntityMap.cs" t="Include" />
+          <e p="AppIdentityDbContext.cs" t="Include" />
+          <e p="DbRepository.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Exceptions" t="Include">
+          <e p="AttributeUndefinedException.cs" t="Include" />
+          <e p="CantExecuteAutoUniqueKeyQueryOnClassPropertyException.cs" t="Include" />
+          <e p="EntityFrameworkException.cs" t="Include" />
+          <e p="NoUniqueByAttributeForTypeException.cs" t="Include" />
+          <e p="OutsideTransactionalContext.cs" t="Include" />
+          <e p="UniqueByAttributeIsEmptyException.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="MapHelper.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="ISoPerfDbContext.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.Infrastructure.EntityFramework.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SoPerfDbContextFactory.cs" t="Include" />
+        <e p="Tools.Infrastructure.EntityFramework.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.Infrastructure.RabbitMQ" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BusFactory.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.Infrastructure.RabbitMQ.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.Infrastructure.RabbitMQ.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.Mapper" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DtoToEnumConverter.cs" t="Include" />
+        <e p="EnumToDtoConverter.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.Mapper.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.Mapper.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.Mvc" t="IncludeRecursive">
+        <e p="Abstractions" t="Include">
+          <e p="ApiController.cs" t="Include" />
+          <e p="BaseController.cs" t="Include" />
+          <e p="BaseViewComponent.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ExtensionsInfrastructure" t="Include">
+          <e p="Abstractions" t="Include">
+            <e p="IExtensionMetadata.cs" t="Include" />
+          </e>
+          <e p="MenuItem.cs" t="Include" />
+          <e p="Script.cs" t="Include" />
+          <e p="StyleSheet.cs" t="Include" />
+        </e>
+        <e p="ModelBindings" t="Include">
+          <e p="Binders" t="Include">
+            <e p="InvariantDecimalModelBinder.cs" t="Include" />
+          </e>
+          <e p="InvariantDecimalModelBinderProvider.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.Mvc.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Razor" t="Include">
+          <e p="PluginViewLocationExpander.cs" t="Include" />
+        </e>
+        <e p="Tools.Mvc.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.OpenXml" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="ExcelHelper.cs" t="Include" />
+          <e p="OpenXmlExcelHelper.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.OpenXml.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.OpenXml.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.Plugins" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Config" t="Include">
+          <e p="ComponentItem.cs" t="Include" />
+          <e p="Components.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="ConfigurationExtension.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.Plugins.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.Plugins.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.sln" t="IncludeFlat" />
+      <e p="Tools.UnitTesting" t="IncludeRecursive">
+        <e p="BaseTest.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entities" t="Include">
+          <e p="EntityTransactionStub.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.UnitTesting.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.UnitTesting.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tools.WindowsService" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="Tools.WindowsService.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.WindowsService.csproj" t="IncludeRecursive" />
+        <e p="WebHostServiceExtension.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
