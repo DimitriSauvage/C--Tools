@@ -240,6 +240,10 @@
               "target": "Package",
               "version": "[4.5.0, )"
             },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[2.1.1, )"

@@ -61,6 +61,7 @@
           <e p="RandomHelper.cs" t="Include" />
           <e p="ReflectionHelper.cs" t="Include" />
           <e p="RegexHelper.cs" t="Include" />
+          <e p="ServiceCollectionHelper.cs" t="Include" />
           <e p="SHA1Helper.cs" t="Include" />
           <e p="SHA256Helper.cs" t="Include" />
           <e p="SoundexHelper.cs" t="Include" />

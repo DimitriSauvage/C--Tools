@@ -16,7 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Tools.Application\Tools.Application.csproj" />
+    <ProjectReference Include="..\Tools.Domain\Tools.Domain.csproj" />
     <ProjectReference Include="..\Tools.Http\Tools.Http.csproj" />
+    <ProjectReference Include="..\Tools.Infrastructure\Tools.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -19,8 +19,17 @@
     "frameworks": {
       "netstandard2.1": {
         "projectReferences": {
+          "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Application\\Tools.Application.csproj": {
+            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Application\\Tools.Application.csproj"
+          },
+          "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Domain\\Tools.Domain.csproj": {
+            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Domain\\Tools.Domain.csproj"
+          },
           "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Http\\Tools.Http.csproj": {
             "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Http\\Tools.Http.csproj"
+          },
+          "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Infrastructure\\Tools.Infrastructure.csproj": {
+            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Infrastructure\\Tools.Infrastructure.csproj"
           }
         }
       }
