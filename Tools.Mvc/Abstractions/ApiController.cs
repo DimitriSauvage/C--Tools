@@ -13,9 +13,10 @@ namespace Tools.Mvc.Abstractions
     [Authorize]
     [Produces("application/json")]
     [Route("api")]
-    public abstract class ApiController<TEntity, TService> : BaseController
+    public abstract class ApiController<TEntity, TRepository, TService> : BaseController
         where TEntity : class, IEntity
-        where TService : BaseService<TEntity, IRepository<TEntity>>
+        where TRepository : IRepository<TEntity>
+        where TService : BaseService<TEntity, TRepository>
     {
         #region Fields
 
