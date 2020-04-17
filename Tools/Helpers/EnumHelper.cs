@@ -4,8 +4,6 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Tools.Helpers
 {
@@ -20,7 +18,7 @@ namespace Tools.Helpers
         {
             FieldInfo fi = value.GetType().GetField(value.ToString());
 
-            return EnumHelper.ToDescription(fi, value);
+            return ToDescription(fi, value);
         }
 
         /// <summary>
@@ -34,7 +32,7 @@ namespace Tools.Helpers
             
             FieldInfo fi = value.GetType().GetField(Enum.GetName(typeof(TEnum), value));
 
-            return EnumHelper.ToDescription(fi, value);
+            return ToDescription(fi, value);
         }
 
         private static string ToDescription(FieldInfo fi, object value)

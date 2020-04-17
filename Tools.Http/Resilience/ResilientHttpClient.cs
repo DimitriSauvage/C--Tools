@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
-using Polly;
-using Polly.Wrap;
-using Tools.Http.Abstraction;
-using System;
+﻿using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +7,12 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+using Polly;
+using Polly.Wrap;
+using Tools.Http.Abstraction;
 
 namespace Tools.Http.Resilience
 {
@@ -146,7 +146,7 @@ namespace Tools.Http.Resilience
 
                 SetAuthorizationHeader(requestMessage);
 
-                requestMessage.Content = new StringContent(JsonConvert.SerializeObject(item), System.Text.Encoding.UTF8, "application/json");
+                requestMessage.Content = new StringContent(JsonConvert.SerializeObject(item), Encoding.UTF8, "application/json");
 
                 if (authorizationToken != null)
                 {

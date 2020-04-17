@@ -1,9 +1,7 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using System;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Tools.Http.Failing;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Tools.Http.Extensions
 {

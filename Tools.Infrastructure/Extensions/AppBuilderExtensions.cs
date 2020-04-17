@@ -1,10 +1,6 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Hosting.Builder;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.DependencyInjection;
+﻿using System;
+using Microsoft.AspNetCore.Builder;
 using Tools.Infrastructure.SetUp;
-using System;
 
 namespace Tools.Infrastructure.Extensions
 {

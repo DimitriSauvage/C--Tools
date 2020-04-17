@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
@@ -31,7 +30,7 @@ namespace Tools.Domain.Helpers
             var context = new ValidationContext(obj, serviceProvider: null, items: null);
             var result = new List<ValidationResult>();
 
-            if (System.ComponentModel.DataAnnotations.Validator.TryValidateObject(obj, context, result, true))
+            if (Validator.TryValidateObject(obj, context, result, true))
                 return null;
             else
                 return result;

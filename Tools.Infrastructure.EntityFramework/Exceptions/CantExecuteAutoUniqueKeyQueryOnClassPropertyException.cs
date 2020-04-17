@@ -1,7 +1,4 @@
-﻿﻿using System;
-using System.Collections.Generic;
-using System.Text;
- using Tools.Infrastructure.EntityFramework.Exceptions;
+﻿﻿using Tools.Infrastructure.EntityFramework.Exceptions;
 
  namespace Nestor.Tools.Infrastructure.EntityFramework.Exceptions
 {

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Tools.Domain.Extensions;
-
-namespace Tools.Domain.Abstractions
+﻿namespace Tools.Domain.Abstractions
 {
     public interface IEntity
     {

@@ -1,11 +1,9 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Text;
-using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace Tools.Helpers
 {
@@ -61,7 +59,7 @@ namespace Tools.Helpers
                 ApiKey,
                 JsonConvert.SerializeObject(smsData));
 
-            byte[] Buffer = System.Text.Encoding.UTF8.GetBytes(data);
+            byte[] Buffer = Encoding.UTF8.GetBytes(data);
 
             HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(ApiUrl);
 

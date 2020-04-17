@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tools.Languages;
 
 namespace Tools.Helpers
@@ -79,7 +77,7 @@ namespace Tools.Helpers
         public static DateTime FromUnixTimestamp(int unixTimestamp)
         {
             // Unix timestamp is seconds past epoch
-            DateTime dt = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
+            DateTime dt = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
             dt = dt.AddSeconds(unixTimestamp).ToLocalTime();
             return dt;
         }

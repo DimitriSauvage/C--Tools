@@ -1,19 +1,15 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-using Tools.Http.Extensions;
-using Tools.Infrastructure.Models;
-using Tools.Infrastructure.Settings;
-using Microsoft.Extensions.Options;
-using Tools.Infrastructure.Abstraction;
+using System.Net;
 using System.Reflection;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Tools.Http.Extensions;
+using Tools.Infrastructure.Abstraction;
+using Tools.Infrastructure.Models;
+using Tools.Infrastructure.Settings;
 
 namespace Tools.Infrastructure.SetUp
 {
@@ -52,7 +48,7 @@ namespace Tools.Infrastructure.SetUp
                     #region Paramétrage de la base de données en mode cloud
                     throw new NotImplementedException("Not implemented yet");
                     #endregion
-                    break;
+                    //break;
                 case SetUpDTO.ServerModeEnum.Server:
                     #region Paramétrage de la base de données en mode serveur                   
                     if (setupSettings.DatabaseSettings == null)
@@ -91,7 +87,7 @@ namespace Tools.Infrastructure.SetUp
 
         private async Task SendOkResponse(HttpContext context, string message)
         {
-            context.Response.StatusCode = (int)System.Net.HttpStatusCode.OK;
+            context.Response.StatusCode = (int)HttpStatusCode.OK;
             context.Response.ContentType = "text/plain";
             await context.Response.WriteAsync(message);
         }

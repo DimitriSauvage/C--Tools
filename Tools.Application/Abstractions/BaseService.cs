@@ -1,6 +1,4 @@
-﻿using System;
-using AutoMapper;
-using Microsoft.Extensions.DependencyInjection;
+﻿using AutoMapper;
 using Tools.Domain.Abstractions;
 using Tools.Helpers;
 using Tools.Infrastructure.Abstraction;

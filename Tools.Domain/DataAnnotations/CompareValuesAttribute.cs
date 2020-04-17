@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tools.Helpers;
 
 namespace Tools.Domain.DataAnnotations
@@ -88,12 +85,12 @@ namespace Tools.Domain.DataAnnotations
             // Comparaison
             if (Comparator == Comparator.EqualTo)
             {
-                if (Object.Equals(value, other))
+                if (Equals(value, other))
                     return null;
             }
             else if (Comparator == Comparator.NotEqualTo)
             {
-                if (!Object.Equals(value, other))
+                if (!Equals(value, other))
                     return null;
             }
             else

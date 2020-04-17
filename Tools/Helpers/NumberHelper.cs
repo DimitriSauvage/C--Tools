@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace Tools.Helpers
 {
@@ -112,10 +108,10 @@ namespace Tools.Helpers
             //^[0-9] on récupère d'abord les premiers numeriques
             //[.,] ensuite les ., 
             //[0-9] et numériques encore
-            System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex(@"^[0-9]([.,][0-9])?$");
+            Regex regex = new Regex(@"^[0-9]([.,][0-9])?$");
 
             //on cherche les occurences qui correspondent
-            System.Text.RegularExpressions.Match match = regex.Match(measure);
+            Match match = regex.Match(measure);
 
             //s'il y'a des occurences on parse pour avoir le résultat en double, en utilisant tryparse pas de souci de convertion
             if (match.Captures.Count > 0)

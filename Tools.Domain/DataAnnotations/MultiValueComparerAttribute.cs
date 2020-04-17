@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Tools.Domain.DataAnnotations
 {
@@ -52,7 +50,7 @@ namespace Tools.Domain.DataAnnotations
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             // Si la valeur en cours de la propriété n'est pas celle attendue, alors on arrête la validation
-            if (!object.Equals(value, ValueToCompare))
+            if (!Equals(value, ValueToCompare))
                 return null;
 
             // Comparaison des types des propriétés à comparer
@@ -72,7 +70,7 @@ namespace Tools.Domain.DataAnnotations
                 // Comparaison des valeurs
                 var other = property.GetValue(validationContext.ObjectInstance, null);
 
-                if (!object.Equals(other, otherProperty.Value))
+                if (!Equals(other, otherProperty.Value))
                     return new ValidationResult("La condition de validité n'est pas remplie.");
             }
 

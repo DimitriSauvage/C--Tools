@@ -1,8 +1,6 @@
-﻿using Tools.Infrastructure.FluentConfig;
-using System;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Collections.Generic;
-using System.Text;
+using Tools.Infrastructure.FluentConfig;
 
 namespace Tools.Infrastructure.Helpers
 {

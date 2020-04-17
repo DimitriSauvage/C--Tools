@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Tools.Helpers
 {
@@ -119,7 +115,7 @@ namespace Tools.Helpers
             /// The vectors where swaped one last time at the end of the last loop,
             /// that is why the result is now in v0 rather than in v1
             //System.Console.WriteLine("iDist=" + v0[RowLen]);
-            int max = System.Math.Max(RowLen, ColLen);
+            int max = Math.Max(RowLen, ColLen);
             return ((100 * v0[RowLen]) / max);
         }
     }

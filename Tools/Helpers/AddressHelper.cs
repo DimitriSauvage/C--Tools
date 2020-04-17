@@ -1,11 +1,6 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Reflection;
+﻿using System.Collections.Generic;
 using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace Tools.Helpers
 {
@@ -24,7 +19,7 @@ namespace Tools.Helpers
                 string uri = $"http://services.gisgraphy.com/addressparser/?address={address}&country={country}&indent=false&format=json";
 
                 var response = client.GetAsync(uri).Result.Content.ReadAsStringAsync().Result;
-                return Newtonsoft.Json.JsonConvert.DeserializeObject<GisgraphyResult>(response);
+                return JsonConvert.DeserializeObject<GisgraphyResult>(response);
             }
         }
 

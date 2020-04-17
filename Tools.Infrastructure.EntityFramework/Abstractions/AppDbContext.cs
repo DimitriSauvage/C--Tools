@@ -1,27 +1,25 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace Tools.Infrastructure.EntityFramework.Abstractions
 {
-
     public class AppDbContext : DbContext
     {
         static AppDbContext()
         {
-
         }
 
         protected AppDbContext() : base()
         {
-            Database.Migrate();
+            //Database.Migrate();
         }
+
 
         protected AppDbContext(DbContextOptions options) : base(options)
         {
-            Database.Migrate();
+            //Database.Migrate();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -29,8 +27,6 @@ namespace Tools.Infrastructure.EntityFramework.Abstractions
             base.OnModelCreating(modelBuilder);
 
             var maps = GetAllMaps();
-
-
         }
 
         /// <summary>

@@ -1,7 +1,4 @@
 ﻿using Tools.Api.OData.Filtering.Functions.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Tools.Api.OData.Filtering.Functions.Implementations.ArithmeticsComparison
 {

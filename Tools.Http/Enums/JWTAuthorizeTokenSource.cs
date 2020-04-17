@@ -1,8 +1,4 @@
-﻿﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Tools.Http.Enums
+﻿﻿ namespace Tools.Http.Enums
 {
     /// <summary>
     /// Source où aller chercher le jeton d'autorisation

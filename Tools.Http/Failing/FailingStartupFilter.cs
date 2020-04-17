@@ -1,9 +1,7 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Tools.Http.Extensions;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Tools.Http.Failing
 {

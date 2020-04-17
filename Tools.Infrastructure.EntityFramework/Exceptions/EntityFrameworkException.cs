@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Tools.Exceptions;
 
 namespace Tools.Infrastructure.EntityFramework.Exceptions
@@ -17,8 +15,8 @@ namespace Tools.Infrastructure.EntityFramework.Exceptions
 
         public EntityFrameworkException() : base() { }
         public EntityFrameworkException(string message) : base(message) { }
-        public EntityFrameworkException(string message, System.Exception e) : base(message, e) { }
-        public EntityFrameworkException(System.Exception e) : base(e.Message, e) { }
-        public EntityFrameworkException(System.Exception e, object parameter) : base(e.Message, e) { Parameter = parameter; }
+        public EntityFrameworkException(string message, Exception e) : base(message, e) { }
+        public EntityFrameworkException(Exception e) : base(e.Message, e) { }
+        public EntityFrameworkException(Exception e, object parameter) : base(e.Message, e) { Parameter = parameter; }
     }
 }

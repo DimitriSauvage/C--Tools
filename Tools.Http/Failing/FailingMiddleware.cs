@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
+using System.Net;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace Tools.Http.Failing
 {
@@ -29,7 +28,7 @@ namespace Tools.Http.Failing
 
             if (MustFail(context))
             {
-                context.Response.StatusCode = (int)System.Net.HttpStatusCode.InternalServerError;
+                context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
                 context.Response.ContentType = "text/plain";
                 await context.Response.WriteAsync("Failed due to FailingMiddleware enabled.");
             }
@@ -69,7 +68,7 @@ namespace Tools.Http.Failing
 
         private async Task SendOkResponse(HttpContext context, string message)
         {
-            context.Response.StatusCode = (int)System.Net.HttpStatusCode.OK;
+            context.Response.StatusCode = (int)HttpStatusCode.OK;
             context.Response.ContentType = "text/plain";
             await context.Response.WriteAsync(message);
         }

@@ -1,9 +1,5 @@
 ﻿using System;
 using Tools.Helpers;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tools.Languages;
 
 namespace Tools.Algorithms

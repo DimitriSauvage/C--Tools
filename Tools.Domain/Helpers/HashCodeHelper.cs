@@ -1,8 +1,7 @@
-﻿using Tools.Domain.Abstractions;
-using Tools.Domain.DataAnnotations;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using Tools.Domain.Abstractions;
+using Tools.Domain.DataAnnotations;
 
 namespace Tools.Domain.Helpers
 {

@@ -1,9 +1,6 @@
-﻿using Tools.Http.Content;
-using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Text;
+﻿using System.Net.Http;
 using System.Threading.Tasks;
+using Tools.Http.Content;
 
 namespace Tools.Http
 {

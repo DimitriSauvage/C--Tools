@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿using System.Text.RegularExpressions;
 
 namespace Tools.Helpers
 {
@@ -55,7 +50,7 @@ namespace Tools.Helpers
         public static bool TryInternationalizeFrenchPhone(string input, out string internationalizedPhone)
         {
             // Nettoyage de la chaine de caractère
-            string cleanInput = PhoneHelper.CleanPhone(input).Trim();
+            string cleanInput = CleanPhone(input).Trim();
 
             // On teste si l'entrée n'est pas déjà au format internationnal
             if (RegexHelper.IsMatch(cleanInput, RegexHelper.RegexType.FrenchInternationalPhone))

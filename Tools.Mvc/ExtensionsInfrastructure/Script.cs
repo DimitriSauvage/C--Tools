@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Tools.Mvc.ExtensionsInfrastructure
+﻿namespace Tools.Mvc.ExtensionsInfrastructure
 {
     public class Script
     {

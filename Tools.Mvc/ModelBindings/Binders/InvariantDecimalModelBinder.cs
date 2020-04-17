@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Globalization;
-using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
+using Microsoft.Extensions.Logging;
 
 namespace Tools.Mvc.ModelBindings.Binders
 {
@@ -14,7 +13,7 @@ namespace Tools.Mvc.ModelBindings.Binders
 
         public InvariantDecimalModelBinder(Type modelType)
         {
-            _baseBinder = new SimpleTypeModelBinder(modelType);
+            _baseBinder = new SimpleTypeModelBinder(modelType, new LoggerFactory());
         }
 
         public Task BindModelAsync(ModelBindingContext bindingContext)
@@ -33,7 +32,8 @@ namespace Tools.Mvc.ModelBindings.Binders
                 var valueAsString = valueProviderResult.FirstValue;
                 decimal result;
 
-                if (decimal.TryParse(valueAsString, NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out result))
+                if (decimal.TryParse(valueAsString, NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture,
+                    out result))
                 {
                     bindingContext.Result = ModelBindingResult.Success(result);
                     return Task.CompletedTask;

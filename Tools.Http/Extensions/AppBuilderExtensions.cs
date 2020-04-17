@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System;
+using Microsoft.AspNetCore.Builder;
 using Tools.Http.Failing;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Tools.Http.Extensions
 {

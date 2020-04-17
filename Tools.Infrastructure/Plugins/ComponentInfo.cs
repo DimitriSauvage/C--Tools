@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Tools.Domain.Abstractions;
-using Tools.Domain.Helpers;
-using Tools.Domain.DataAnnotations;
-using System.ComponentModel.DataAnnotations;
-
-namespace Tools.Infrastructure.Plugins
+﻿namespace Tools.Infrastructure.Plugins
 {
     public class ComponentInfo
     {

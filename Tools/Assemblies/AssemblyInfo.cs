@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Text;
+using System.IO;
+using System.Reflection;
 
 namespace Tools.Assemblies
 {
     public class AssemblyInfo
     {
         #region Attributes
-        System.Reflection.Assembly _assembly;
+        Assembly _assembly;
         #endregion
 
         #region Properties
@@ -22,9 +22,9 @@ namespace Tools.Assemblies
             {
                 if (_assembly != null)
                 {
-                    object[] customAttributes = _assembly.GetCustomAttributes(typeof(System.Reflection.AssemblyTitleAttribute), false);
+                    object[] customAttributes = _assembly.GetCustomAttributes(typeof(AssemblyTitleAttribute), false);
                     if ((customAttributes != null) && (customAttributes.Length > 0))
-                        _title = ((System.Reflection.AssemblyTitleAttribute)customAttributes[0]).Title;
+                        _title = ((AssemblyTitleAttribute)customAttributes[0]).Title;
                     if (string.IsNullOrEmpty(_title))
                         _title = string.Empty;
                 }
@@ -42,9 +42,9 @@ namespace Tools.Assemblies
             {
                 if (_assembly != null)
                 {
-                    object[] customAttributes = _assembly.GetCustomAttributes(typeof(System.Reflection.AssemblyCompanyAttribute), false);
+                    object[] customAttributes = _assembly.GetCustomAttributes(typeof(AssemblyCompanyAttribute), false);
                     if ((customAttributes != null) && (customAttributes.Length > 0))
-                        _company = ((System.Reflection.AssemblyCompanyAttribute)customAttributes[0]).Company;
+                        _company = ((AssemblyCompanyAttribute)customAttributes[0]).Company;
                     if (string.IsNullOrEmpty(_company))
                         _company = string.Empty;
                 }
@@ -92,9 +92,9 @@ namespace Tools.Assemblies
             {
                 if (_assembly != null)
                 {
-                    object[] customAttributes = _assembly.GetCustomAttributes(typeof(System.Reflection.AssemblyProductAttribute), false);
+                    object[] customAttributes = _assembly.GetCustomAttributes(typeof(AssemblyProductAttribute), false);
                     if ((customAttributes != null) && (customAttributes.Length > 0))
-                        _Product = ((System.Reflection.AssemblyProductAttribute)customAttributes[0]).Product;
+                        _Product = ((AssemblyProductAttribute)customAttributes[0]).Product;
                     if (string.IsNullOrEmpty(_Product))
                         _Product = string.Empty;
                 }
@@ -113,9 +113,9 @@ namespace Tools.Assemblies
             {
                 if (_assembly != null)
                 {
-                    object[] customAttributes = _assembly.GetCustomAttributes(typeof(System.Reflection.AssemblyCopyrightAttribute), false);
+                    object[] customAttributes = _assembly.GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
                     if ((customAttributes != null) && (customAttributes.Length > 0))
-                        _Copyrights = ((System.Reflection.AssemblyCopyrightAttribute)customAttributes[0]).Copyright;
+                        _Copyrights = ((AssemblyCopyrightAttribute)customAttributes[0]).Copyright;
                     if (string.IsNullOrEmpty(_Copyrights))
                         _Copyrights = string.Empty;
                 }
@@ -133,9 +133,9 @@ namespace Tools.Assemblies
             {
                 if (_assembly != null)
                 {
-                    object[] customAttributes = _assembly.GetCustomAttributes(typeof(System.Reflection.AssemblyDescriptionAttribute), false);
+                    object[] customAttributes = _assembly.GetCustomAttributes(typeof(AssemblyDescriptionAttribute), false);
                     if ((customAttributes != null) && (customAttributes.Length > 0))
-                        _Description = ((System.Reflection.AssemblyDescriptionAttribute)customAttributes[0]).Description;
+                        _Description = ((AssemblyDescriptionAttribute)customAttributes[0]).Description;
                     if (string.IsNullOrEmpty(_Description))
                         _Description = string.Empty;
                 }
@@ -153,7 +153,7 @@ namespace Tools.Assemblies
             {
                 if (_assembly != null)
                 {
-                    System.IO.FileInfo AssemblyFileInfo = new System.IO.FileInfo(_assembly.Location);
+                    FileInfo AssemblyFileInfo = new FileInfo(_assembly.Location);
                     if (!AssemblyFileInfo.Exists) return string.Empty;
                     return AssemblyFileInfo.DirectoryName;
                 }
@@ -163,7 +163,7 @@ namespace Tools.Assemblies
         #endregion
 
         #region Constructors
-        public AssemblyInfo(System.Reflection.Assembly assembly)
+        public AssemblyInfo(Assembly assembly)
         {
             _assembly = assembly;
         }

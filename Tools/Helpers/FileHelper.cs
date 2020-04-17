@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Linq;
-using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using Tools.Exceptions;
@@ -66,7 +65,7 @@ namespace Tools.Helpers
             byte[] ImageData = new byte[fs.Length];
 
             //Read block of bytes from stream into the byte array
-            fs.Read(ImageData, 0, System.Convert.ToInt32(fs.Length));
+            fs.Read(ImageData, 0, Convert.ToInt32(fs.Length));
 
             //Close the File Stream
             fs.Close();

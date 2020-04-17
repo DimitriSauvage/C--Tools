@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Net;
+﻿using System.Net;
 using System.Net.Mail;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace Tools.Helpers
 {
@@ -83,7 +78,7 @@ namespace Tools.Helpers
             client.EnableSsl = false;
 
             client.Timeout = 3000000;
-            client.ServicePoint.MaxIdleTime = System.Threading.Timeout.Infinite;
+            client.ServicePoint.MaxIdleTime = Timeout.Infinite;
 
             client.Send(message);
         }

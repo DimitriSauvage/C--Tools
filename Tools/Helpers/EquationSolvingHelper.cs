@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Tools.Helpers
 {
@@ -109,8 +106,8 @@ namespace Tools.Helpers
         /// <returns></returns>
         public static double EvaluateToDouble(string input)
         {
-            string[] ouput = EquationSolvingHelper.TransformToRPN(input.Split(' '));
-            return EquationSolvingHelper.RPNToDouble(ouput);
+            string[] ouput = TransformToRPN(input.Split(' '));
+            return RPNToDouble(ouput);
         }
 
         /// <summary>
@@ -122,8 +119,8 @@ namespace Tools.Helpers
         {
             if (!string.IsNullOrEmpty(input.Trim()))
             {
-                string[] ouput = EquationSolvingHelper.TransformToRPN(input.Split(' '));
-                return EquationSolvingHelper.RPNToBool(ouput);
+                string[] ouput = TransformToRPN(input.Split(' '));
+                return RPNToBool(ouput);
             }
 
             return false;

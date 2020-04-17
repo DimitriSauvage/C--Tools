@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Tools.Infrastructure.SetUp
+﻿namespace Tools.Infrastructure.SetUp
 {
     public class SetUpDatabaseOptions
     {

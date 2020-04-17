@@ -1,15 +1,15 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using System;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Tools.Infrastructure.EntityFramework.Helpers;
 using Tools.Infrastructure.EntityFramework.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Tools.Infrastructure.EntityFramework.Abstractions
 {
-    public class AppIdentityDbContext<TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken> : IdentityDbContext<TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken>, ISoPerfDbContext
+    public class AppIdentityDbContext<TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken> :
+        IdentityDbContext<TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken>,
+        ISoPerfDbContext
         where TUser : IdentityUser<TKey>
         where TRole : IdentityRole<TKey>
         where TUserClaim : IdentityUserClaim<TKey>
@@ -21,7 +21,6 @@ namespace Tools.Infrastructure.EntityFramework.Abstractions
     {
         static AppIdentityDbContext()
         {
-
         }
 
         protected AppIdentityDbContext() : base()
@@ -37,7 +36,6 @@ namespace Tools.Infrastructure.EntityFramework.Abstractions
             base.OnModelCreating(modelBuilder);
 
             MapHelper.ApplyMapsConfiguration(AppDomain.CurrentDomain.GetAssemblies(), modelBuilder);
-
         }
     }
 }

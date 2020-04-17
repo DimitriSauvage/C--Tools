@@ -3,9 +3,6 @@ using Tools.Api.OData.Filtering.Functions.Abstractions;
 using Tools.Api.OData.Filtering.Functions.Implementations.ArithmeticsComparison;
 using Tools.Api.OData.Filtering.Functions.Implementations.LogicalFunctions;
 using Tools.Api.OData.Filtering.Functions.Implementations.StringFunctions;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Tools.Api.OData.Filtering.Functions.Factories
 {

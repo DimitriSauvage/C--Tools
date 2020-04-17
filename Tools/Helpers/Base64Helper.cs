@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Tools.Helpers
 {
@@ -15,8 +12,8 @@ namespace Tools.Helpers
         /// <returns></returns>
         public static string Encode(string plainText)
         {
-            var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
-            return System.Convert.ToBase64String(plainTextBytes);
+            var plainTextBytes = Encoding.UTF8.GetBytes(plainText);
+            return Convert.ToBase64String(plainTextBytes);
         }
 
         /// <summary>
@@ -26,8 +23,8 @@ namespace Tools.Helpers
         /// <returns></returns>
         public static string Decode(string base64EncodedData)
         {
-            var base64EncodedBytes = System.Convert.FromBase64String(base64EncodedData);
-            return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
+            var base64EncodedBytes = Convert.FromBase64String(base64EncodedData);
+            return Encoding.UTF8.GetString(base64EncodedBytes);
         }
 
         /// <summary>
@@ -39,7 +36,7 @@ namespace Tools.Helpers
         {
             try
             {
-                System.Convert.FromBase64String(base64EncodedData);
+                Convert.FromBase64String(base64EncodedData);
                 return true;
             }
             catch (Exception)

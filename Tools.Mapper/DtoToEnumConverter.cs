@@ -1,8 +1,8 @@
 ﻿﻿using System;
-using AutoMapper;
-using Tools.Application.DTOs;
+ using AutoMapper;
+ using Tools.Application.DTOs;
 
-namespace Tools.Mapper
+ namespace Tools.Mapper
 {
     public class DtoToEnumConverter<TEnum> : ITypeConverter<EnumDTO<TEnum>, TEnum> where TEnum : struct, IConvertible
     {

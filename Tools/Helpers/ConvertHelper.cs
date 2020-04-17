@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Dynamic;
-using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Tools.Helpers
 {
@@ -15,27 +13,27 @@ namespace Tools.Helpers
         public static byte[] ToByteArray(this string str)
         {
             byte[] bytes = new byte[str.Length * sizeof(char)];
-            System.Buffer.BlockCopy(str.ToCharArray(), 0, bytes, 0, bytes.Length);
+            Buffer.BlockCopy(str.ToCharArray(), 0, bytes, 0, bytes.Length);
             return bytes;
         }
 
         public static string ToString(this byte[] bytes)
         {
             char[] chars = new char[bytes.Length / sizeof(char)];
-            System.Buffer.BlockCopy(bytes, 0, chars, 0, bytes.Length);
+            Buffer.BlockCopy(bytes, 0, chars, 0, bytes.Length);
             return new string(chars);
         }
 
         public static string Base64Encode(string plainText)
         {
-            var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
-            return System.Convert.ToBase64String(plainTextBytes);
+            var plainTextBytes = Encoding.UTF8.GetBytes(plainText);
+            return Convert.ToBase64String(plainTextBytes);
         }
 
         public static string Base64Decode(string base64EncodedData)
         {
-            var base64EncodedBytes = System.Convert.FromBase64String(base64EncodedData);
-            return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
+            var base64EncodedBytes = Convert.FromBase64String(base64EncodedData);
+            return Encoding.UTF8.GetString(base64EncodedBytes);
         }
 
         /// <summary>
@@ -81,7 +79,7 @@ namespace Tools.Helpers
                     IDictionary<string, object> expando = new ExpandoObject();
                     foreach (var propertyTokeep in propertiesToKeep)
                     {
-                        object value = ConvertHelper.GetValueForProperty(obj, objProperties, propertyTokeep);
+                        object value = GetValueForProperty(obj, objProperties, propertyTokeep);
                         expando.Add(propertyTokeep.Split(new char[] { '.' }).Last(), value);
                     }
 
@@ -126,7 +124,7 @@ namespace Tools.Helpers
 
                     if (propertyValue != null)
                     {
-                        result = ConvertHelper.GetValueForProperty(propertyValue, propertyValue.GetType().GetProperties(), string.Join(".", subPropertiesNames.ToArray()));
+                        result = GetValueForProperty(propertyValue, propertyValue.GetType().GetProperties(), string.Join(".", subPropertiesNames.ToArray()));
                     }
                 }
             }

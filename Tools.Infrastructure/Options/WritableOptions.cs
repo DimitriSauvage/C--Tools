@@ -1,12 +1,10 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using System;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Tools.Infrastructure.Abstraction;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
 
 namespace Tools.Infrastructure.Options
 {

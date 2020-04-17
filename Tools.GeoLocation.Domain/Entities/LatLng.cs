@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Tools.Domain.Abstractions;
-using Tools.Domain.Helpers;
+﻿using Tools.Domain.Abstractions;
 
 namespace Tools.GeoLocation.Domain.Entities
 {

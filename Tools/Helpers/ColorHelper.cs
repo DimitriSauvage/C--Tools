@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Tools.Helpers
 {
@@ -41,7 +37,7 @@ namespace Tools.Helpers
         public static Color GetColorFromHexa(string hexaCode)
         {
             //Récupération de la couleur en format argb
-            ColorHelper.GetArgbFromHexa(hexaCode, out var a, out var r, out var g, out var b);
+            GetArgbFromHexa(hexaCode, out var a, out var r, out var g, out var b);
 
             return Color.FromArgb(a, r, g, b);
         }

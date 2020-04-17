@@ -1,9 +1,5 @@
-﻿using Tools.Languages;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using Tools.Languages;
 
 namespace Tools.Algorithms
 {
@@ -47,7 +43,7 @@ namespace Tools.Algorithms
         /// <returns>Vrai si le nombre est valide selon l'algorithme de Luhn, faux sinon.</returns>
         public static bool Check(long number)
         {
-            return Luhn.Check(number.ToString(), -1);
+            return Check(number.ToString(), -1);
         }
 
 
@@ -58,7 +54,7 @@ namespace Tools.Algorithms
         /// <returns>Vrai si le nombre est valide selon l'algorithme de Luhn, faux sinon.</returns>
         public static bool Check(string number)
         {
-            return Luhn.Check(number, -1);
+            return Check(number, -1);
         }
 
 
@@ -124,7 +120,7 @@ namespace Tools.Algorithms
         /// <returns>Vrai si le nombre est valide selon l'algorithme de Luhn, faux sinon.</returns>
         public static bool Check(long number, LuhnCheckType checkType)
         {
-            return Luhn.Check(number.ToString(), checkType);
+            return Check(number.ToString(), checkType);
         }
 
 
@@ -139,14 +135,14 @@ namespace Tools.Algorithms
             switch (checkType)
             {
                 case LuhnCheckType.CreditCard:
-                    return Luhn.Check(number, 16);
+                    return Check(number, 16);
                 case LuhnCheckType.Siren:
-                    return Luhn.Check(number, 9);
+                    return Check(number, 9);
                 case LuhnCheckType.Siret:
-                    return Luhn.Check(number, 14);
+                    return Check(number, 14);
                 case LuhnCheckType.None:
                 default:
-                    return Luhn.Check(number, -1);
+                    return Check(number, -1);
             }
         }
 

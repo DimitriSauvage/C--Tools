@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Tools.Http
@@ -89,7 +87,7 @@ namespace Tools.Http
             var handler = new HttpClientHandler();
             handler.AllowAutoRedirect = this.allowAutoRedirect;
 
-            var client = new System.Net.Http.HttpClient(handler);
+            var client = new HttpClient(handler);
             client.Timeout = this.timeout;
 
             return await client.SendAsync(request);

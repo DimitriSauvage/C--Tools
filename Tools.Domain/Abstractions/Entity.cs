@@ -1,14 +1,8 @@
-﻿using MediatR;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-using Tools.Domain.DataAnnotations;
-using Tools.Domain.Extensions;
-using Tools.Helpers;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
+using MediatR;
+using Tools.Domain.Extensions;
 using Tools.Domain.Helpers;
 
 namespace Tools.Domain.Abstractions

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Tools.Application.DTOs
+﻿namespace Tools.Application.DTOs
 {
     public class ComponentInfoDTO
     {

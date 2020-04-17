@@ -1,10 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Tools.Infrastructure.EntityFramework.Abstractions;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Text;
+using Microsoft.EntityFrameworkCore;
 
 namespace Tools.Infrastructure.EntityFramework.Helpers
 {
@@ -29,7 +27,7 @@ namespace Tools.Infrastructure.EntityFramework.Helpers
         /// <returns></returns>
         public static IEnumerable<Type> GetAllMaps()
         {
-            return MapHelper.GetAllMaps(AppDomain.CurrentDomain.GetAssemblies());
+            return GetAllMaps(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         /// <summary>
@@ -54,7 +52,7 @@ namespace Tools.Infrastructure.EntityFramework.Helpers
         /// <param name="modelBuilder">Model builder</param>
         public static void ApplyMapsConfiguration(ModelBuilder modelBuilder)
         {
-            MapHelper.ApplyMapsConfiguration(AppDomain.CurrentDomain.GetAssemblies(), modelBuilder);
+            ApplyMapsConfiguration(AppDomain.CurrentDomain.GetAssemblies(), modelBuilder);
         }
     }
 }

@@ -1,12 +1,11 @@
-﻿using Microsoft.Practices.EnterpriseLibrary.WindowsAzure.TransientFaultHandling.SqlAzure;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Data.SqlClient;
-using Tools.Exceptions;
-using Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling;
 using System.IO;
+using System.Text;
 using System.Threading;
+using Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling;
+using Tools.Exceptions;
 
 namespace Tools.Infrastructure.Helpers
 {
@@ -34,7 +33,7 @@ namespace Tools.Infrastructure.Helpers
 
                 return true;
             }
-            catch (SqlException e)
+            catch (SqlException)
             {
                 throw new AppException($"Failed to connect to SQL database with connection string : {masterDbConnectionString}");
             }

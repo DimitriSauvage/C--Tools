@@ -1,9 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Tools.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Tools.Exceptions;
 
 namespace Tools.Infrastructure.Idempotency
 {

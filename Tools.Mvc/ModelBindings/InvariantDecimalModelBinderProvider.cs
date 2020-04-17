@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+﻿using System;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Tools.Mvc.ModelBindings.Binders;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Tools.Mvc.ModelBindings
 {

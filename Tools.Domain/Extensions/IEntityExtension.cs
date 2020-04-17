@@ -1,9 +1,8 @@
-﻿using Tools.Domain.Abstractions;
+﻿using System;
+using System.Collections.Generic;
+using Tools.Domain.Abstractions;
 using Tools.Domain.DataAnnotations;
 using Tools.Helpers;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Tools.Domain.Extensions
 {

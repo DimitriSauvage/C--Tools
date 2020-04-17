@@ -1,12 +1,7 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Globalization;
-using System.Linq;
 using System.Reflection;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Tools.Helpers
 {
@@ -73,8 +68,9 @@ namespace Tools.Helpers
                 result = true;
                 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
+                // ignored
             }
 
             return result;

@@ -1,11 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System;
+using System.Net.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Polly;
 using Tools.Http.Abstraction;
-using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Text;
 
 namespace Tools.Http.Resilience
 {

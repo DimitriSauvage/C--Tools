@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace Tools.Helpers
 {
@@ -24,7 +23,7 @@ namespace Tools.Helpers
         /// <summary>
         /// Obtient un booléen qui indique si le texte doit-être écrit de la droite vers la gauche
         /// </summary>
-        public static bool IsRigthToLeft { get { return System.Threading.Thread.CurrentThread.CurrentCulture.TextInfo.IsRightToLeft; } }
+        public static bool IsRigthToLeft { get { return Thread.CurrentThread.CurrentCulture.TextInfo.IsRightToLeft; } }
 
         /// <summary>
         /// Obtient la culture par défaut "fr-FR"
@@ -37,7 +36,7 @@ namespace Tools.Helpers
         /// <returns></returns>
         public static string CurrentCultureName
         {
-            get { return System.Threading.Thread.CurrentThread.CurrentCulture.Name; }
+            get { return Thread.CurrentThread.CurrentCulture.Name; }
         }
 
         /// <summary>
@@ -45,7 +44,7 @@ namespace Tools.Helpers
         /// </summary>
         public static string GetCurrentNeutralCultureName
         {
-            get { return GetNeutralCulture(System.Threading.Thread.CurrentThread.CurrentCulture.Name); }
+            get { return GetNeutralCulture(Thread.CurrentThread.CurrentCulture.Name); }
         }
         #endregion
 
