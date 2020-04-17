@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Tools.Helpers
 {
-    public class ServiceCollectionHelper
+    public static class ServiceCollectionHelper
     {
         #region Fields
 
