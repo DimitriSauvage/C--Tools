@@ -10,14 +10,14 @@
       "C:\\Microsoft\\Xamarin\\NuGet"
     ],
     "originalTargetFrameworks": [
-      "netstandard2.1"
+      "netcoreapp3.1"
     ],
     "sources": {
       "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
-      "netstandard2.1": {
+      "netcoreapp3.1": {
         "projectReferences": {
           "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Application\\Tools.Application.csproj": {
             "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\Tools.Application\\Tools.Application.csproj"
@@ -41,11 +41,11 @@
     }
   },
   "frameworks": {
-    "netstandard2.1": {
+    "netcoreapp3.1": {
       "dependencies": {
         "Microsoft.AspNetCore.Mvc.Localization": {
           "target": "Package",
-          "version": "[2.1.1, )"
+          "version": "[2.2.0, )"
         }
       },
       "imports": [
@@ -59,7 +59,7 @@
       "assetTargetFallback": true,
       "warn": true,
       "frameworkReferences": {
-        "NETStandard.Library": {
+        "Microsoft.NETCore.App": {
           "privateAssets": "all"
         }
       },

@@ -87,7 +87,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -141,7 +141,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.Api.OData.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -165,7 +165,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.Application.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -207,7 +207,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.Domain.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -221,7 +221,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.GeoLocation.Domain.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -264,7 +264,7 @@
         <e p="HttpRequestFactory.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.Http.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -321,7 +321,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.Infrastructure.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -377,7 +377,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.Infrastructure.EntityFramework.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -390,7 +390,7 @@
         <e p="BusFactory.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.Infrastructure.RabbitMQ.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -403,7 +403,7 @@
         <e p="EnumToDtoConverter.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.Mapper.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -433,7 +433,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.Mvc.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -451,7 +451,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.OpenXml.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -469,7 +469,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.Plugins.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -485,7 +485,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.UnitTesting.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -496,7 +496,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netstandard2.1" t="Include">
+            <e p="netcoreapp3.1" t="Include">
               <e p="Tools.WindowsService.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
