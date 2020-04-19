@@ -353,9 +353,12 @@
       <e p="Tools.Infrastructure.EntityFramework" t="IncludeRecursive">
         <e p="Abstractions" t="Include">
           <e p="AppDbContext.cs" t="Include" />
-          <e p="AppEntityMap.cs" t="Include" />
           <e p="AppIdentityDbContext.cs" t="Include" />
           <e p="DbRepository.cs" t="Include" />
+          <e p="EntityMap.cs" t="Include" />
+          <e p="EntityWithCompositeIdMap.cs" t="Include" />
+          <e p="EntityWithIdMap.cs" t="Include" />
+          <e p="EntityWithTrackingMap.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Exceptions" t="Include">

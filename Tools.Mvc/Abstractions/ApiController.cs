@@ -7,10 +7,8 @@ using Tools.Infrastructure.Abstraction;
 
 namespace Tools.Mvc.Abstractions
 {
-    public abstract class ApiController<TEntity, TRepository, TService> : ApiController
-        where TEntity : class, IEntity
-        where TRepository : IRepository<TEntity>
-        where TService : BaseService<TEntity, TRepository>
+    public abstract class ApiController<TService> : ApiController
+        where TService : BaseService
     {
         #region Fields
 

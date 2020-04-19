@@ -5,7 +5,8 @@ using Tools.Infrastructure.Abstraction;
 
 namespace Tools.Application.Abstractions
 {
-    public abstract class BaseService<TEntity, TRepository> where TEntity : class, IEntity
+    public abstract class BaseService<TEntity, TRepository> : BaseService
+        where TEntity : class, IEntity
         where TRepository : IRepository<TEntity>
     {
         #region Fields
@@ -22,5 +23,9 @@ namespace Tools.Application.Abstractions
         protected IMapper Mapper { get; } = ServiceCollectionHelper.GetElementFromDependencyInjection<IMapper>();
 
         #endregion
+    }
+
+    public abstract class BaseService
+    {
     }
 }

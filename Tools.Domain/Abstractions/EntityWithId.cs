@@ -42,7 +42,7 @@ namespace Tools.Domain.Abstractions
     /// <summary>
     /// Entité de base qui sera mappée dans un ORM.
     /// </summary>
-    public abstract class EntityWithId : EntityWithId<long>
+    public abstract class EntityWithId : EntityWithId<long>, IEntityWithId
     {
     }
 }

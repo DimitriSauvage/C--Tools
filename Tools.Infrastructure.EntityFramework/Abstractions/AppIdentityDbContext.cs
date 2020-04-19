@@ -35,7 +35,6 @@ namespace Tools.Infrastructure.EntityFramework.Abstractions
         {
             base.OnModelCreating(modelBuilder);
 
-            MapHelper.ApplyMapsConfiguration(AppDomain.CurrentDomain.GetAssemblies(), modelBuilder);
         }
     }
 }
