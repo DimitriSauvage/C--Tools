@@ -1,0 +1,8 @@
+C:\Users\dimit\Github\CSharp-Tools\Tools.Typescript\bin\Debug\netcoreapp3.1\Tools.Typescript.deps.json
+C:\Users\dimit\Github\CSharp-Tools\Tools.Typescript\bin\Debug\netcoreapp3.1\Tools.Typescript.dll
+C:\Users\dimit\Github\CSharp-Tools\Tools.Typescript\bin\Debug\netcoreapp3.1\Tools.Typescript.pdb
+C:\Users\dimit\Github\CSharp-Tools\Tools.Typescript\obj\Debug\netcoreapp3.1\Tools.Typescript.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\Tools.Typescript\obj\Debug\netcoreapp3.1\Tools.Typescript.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\Tools.Typescript\obj\Debug\netcoreapp3.1\Tools.Typescript.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\Tools.Typescript\obj\Debug\netcoreapp3.1\Tools.Typescript.dll
+C:\Users\dimit\Github\CSharp-Tools\Tools.Typescript\obj\Debug\netcoreapp3.1\Tools.Typescript.pdb

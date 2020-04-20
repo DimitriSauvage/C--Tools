@@ -49,10 +49,10 @@ namespace Tools.Helpers
         /// </summary>
         /// <typeparam name="TBaseType">Base type</typeparam>
         /// <returns>Implementations</returns>
-        public static IEnumerable<Type> GetBaseTypeImplementation<TBaseType>()
+        public static IEnumerable<Type> GetImplementations<TBaseType>()
             where TBaseType : class
         {
-            return GetBaseTypeImplementation(typeof(TBaseType));
+            return GetImplementations(typeof(TBaseType));
         }
 
         /// <summary>
@@ -61,10 +61,10 @@ namespace Tools.Helpers
         /// <param name="assemblies">Assemblies where searching types</param>
         /// <typeparam name="TBaseType">Base type</typeparam>
         /// <returns>Implementations</returns>
-        public static IEnumerable<Type> GetBaseTypeImplementation<TBaseType>(IEnumerable<Assembly> assemblies)
+        public static IEnumerable<Type> GetImplementations<TBaseType>(IEnumerable<Assembly> assemblies)
             where TBaseType : class
         {
-            return GetBaseTypeImplementation(typeof(TBaseType), assemblies);
+            return GetImplementations(typeof(TBaseType), assemblies);
         }
 
         /// <summary>
@@ -72,9 +72,9 @@ namespace Tools.Helpers
         /// </summary>
         /// <param name="type">Base type</param>
         /// <returns>Implementations</returns>
-        public static IEnumerable<Type> GetBaseTypeImplementation(Type type)
+        public static IEnumerable<Type> GetImplementations(Type type)
         {
-            return GetBaseTypeImplementation(type, AppDomain.CurrentDomain.GetAssemblies());
+            return GetImplementations(type, AppDomain.CurrentDomain.GetAssemblies());
         }
 
 
@@ -84,10 +84,9 @@ namespace Tools.Helpers
         /// <param name="type">Base type</param>
         /// <param name="assemblies">Assemblies where searching types</param>
         /// <returns>Implementations</returns>
-        public static IEnumerable<Type> GetBaseTypeImplementation(Type type, IEnumerable<Assembly> assemblies)
+        public static IEnumerable<Type> GetImplementations(Type type, IEnumerable<Assembly> assemblies)
         {
-            if (!type.IsClass) throw new ArgumentException("The argument is not a class");
-            return GetBaseTypeImplementation(new List<Type>() {type}, assemblies);
+            return GetImplementations(new List<Type>() {type}, assemblies);
         }
 
         /// <summary>
@@ -95,27 +94,26 @@ namespace Tools.Helpers
         /// </summary>
         /// <param name="types">Types</param>
         /// <returns></returns>
-        public static IEnumerable<Type> GetBaseTypeImplementation(IEnumerable<Type> types)
+        public static IEnumerable<Type> GetImplementations(IEnumerable<Type> types)
         {
-            return GetBaseTypeImplementation(types, AppDomain.CurrentDomain.GetAssemblies());
+            return GetImplementations(types, AppDomain.CurrentDomain.GetAssemblies());
         }
 
         /// <summary>
         /// Get the types implementing the types list
         /// </summary>
-        /// <param name="types"></param>
+        /// <param name="types">Base types</param>
         /// <param name="assemblies">Assemblies where searching types</param>
         /// <returns></returns>
-        public static IEnumerable<Type> GetBaseTypeImplementation(IEnumerable<Type> types,
+        public static IEnumerable<Type> GetImplementations(IEnumerable<Type> types,
             IEnumerable<Assembly> assemblies)
         {
-            var enumerable = types.ToList();
-            if (enumerable.Any(x => !x.IsClass)) throw new ArgumentException("Base type must be a class");
-
+            //Get all types
             return assemblies
                 .SelectMany(x => x.GetTypes())
-                .Where(type => type.IsClass
-                               && enumerable.Any(type.IsSubclassOf))
+                .Where(type => types.Any(typeToFound =>
+                    type.GetInterfaces().Any(x => x.GUID.Equals(typeToFound.GUID)) ||
+                    type.GetAllBaseTypes().Any(x => x.GUID.Equals(typeToFound.GUID))))
                 .ToList();
         }
 

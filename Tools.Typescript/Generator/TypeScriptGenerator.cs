@@ -2,87 +2,39 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
-using System.Linq;
-using System.Reflection;
 using System.Text;
 using CsToTs;
-using Tools.Application.DTOs;
-using Tools.Domain.Abstractions;
-using Tools.Helpers;
 
-namespace Tools.Typescript
+namespace Tools.Typescript.Generator
 {
     public class TypeScriptGenerator
     {
         /// <summary>
         /// Generate the typescript
         /// </summary>
-        /// <param name="assemblies">Assemblies in which search</param>
-        public void GenerateTypeScriptModels([NotNull] IEnumerable<Assembly> assemblies)
+        /// <param name="types">Types to transform</param>
+        /// <param name="fileName">File name</param>
+        public void GenerateTypeScriptModels([NotNull] IEnumerable<Type> types, string fileName = "")
         {
-            var file = this.GetGeneratedFileInfo();
+            //Get file name
+            var file = fileName == null ? this.GetGeneratedFileInfo() : new FileInfo(fileName);
             if (file == null) throw new FileNotFoundException("The specified file name is invalid");
-            var types = this.GetAllTypesToWrite(assemblies);
 
+
+            //Generate typescript
             var options = new TypeScriptOptions()
             {
                 UseDateForDateTime = true,
-                UseInterfaceForClasses = (type) => true
+                UseInterfaceForClasses = (type) => false
             };
+            var generatedTypeScript = CsToTs.Generator.GenerateTypeScript(options, types);
 
-            var generatedTypeScript = Generator.GenerateTypeScript(options, types);
-
+            //Write file
             if (file?.Directory != null && !file.Directory.Exists) file.Directory.Create();
-
             File.WriteAllText(file.FullName, generatedTypeScript, Encoding.UTF8);
         }
 
         #region Private methods
-
-        /// <summary>
-        /// Get all types to write
-        /// </summary>
-        /// <param name="assemblies">Assemblies in which search</param>
-        /// <returns></returns>
-        private IEnumerable<Type> GetAllTypesToWrite([NotNull] IEnumerable<Assembly> assemblies)
-        {
-            //Types to get
-            IEnumerable<Type> types = new List<Type>()
-            {
-                typeof(BaseDTO),
-                typeof(EnumDTO<>),
-                typeof(Enum),
-                typeof(Entity),
-                typeof(EntityWithId),
-                typeof(EntityWithId<>),
-                typeof(EntityWithTracking),
-                typeof(EntityWithCompositeId),
-                typeof(IEntity),
-                typeof(IEntityWithId),
-                typeof(IEntityWithId<>),
-                typeof(IEntityWithTracking),
-                typeof(IEntityWithCompositeId)
-            };
-
-            var result = new List<Type>();
-
-            var foundedTypes = assemblies
-                .SelectMany(x => x.GetTypes())
-                .Where(x => !x.IsInterface)
-                .ToList();
-
-            //Get types to write
-            foundedTypes.ForEach(type =>
-            {
-                if (types.Any(typeToFound => type.GetInterfaces().Any(x => x.GUID.Equals(typeToFound.GUID)) ||
-                                             type.GetAllBaseTypes().Any(x => x.GUID.Equals(typeToFound.GUID))))
-                {
-                    result.Add(type);
-                }
-            });
-
-            return result;
-        }
 
         /// <summary>
         /// Get the generated file path
