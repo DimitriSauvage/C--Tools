@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Reflection;
 
@@ -116,6 +117,24 @@ namespace Tools.Helpers
                 .Where(type => type.IsClass
                                && enumerable.Any(type.IsSubclassOf))
                 .ToList();
+        }
+
+        /// <summary>
+        /// Get all type base types
+        /// </summary>
+        /// <param name="type">Type for which get the base types</param>
+        /// <returns>All base types</returns>
+        public static IEnumerable<Type> GetAllBaseTypes([NotNull] this Type type)
+        {
+            var result = new List<Type>();
+            var baseType = type.BaseType;
+            while (baseType != null)
+            {
+                result.Add(baseType);
+                baseType = baseType.BaseType;
+            }
+
+            return result;
         }
     }
 }
