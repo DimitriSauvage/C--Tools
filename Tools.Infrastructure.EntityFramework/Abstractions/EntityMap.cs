@@ -9,7 +9,7 @@ namespace Tools.Infrastructure.EntityFramework.Abstractions
     /// Map class for an entity
     /// </summary>
     /// <typeparam name="TEntity">Entity type</typeparam>
-    public class EntityMap<TEntity> : IEntityTypeConfiguration<TEntity> where TEntity : class, IEntity
+    public abstract class EntityMap<TEntity> : IEntityTypeConfiguration<TEntity> where TEntity : class, IEntity
     {
         /// <inheritdoc />
         public virtual void Configure(EntityTypeBuilder<TEntity> builder)

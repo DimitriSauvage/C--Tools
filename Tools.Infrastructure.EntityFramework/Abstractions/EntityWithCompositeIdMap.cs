@@ -8,7 +8,7 @@ namespace Tools.Infrastructure.EntityFramework.Abstractions
     /// Map class for a composite id entity
     /// </summary>
     /// <typeparam name="TEntity">Entity type</typeparam>
-    public class EntityWithCompositeIdMap<TEntity> : EntityMap<TEntity>, IEntityTypeConfiguration<TEntity>
+    public abstract class EntityWithCompositeIdMap<TEntity> : EntityMap<TEntity>, IEntityTypeConfiguration<TEntity>
         where TEntity : class, IEntityWithCompositeId
     {
         /// <inheritdoc />

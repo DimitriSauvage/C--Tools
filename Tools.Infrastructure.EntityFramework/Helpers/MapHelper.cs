@@ -13,12 +13,16 @@ namespace Tools.Infrastructure.EntityFramework.Helpers
         /// </summary>
         /// <param name="assemblies">Assemblies concernées par la recherche</param>
         /// <returns></returns>
-        public static IEnumerable<Type> GetAllMaps(IEnumerable<Assembly> assemblies)
+        private static IEnumerable<Type> GetAllMaps(IEnumerable<Assembly> assemblies)
         {
             return assemblies
                 .SelectMany(ass => ass.GetTypes())
-                .SelectMany(type => type.GetInterfaces())
-                .Where(inter => inter.GetType().IsAssignableFrom(typeof(IEntityTypeConfiguration<>)));
+                .Where(type =>
+                    !type.IsAbstract
+                    && !type.IsInterface
+                    && type.GetInterfaces().Any(interfaceType =>
+                        interfaceType.GUID.Equals(typeof(IEntityTypeConfiguration<>).GUID)))
+                .ToList();
         }
 
         /// <summary>

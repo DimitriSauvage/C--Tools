@@ -4,7 +4,7 @@ using Tools.Domain.Abstractions;
 
 namespace Tools.Infrastructure.EntityFramework.Abstractions
 {
-    public class EntityWithTrackingMap<TEntity> : EntityWithIdMap<TEntity, long>, IEntityTypeConfiguration<TEntity>
+    public abstract class EntityWithTrackingMap<TEntity> : EntityWithIdMap<TEntity, long>, IEntityTypeConfiguration<TEntity>
         where TEntity : class, IEntityWithTracking
     {
         /// <summary>

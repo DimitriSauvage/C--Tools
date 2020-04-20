@@ -9,7 +9,7 @@ namespace Tools.Infrastructure.EntityFramework.Abstractions
     /// Map class for an entity with an id
     /// </summary>
     /// <typeparam name="TEntity">Entity type</typeparam>
-    public class EntityWithIdMap<TEntity> : EntityWithIdMap<TEntity, long>
+    public abstract class EntityWithIdMap<TEntity> : EntityWithIdMap<TEntity, long>
         where TEntity : class, IEntityWithId
     {
     }
@@ -19,7 +19,7 @@ namespace Tools.Infrastructure.EntityFramework.Abstractions
     /// </summary>
     /// <typeparam name="TEntity">Entity type</typeparam>
     /// <typeparam name="TId">Identifier type</typeparam>
-    public class EntityWithIdMap<TEntity, TId> : EntityMap<TEntity>, IEntityTypeConfiguration<TEntity>
+    public abstract class EntityWithIdMap<TEntity, TId> : EntityMap<TEntity>, IEntityTypeConfiguration<TEntity>
         where TEntity : class, IEntityWithId<TId> where TId : IEquatable<TId>
     {
         /// <inheritdoc/>
