@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools.GeoLocation.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Typescript", "Tools.Typescript\Tools.Typescript.csproj", "{3E829A27-0B1D-4C09-A283-1C85DFDD846E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.DependecyInjection", "Tools.DependecyInjection\Tools.DependecyInjection.csproj", "{70A25AF1-B264-4464-A9A1-6D3ED1A705A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{3E829A27-0B1D-4C09-A283-1C85DFDD846E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E829A27-0B1D-4C09-A283-1C85DFDD846E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E829A27-0B1D-4C09-A283-1C85DFDD846E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A25AF1-B264-4464-A9A1-6D3ED1A705A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A25AF1-B264-4464-A9A1-6D3ED1A705A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A25AF1-B264-4464-A9A1-6D3ED1A705A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A25AF1-B264-4464-A9A1-6D3ED1A705A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

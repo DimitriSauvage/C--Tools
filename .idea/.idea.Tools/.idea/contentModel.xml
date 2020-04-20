@@ -173,6 +173,9 @@
         </e>
         <e p="Tools.Application.csproj" t="IncludeRecursive" />
       </e>
+      <e p="Tools.DependecyInjection" t="IncludeRecursive">
+        <e p="Tools.DependecyInjection.csproj" t="IncludeRecursive" />
+      </e>
       <e p="Tools.Domain" t="IncludeRecursive">
         <e p="Abstractions" t="Include">
           <e p="Entity.cs" t="Include" />
