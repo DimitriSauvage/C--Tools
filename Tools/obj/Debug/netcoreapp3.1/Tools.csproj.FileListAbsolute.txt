@@ -13,8 +13,8 @@ C:\Users\dimit\Github\CSharp-Tools\Tools\obj\Debug\netcoreapp3.1\Tools.Languages
 C:\Users\dimit\Github\CSharp-Tools\Tools\obj\Debug\netcoreapp3.1\Tools.csproj.GenerateResource.cache
 C:\Users\dimit\Github\CSharp-Tools\Tools\obj\Debug\netcoreapp3.1\Tools.AssemblyInfoInputs.cache
 C:\Users\dimit\Github\CSharp-Tools\Tools\obj\Debug\netcoreapp3.1\Tools.AssemblyInfo.cs
-C:\Users\dimit\Github\CSharp-Tools\Tools\obj\Debug\netcoreapp3.1\en\Tools.resources.cs
 C:\Users\dimit\Github\CSharp-Tools\Tools\obj\Debug\netcoreapp3.1\en\Tools.resources.dll
 C:\Users\dimit\Github\CSharp-Tools\Tools\obj\Debug\netcoreapp3.1\Tools.csproj.CopyComplete
 C:\Users\dimit\Github\CSharp-Tools\Tools\obj\Debug\netcoreapp3.1\Tools.dll
 C:\Users\dimit\Github\CSharp-Tools\Tools\obj\Debug\netcoreapp3.1\Tools.pdb
+C:\Users\dimit\Github\CSharp-Tools\Tools\obj\Debug\netcoreapp3.1\en\Tools.resources.cs
