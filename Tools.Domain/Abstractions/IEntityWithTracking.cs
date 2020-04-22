@@ -2,7 +2,7 @@
 
 namespace Tools.Domain.Abstractions
 {
-    public interface IEntityWithTracking : IEntityWithId<long>
+    public interface IEntityWithTracking : IEntityWithId
     {
         /// <summary>
         /// Entity creation date

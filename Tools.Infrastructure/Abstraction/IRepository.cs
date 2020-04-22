@@ -9,7 +9,7 @@ using Tools.Exceptions;
 
 namespace Tools.Infrastructure.Abstraction
 {
-    public interface IRepository<TEntity> : IRepository<TEntity, long>
+    public interface IRepository<TEntity> : IRepository<TEntity, Guid>
         where TEntity : class, IEntity
     {
     }

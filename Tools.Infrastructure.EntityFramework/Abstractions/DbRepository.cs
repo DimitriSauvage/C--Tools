@@ -15,8 +15,8 @@ using Tools.Infrastructure.EntityFramework.Exceptions;
 
 namespace Tools.Infrastructure.EntityFramework.Abstractions
 {
-    public abstract class DbRepository<TEntity> : DbRepository<TEntity, long>
-        where TEntity : class, IEntityWithId<long>
+    public abstract class DbRepository<TEntity> : DbRepository<TEntity, Guid>
+        where TEntity : class, IEntityWithId<Guid>
     {
         public DbRepository(DbContext dbContext) : base(dbContext)
         {

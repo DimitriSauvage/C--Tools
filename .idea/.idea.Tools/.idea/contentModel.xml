@@ -173,8 +173,19 @@
         </e>
         <e p="Tools.Application.csproj" t="IncludeRecursive" />
       </e>
-      <e p="Tools.DependecyInjection" t="IncludeRecursive">
-        <e p="Tools.DependecyInjection.csproj" t="IncludeRecursive" />
+      <e p="Tools.DependencyInjection" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="DIHelper.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Tools.DependencyInjection.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Tools.DependencyInjection.csproj" t="IncludeRecursive" />
       </e>
       <e p="Tools.Domain" t="IncludeRecursive">
         <e p="Abstractions" t="Include">

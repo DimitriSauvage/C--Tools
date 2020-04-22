@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Tools.Domain.Abstractions;
 
 namespace Tools.Infrastructure.EntityFramework.Abstractions
 {
-    public abstract class EntityWithTrackingMap<TEntity> : EntityWithIdMap<TEntity, long>, IEntityTypeConfiguration<TEntity>
+    public abstract class EntityWithTrackingMap<TEntity> : EntityWithIdMap<TEntity, Guid>, IEntityTypeConfiguration<TEntity>
         where TEntity : class, IEntityWithTracking
     {
         /// <summary>

@@ -28,7 +28,7 @@ namespace Tools.Mvc.Abstractions
     [Authorize]
     [Produces("application/json")]
     [Route("api")]
-    public abstract class ApiController : BaseController
+    public abstract class ApiController : ControllerBase
     {
     }
 }

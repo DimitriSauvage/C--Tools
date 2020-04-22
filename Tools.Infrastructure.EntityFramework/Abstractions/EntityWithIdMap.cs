@@ -9,7 +9,7 @@ namespace Tools.Infrastructure.EntityFramework.Abstractions
     /// Map class for an entity with an id
     /// </summary>
     /// <typeparam name="TEntity">Entity type</typeparam>
-    public abstract class EntityWithIdMap<TEntity> : EntityWithIdMap<TEntity, long>
+    public abstract class EntityWithIdMap<TEntity> : EntityWithIdMap<TEntity, Guid>
         where TEntity : class, IEntityWithId
     {
     }

@@ -1,4 +1,5 @@
-﻿using Tools.Domain.DataAnnotations;
+﻿using System;
+using Tools.Domain.DataAnnotations;
 
 namespace Tools.Domain.Abstractions
 {
@@ -42,7 +43,7 @@ namespace Tools.Domain.Abstractions
     /// <summary>
     /// Entité de base qui sera mappée dans un ORM.
     /// </summary>
-    public abstract class EntityWithId : EntityWithId<long>, IEntityWithId
+    public abstract class EntityWithId : EntityWithId<Guid>, IEntityWithId
     {
     }
 }

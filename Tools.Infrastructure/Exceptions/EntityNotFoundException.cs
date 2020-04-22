@@ -1,4 +1,5 @@
-﻿using Tools.Domain.Abstractions;
+﻿using System;
+using Tools.Domain.Abstractions;
 using Tools.Exceptions;
 
 namespace Tools.Infrastructure.Exceptions
@@ -9,7 +10,7 @@ namespace Tools.Infrastructure.Exceptions
         {
         }
 
-        public EntityNotFoundException(long id) : base(
+        public EntityNotFoundException(Guid id) : base(
             $"Unable to find an entity of type {nameof(TEntity)} corresponding to the identifier {id}.")
         {
         }
