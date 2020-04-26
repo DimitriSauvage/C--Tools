@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Localization\**" />
+    <EmbeddedResource Remove="Localization\**" />
+    <None Remove="Localization\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Localization" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DimitriSauvageTools.Application\DimitriSauvageTools.Application.csproj" />
+    <ProjectReference Include="..\DimitriSauvageTools.Domain\DimitriSauvageTools.Domain.csproj" />
+    <ProjectReference Include="..\DimitriSauvageTools.Http\DimitriSauvageTools.Http.csproj" />
+    <ProjectReference Include="..\DimitriSauvageTools.Infrastructure\DimitriSauvageTools.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

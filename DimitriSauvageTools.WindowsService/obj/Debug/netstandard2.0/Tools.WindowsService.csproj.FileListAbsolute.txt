@@ -1,0 +1,9 @@
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.WindowsService\bin\Debug\netstandard2.0\Tools.WindowsService.deps.json
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.WindowsService\bin\Debug\netstandard2.0\Tools.WindowsService.dll
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.WindowsService\bin\Debug\netstandard2.0\Tools.WindowsService.pdb
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.WindowsService\obj\Debug\netstandard2.0\Tools.WindowsService.csprojAssemblyReference.cache
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.WindowsService\obj\Debug\netstandard2.0\Tools.WindowsService.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.WindowsService\obj\Debug\netstandard2.0\Tools.WindowsService.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.WindowsService\obj\Debug\netstandard2.0\Tools.WindowsService.AssemblyInfo.cs
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.WindowsService\obj\Debug\netstandard2.0\Tools.WindowsService.dll
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.WindowsService\obj\Debug\netstandard2.0\Tools.WindowsService.pdb

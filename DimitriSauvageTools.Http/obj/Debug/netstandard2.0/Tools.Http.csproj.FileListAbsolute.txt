@@ -1,0 +1,17 @@
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\bin\Debug\netstandard2.0\Tools.Http.dll.config
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\bin\Debug\netstandard2.0\Tools.Http.deps.json
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\bin\Debug\netstandard2.0\Tools.Http.dll
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\bin\Debug\netstandard2.0\Tools.Http.pdb
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\bin\Debug\netstandard2.0\Tools.Api.OData.dll
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\bin\Debug\netstandard2.0\Tools.dll
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\bin\Debug\netstandard2.0\Tools.pdb
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\bin\Debug\netstandard2.0\Tools.Api.OData.pdb
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\bin\Debug\netstandard2.0\en\Tools.resources.dll
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\obj\Debug\netstandard2.0\Tools.Http.csprojAssemblyReference.cache
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\obj\Debug\netstandard2.0\Tools.Http.dll.config
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\obj\Debug\netstandard2.0\Tools.Http.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\obj\Debug\netstandard2.0\Tools.Http.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\obj\Debug\netstandard2.0\Tools.Http.AssemblyInfo.cs
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\obj\Debug\netstandard2.0\Tools.Http.csproj.CopyComplete
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\obj\Debug\netstandard2.0\Tools.Http.dll
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.Http\obj\Debug\netstandard2.0\Tools.Http.pdb

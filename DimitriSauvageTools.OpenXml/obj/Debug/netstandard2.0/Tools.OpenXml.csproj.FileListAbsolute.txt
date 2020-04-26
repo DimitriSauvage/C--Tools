@@ -1,0 +1,8 @@
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.OpenXml\bin\Debug\netstandard2.0\Tools.OpenXml.deps.json
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.OpenXml\bin\Debug\netstandard2.0\Tools.OpenXml.dll
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.OpenXml\bin\Debug\netstandard2.0\Tools.OpenXml.pdb
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.OpenXml\obj\Debug\netstandard2.0\Tools.OpenXml.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.OpenXml\obj\Debug\netstandard2.0\Tools.OpenXml.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.OpenXml\obj\Debug\netstandard2.0\Tools.OpenXml.AssemblyInfo.cs
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.OpenXml\obj\Debug\netstandard2.0\Tools.OpenXml.dll
+C:\Users\Administrateur\Downloads\SoPerf.Tools\Tools.OpenXml\obj\Debug\netstandard2.0\Tools.OpenXml.pdb

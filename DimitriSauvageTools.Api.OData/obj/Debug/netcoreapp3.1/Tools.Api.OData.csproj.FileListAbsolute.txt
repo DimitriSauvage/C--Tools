@@ -1,0 +1,8 @@
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api.OData\bin\Debug\netcoreapp3.1\Tools.Api.OData.deps.json
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api.OData\bin\Debug\netcoreapp3.1\Tools.Api.OData.dll
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api.OData\bin\Debug\netcoreapp3.1\Tools.Api.OData.pdb
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api.OData\obj\Debug\netcoreapp3.1\Tools.Api.OData.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api.OData\obj\Debug\netcoreapp3.1\Tools.Api.OData.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api.OData\obj\Debug\netcoreapp3.1\Tools.Api.OData.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api.OData\obj\Debug\netcoreapp3.1\Tools.Api.OData.dll
+C:\Users\dimit\Github\CSharp-Tools\Tools.Api.OData\obj\Debug\netcoreapp3.1\Tools.Api.OData.pdb
