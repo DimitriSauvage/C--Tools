@@ -27,7 +27,7 @@ namespace DimitriSauvageTools.Mvc.Abstractions
     [ApiController]
     [Authorize]
     [Produces("application/json")]
-    [Route("api")]
+    [Area("api")]
     public abstract class ApiController : ControllerBase
     {
     }
