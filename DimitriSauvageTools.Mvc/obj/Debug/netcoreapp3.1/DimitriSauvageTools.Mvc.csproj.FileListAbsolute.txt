@@ -1,0 +1,8 @@
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mvc\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Mvc.deps.json
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mvc\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Mvc.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mvc\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Mvc.pdb
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mvc\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Mvc.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mvc\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Mvc.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mvc\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Mvc.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mvc\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Mvc.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mvc\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Mvc.pdb

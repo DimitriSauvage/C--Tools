@@ -1,0 +1,10 @@
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Http\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Http.dll.config
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Http\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Http.deps.json
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Http\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Http.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Http\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Http.pdb
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Http\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Http.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Http\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Http.dll.config
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Http\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Http.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Http\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Http.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Http\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Http.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Http\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Http.pdb

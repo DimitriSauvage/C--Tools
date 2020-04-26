@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DimitriSauvageTools</id>
+    <version>1.0.0</version>
+    <title>Tools to help during development</title>
+    <authors>DimitriSauvageTools</authors>
+    <owners>DimitriSauvageTools</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">Apache 2.0</licenseUrl>
+    <projectUrl>https://github.com/DimitriSauvage/CSharp-Tools</projectUrl>
+    <description>Set of tools to help during development.</description>
+    <repository url="https://github.com/DimitriSauvage/CSharp-Tools" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="3.1.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="3.1.3" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\bin\Debug\netcoreapp3.1\en\DimitriSauvageTools.resources.dll" target="lib\netcoreapp3.1\en\DimitriSauvageTools.resources.dll" />
+    <file src="C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\bin\Debug\netcoreapp3.1\DimitriSauvageTools.dll" target="lib\netcoreapp3.1\DimitriSauvageTools.dll" />
+  </files>
+</package>

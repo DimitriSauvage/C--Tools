@@ -1,0 +1,8 @@
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.WindowsService\bin\Debug\netcoreapp3.1\DimitriSauvageTools.WindowsService.deps.json
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.WindowsService\bin\Debug\netcoreapp3.1\DimitriSauvageTools.WindowsService.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.WindowsService\bin\Debug\netcoreapp3.1\DimitriSauvageTools.WindowsService.pdb
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.WindowsService\obj\Debug\netcoreapp3.1\DimitriSauvageTools.WindowsService.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.WindowsService\obj\Debug\netcoreapp3.1\DimitriSauvageTools.WindowsService.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.WindowsService\obj\Debug\netcoreapp3.1\DimitriSauvageTools.WindowsService.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.WindowsService\obj\Debug\netcoreapp3.1\DimitriSauvageTools.WindowsService.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.WindowsService\obj\Debug\netcoreapp3.1\DimitriSauvageTools.WindowsService.pdb

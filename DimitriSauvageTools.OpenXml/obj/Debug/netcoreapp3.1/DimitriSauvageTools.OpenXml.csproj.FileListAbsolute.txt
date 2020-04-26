@@ -1,0 +1,8 @@
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.OpenXml\bin\Debug\netcoreapp3.1\DimitriSauvageTools.OpenXml.deps.json
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.OpenXml\bin\Debug\netcoreapp3.1\DimitriSauvageTools.OpenXml.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.OpenXml\bin\Debug\netcoreapp3.1\DimitriSauvageTools.OpenXml.pdb
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.OpenXml\obj\Debug\netcoreapp3.1\DimitriSauvageTools.OpenXml.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.OpenXml\obj\Debug\netcoreapp3.1\DimitriSauvageTools.OpenXml.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.OpenXml\obj\Debug\netcoreapp3.1\DimitriSauvageTools.OpenXml.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.OpenXml\obj\Debug\netcoreapp3.1\DimitriSauvageTools.OpenXml.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.OpenXml\obj\Debug\netcoreapp3.1\DimitriSauvageTools.OpenXml.pdb

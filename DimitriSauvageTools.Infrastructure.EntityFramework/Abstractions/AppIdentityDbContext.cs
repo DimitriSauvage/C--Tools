@@ -9,7 +9,7 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
 {
     public class AppIdentityDbContext<TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken> :
         IdentityDbContext<TUser, TRole, TKey, TUserClaim, TUserRole, TUserLogin, TRoleClaim, TUserToken>,
-        ISoPerfDbContext
+        IDbContext
         where TUser : IdentityUser<TKey>
         where TRole : IdentityRole<TKey>
         where TUserClaim : IdentityUserClaim<TKey>

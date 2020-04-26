@@ -1,0 +1,8 @@
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mapper\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Mapper.deps.json
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mapper\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Mapper.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mapper\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Mapper.pdb
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mapper\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Mapper.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mapper\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Mapper.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mapper\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Mapper.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mapper\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Mapper.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mapper\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Mapper.pdb

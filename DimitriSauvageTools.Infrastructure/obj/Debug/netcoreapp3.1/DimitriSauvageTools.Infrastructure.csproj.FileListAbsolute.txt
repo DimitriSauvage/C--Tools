@@ -1,0 +1,10 @@
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Infrastructure\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Infrastructure.dll.config
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Infrastructure\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Infrastructure.deps.json
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Infrastructure\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Infrastructure.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Infrastructure\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Infrastructure.pdb
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Infrastructure\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Infrastructure.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Infrastructure\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Infrastructure.dll.config
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Infrastructure\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Infrastructure\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Infrastructure.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Infrastructure\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Infrastructure.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Infrastructure\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Infrastructure.pdb

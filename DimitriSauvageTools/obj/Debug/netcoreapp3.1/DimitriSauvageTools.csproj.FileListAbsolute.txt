@@ -1,0 +1,17 @@
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\bin\Debug\netcoreapp3.1\DimitriSauvageTools.dll.config
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\bin\Debug\netcoreapp3.1\DimitriSauvageTools.deps.json
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\bin\Debug\netcoreapp3.1\DimitriSauvageTools.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\bin\Debug\netcoreapp3.1\DimitriSauvageTools.pdb
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\bin\Debug\netcoreapp3.1\en\DimitriSauvageTools.resources.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\DimitriSauvageTools.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\DimitriSauvageTools.dll.config
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Languages.ExceptionMessage.resources
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Languages.Sentences.resources
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Languages.ExceptionMessage.en.resources
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\DimitriSauvageTools.csproj.GenerateResource.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\DimitriSauvageTools.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\DimitriSauvageTools.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\en\DimitriSauvageTools.resources.cs
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\en\DimitriSauvageTools.resources.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\DimitriSauvageTools.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\obj\Debug\netcoreapp3.1\DimitriSauvageTools.pdb

@@ -1,0 +1,8 @@
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.DependencyInjection\bin\Debug\netcoreapp3.1\DimitriSauvageTools.DependencyInjection.deps.json
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.DependencyInjection\bin\Debug\netcoreapp3.1\DimitriSauvageTools.DependencyInjection.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.DependencyInjection\bin\Debug\netcoreapp3.1\DimitriSauvageTools.DependencyInjection.pdb
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.DependencyInjection\obj\Debug\netcoreapp3.1\DimitriSauvageTools.DependencyInjection.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.DependencyInjection\obj\Debug\netcoreapp3.1\DimitriSauvageTools.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.DependencyInjection\obj\Debug\netcoreapp3.1\DimitriSauvageTools.DependencyInjection.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.DependencyInjection\obj\Debug\netcoreapp3.1\DimitriSauvageTools.DependencyInjection.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.DependencyInjection\obj\Debug\netcoreapp3.1\DimitriSauvageTools.DependencyInjection.pdb

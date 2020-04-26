@@ -1,0 +1,8 @@
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.GeoLocation.Domain\bin\Debug\netcoreapp3.1\DimitriSauvageTools.GeoLocation.Domain.deps.json
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.GeoLocation.Domain\bin\Debug\netcoreapp3.1\DimitriSauvageTools.GeoLocation.Domain.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.GeoLocation.Domain\bin\Debug\netcoreapp3.1\DimitriSauvageTools.GeoLocation.Domain.pdb
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.GeoLocation.Domain\obj\Debug\netcoreapp3.1\DimitriSauvageTools.GeoLocation.Domain.csprojAssemblyReference.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.GeoLocation.Domain\obj\Debug\netcoreapp3.1\DimitriSauvageTools.GeoLocation.Domain.AssemblyInfoInputs.cache
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.GeoLocation.Domain\obj\Debug\netcoreapp3.1\DimitriSauvageTools.GeoLocation.Domain.AssemblyInfo.cs
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.GeoLocation.Domain\obj\Debug\netcoreapp3.1\DimitriSauvageTools.GeoLocation.Domain.dll
+C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.GeoLocation.Domain\obj\Debug\netcoreapp3.1\DimitriSauvageTools.GeoLocation.Domain.pdb

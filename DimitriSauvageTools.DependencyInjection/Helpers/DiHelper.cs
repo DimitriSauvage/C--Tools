@@ -26,7 +26,8 @@ namespace DimitriSauvageTools.DependencyInjection.Helpers
             var services = assemblies
                 .SelectMany(x => x.GetTypes()) //Get all types
                 .Where(type =>
-                    type
+                    !(type.IsAbstract || type.IsInterface)
+                    && type
                         .GetAllBaseTypes()
                         .Any(baseType => baseServiceTypes.Any(x => x.GUID == baseType.GUID))
                     ||
