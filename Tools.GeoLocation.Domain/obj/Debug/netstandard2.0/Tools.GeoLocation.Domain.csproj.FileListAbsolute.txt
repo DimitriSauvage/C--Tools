@@ -1,8 +1,0 @@
-C:\Users\dimit\Github\CSharp-Tools\Tools.GeoLocation.Domain\bin\Debug\netstandard2.0\Tools.GeoLocation.Domain.deps.json
-C:\Users\dimit\Github\CSharp-Tools\Tools.GeoLocation.Domain\bin\Debug\netstandard2.0\Tools.GeoLocation.Domain.dll
-C:\Users\dimit\Github\CSharp-Tools\Tools.GeoLocation.Domain\bin\Debug\netstandard2.0\Tools.GeoLocation.Domain.pdb
-C:\Users\dimit\Github\CSharp-Tools\Tools.GeoLocation.Domain\obj\Debug\netstandard2.0\Tools.GeoLocation.Domain.csprojAssemblyReference.cache
-C:\Users\dimit\Github\CSharp-Tools\Tools.GeoLocation.Domain\obj\Debug\netstandard2.0\Tools.GeoLocation.Domain.AssemblyInfoInputs.cache
-C:\Users\dimit\Github\CSharp-Tools\Tools.GeoLocation.Domain\obj\Debug\netstandard2.0\Tools.GeoLocation.Domain.AssemblyInfo.cs
-C:\Users\dimit\Github\CSharp-Tools\Tools.GeoLocation.Domain\obj\Debug\netstandard2.0\Tools.GeoLocation.Domain.dll
-C:\Users\dimit\Github\CSharp-Tools\Tools.GeoLocation.Domain\obj\Debug\netstandard2.0\Tools.GeoLocation.Domain.pdb

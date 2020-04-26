@@ -1,8 +1,0 @@
-C:\Users\dimit\Github\CSharp-Tools\Tools.Plugins\bin\Debug\netcoreapp3.1\Tools.Plugins.deps.json
-C:\Users\dimit\Github\CSharp-Tools\Tools.Plugins\bin\Debug\netcoreapp3.1\Tools.Plugins.dll
-C:\Users\dimit\Github\CSharp-Tools\Tools.Plugins\bin\Debug\netcoreapp3.1\Tools.Plugins.pdb
-C:\Users\dimit\Github\CSharp-Tools\Tools.Plugins\obj\Debug\netcoreapp3.1\Tools.Plugins.csprojAssemblyReference.cache
-C:\Users\dimit\Github\CSharp-Tools\Tools.Plugins\obj\Debug\netcoreapp3.1\Tools.Plugins.AssemblyInfoInputs.cache
-C:\Users\dimit\Github\CSharp-Tools\Tools.Plugins\obj\Debug\netcoreapp3.1\Tools.Plugins.AssemblyInfo.cs
-C:\Users\dimit\Github\CSharp-Tools\Tools.Plugins\obj\Debug\netcoreapp3.1\Tools.Plugins.dll
-C:\Users\dimit\Github\CSharp-Tools\Tools.Plugins\obj\Debug\netcoreapp3.1\Tools.Plugins.pdb
