@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/BBOGW99wNF9T0JELeikC4AgcFPMWejG3n4zUABdqCzwQXGS4mPFK5XwNJPIAPGr/mW5w8zYlewzGehCCtj4nw==",
+  "dgSpecHash": "O3+BuEf0WrSezNFB82l8QuLPb7FSGRAOhulmfG9A+Wkb0LO+lj3z4LIShpBG0EQk+CkdpfY2lWCBLDkqJynPig==",
   "success": false,
   "projectFilePath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure.RabbitMQ\\DimitriSauvageTools.Infrastructure.RabbitMQ.csproj",
   "expectedPackageFiles": [

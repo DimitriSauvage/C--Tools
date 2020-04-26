@@ -5,15 +5,17 @@ using System.Text;
 using DimitriSauvageTools.Api.OData.Filtering.Abstractions;
 using DimitriSauvageTools.Api.OData.Filtering.Enums;
 
-namespace DimitriSauvageTools.Helpers
+namespace DimitriSauvageTools.Api.OData.Helpers
 {
     public static class ODataHelper
     {
         #region Constants
+
         /// <summary>
         /// Propriété du filtre OData
         /// </summary>
-        private const string filterProperty = "$filter=";
+        private const string FilterProperty = "$filter=";
+
         #endregion
 
         #region Properties
@@ -21,6 +23,7 @@ namespace DimitriSauvageTools.Helpers
         #endregion
 
         #region Methods
+
         /// <summary>
         /// Récupère les filtres formatés en URL OData
         /// </summary>
@@ -28,22 +31,18 @@ namespace DimitriSauvageTools.Helpers
         /// <returns></returns>
         public static string GetUrl(IEnumerable<ODataQueryParameter> odataFilterQueryParameters)
         {
-            StringBuilder urlBuilder = new StringBuilder(filterProperty);
+            var urlBuilder = new StringBuilder(FilterProperty);
 
             //Parcours des propriétés afin de récupérer leurs représentation dans les url
-            for (int i = 0; i < odataFilterQueryParameters.Count(); i++)
+            var oDataQueryParameters = odataFilterQueryParameters.ToList();
+            for (var i = 0; i < oDataQueryParameters.Count(); i++)
             {
-                ODataQueryParameter filterQueryParameter = odataFilterQueryParameters.ElementAt(i);
+                var filterQueryParameter = oDataQueryParameters.ElementAt(i);
                 if (i > 0)
                 {
-                    if (filterQueryParameter.LogicalOperator != null)
-                    {
-                        urlBuilder.Append($" {Enum.GetName(typeof(ODataLogicalOperators), filterQueryParameter.LogicalOperator).ToLower()} ");
-                    }
-                    else
-                    {
-                        urlBuilder.Append($" {Enum.GetName(typeof(ODataLogicalOperators), ODataLogicalOperators.And).ToLower()} ");
-                    }
+                    urlBuilder.Append(filterQueryParameter.LogicalOperator != null
+                        ? $" {Enum.GetName(typeof(ODataLogicalOperators), filterQueryParameter.LogicalOperator)?.ToLower()} "
+                        : $" {Enum.GetName(typeof(ODataLogicalOperators), ODataLogicalOperators.And)?.ToLower()} ");
                 }
 
                 //Ajout de la représentation
@@ -52,6 +51,7 @@ namespace DimitriSauvageTools.Helpers
 
             return urlBuilder.ToString();
         }
+
         #endregion
     }
 }

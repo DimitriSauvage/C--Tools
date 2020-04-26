@@ -14,11 +14,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Api.OData\\DimitriSauvageTools.Api.OData.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Api.OData\\DimitriSauvageTools.Api.OData.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {
