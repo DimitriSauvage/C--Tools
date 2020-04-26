@@ -14,17 +14,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Domain\\DimitriSauvageTools.Domain.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Domain\\DimitriSauvageTools.Domain.csproj"
-          },
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Http\\DimitriSauvageTools.Http.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Http\\DimitriSauvageTools.Http.csproj"
-          },
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools\\DimitriSauvageTools.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools\\DimitriSauvageTools.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {
@@ -36,6 +26,14 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "DimitriSauvageTools.Domain": {
+          "target": "Package",
+          "version": "[1.0.0, )"
+        },
+        "DimitriSauvageTools.Http": {
+          "target": "Package",
+          "version": "[1.0.0, )"
+        },
         "EnterpriseLibrary.TransientFaultHandling.Data.NetCore": {
           "target": "Package",
           "version": "[6.0.1312, )"
@@ -53,12 +51,6 @@
           "version": "[2.2.0, )"
         },
         "Microsoft.EntityFrameworkCore": {
-          "target": "Package",
-          "version": "[3.1.3, )"
-        },
-        "Microsoft.EntityFrameworkCore.DimitriSauvageTools": {
-          "include": "Runtime, Build, Native, ContentFiles, Analyzers",
-          "suppressParent": "All",
           "target": "Package",
           "version": "[3.1.3, )"
         },

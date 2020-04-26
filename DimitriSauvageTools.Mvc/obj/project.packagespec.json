@@ -14,20 +14,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Application\\DimitriSauvageTools.Application.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Application\\DimitriSauvageTools.Application.csproj"
-          },
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Domain\\DimitriSauvageTools.Domain.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Domain\\DimitriSauvageTools.Domain.csproj"
-          },
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Http\\DimitriSauvageTools.Http.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Http\\DimitriSauvageTools.Http.csproj"
-          },
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure\\DimitriSauvageTools.Infrastructure.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure\\DimitriSauvageTools.Infrastructure.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {
@@ -39,6 +26,14 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "DimitriSauvageTools": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "DimitriSauvageTools.Application": {
+          "target": "Package",
+          "version": "[1.0.0, )"
+        },
         "Microsoft.AspNetCore.Mvc.Localization": {
           "target": "Package",
           "version": "[2.2.0, )"

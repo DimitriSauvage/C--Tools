@@ -10,8 +10,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DimitriSauvageTools.Infrastructure.EntityFramework")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("dimitrisauvage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Set of tools to help for the creation of an implementation layer of the DDD infra" +
+    "structure layer, using Entity Framework")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DimitriSauvageTools.Infrastructure.EntityFramework")]

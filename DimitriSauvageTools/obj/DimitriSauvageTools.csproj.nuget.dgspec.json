@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools\\DimitriSauvageTools.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools\\DimitriSauvageTools.csproj",
         "projectName": "DimitriSauvageTools",
@@ -36,10 +36,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.CSharp": {
-              "target": "Package",
-              "version": "[4.5.0, )"
-            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[3.1.3, )"

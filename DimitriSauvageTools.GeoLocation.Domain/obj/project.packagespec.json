@@ -14,11 +14,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Domain\\DimitriSauvageTools.Domain.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Domain\\DimitriSauvageTools.Domain.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {
@@ -29,6 +25,12 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "DimitriSauvageTools.Domain": {
+          "target": "Package",
+          "version": "[1.0.0, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",

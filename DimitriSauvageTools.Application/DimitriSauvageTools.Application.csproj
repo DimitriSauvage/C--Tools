@@ -5,17 +5,20 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
     <LangVersion>8</LangVersion>
+    <Title>Tools to manage DDD Application layer</Title>
+    <Description>Set of tools to create DDD Application layer</Description>
+    <PackageProjectUrl>https://github.com/DimitriSauvage/CSharp-Tools</PackageProjectUrl>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/DimitriSauvage/CSharp-Tools</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>dimitrisauvage</Authors>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="DimitriSauvageTools.Infrastructure" Version="1.0.0" />
     <PackageReference Include="MediatR" Version="5.1.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="5.1.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\DimitriSauvageTools.Infrastructure\DimitriSauvageTools.Infrastructure.csproj" />
-    <ProjectReference Include="..\DimitriSauvageTools\DimitriSauvageTools.csproj" />
   </ItemGroup>
 
 </Project>

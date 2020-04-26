@@ -19,13 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DimitriSauvageTools.Http", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DimitriSauvageTools.Application", "DimitriSauvageTools.Application\DimitriSauvageTools.Application.csproj", "{A278BFAD-3916-4F30-8FFB-5D61719F3B11}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DimitriSauvageTools.Infrastructure.RabbitMQ", "DimitriSauvageTools.Infrastructure.RabbitMQ\DimitriSauvageTools.Infrastructure.RabbitMQ.csproj", "{DBFEB70D-9D0D-47BC-89CB-E5DFFBAFE6A1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DimitriSauvageTools.Mvc", "DimitriSauvageTools.Mvc\DimitriSauvageTools.Mvc.csproj", "{3D35E44E-5C9F-4C07-A283-44BAE1F60DB9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DimitriSauvageTools.WindowsService", "DimitriSauvageTools.WindowsService\DimitriSauvageTools.WindowsService.csproj", "{C1F4042C-45F2-4FE0-BE5B-5439A659B99A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DimitriSauvageTools.UnitTesting", "DimitriSauvageTools.UnitTesting\DimitriSauvageTools.UnitTesting.csproj", "{BA97FC2B-40C0-4E8D-9F89-D7DBA9365007}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DimitriSauvageTools.Api.OData", "DimitriSauvageTools.Api.OData\DimitriSauvageTools.Api.OData.csproj", "{8ED0DF34-EB62-4A5E-BB02-E6A800696F8F}"
 EndProject
@@ -75,10 +71,6 @@ Global
 		{A278BFAD-3916-4F30-8FFB-5D61719F3B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A278BFAD-3916-4F30-8FFB-5D61719F3B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A278BFAD-3916-4F30-8FFB-5D61719F3B11}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DBFEB70D-9D0D-47BC-89CB-E5DFFBAFE6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBFEB70D-9D0D-47BC-89CB-E5DFFBAFE6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBFEB70D-9D0D-47BC-89CB-E5DFFBAFE6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBFEB70D-9D0D-47BC-89CB-E5DFFBAFE6A1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3D35E44E-5C9F-4C07-A283-44BAE1F60DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3D35E44E-5C9F-4C07-A283-44BAE1F60DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D35E44E-5C9F-4C07-A283-44BAE1F60DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,10 +79,6 @@ Global
 		{C1F4042C-45F2-4FE0-BE5B-5439A659B99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1F4042C-45F2-4FE0-BE5B-5439A659B99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1F4042C-45F2-4FE0-BE5B-5439A659B99A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BA97FC2B-40C0-4E8D-9F89-D7DBA9365007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA97FC2B-40C0-4E8D-9F89-D7DBA9365007}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA97FC2B-40C0-4E8D-9F89-D7DBA9365007}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA97FC2B-40C0-4E8D-9F89-D7DBA9365007}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8ED0DF34-EB62-4A5E-BB02-E6A800696F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8ED0DF34-EB62-4A5E-BB02-E6A800696F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ED0DF34-EB62-4A5E-BB02-E6A800696F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU

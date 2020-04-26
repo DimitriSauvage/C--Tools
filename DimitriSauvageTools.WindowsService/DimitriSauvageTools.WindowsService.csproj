@@ -3,6 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <LangVersion>8</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>Windows service tools</Title>
+    <Authors>dimitrisauvage</Authors>
+    <Description>Set of tools to help creating windows service</Description>
+    <PackageProjectUrl>https://github.com/DimitriSauvage/CSharp-Tools</PackageProjectUrl>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/DimitriSauvage/CSharp-Tools</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

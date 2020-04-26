@@ -14,11 +14,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Application\\DimitriSauvageTools.Application.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Application\\DimitriSauvageTools.Application.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {
@@ -33,6 +29,10 @@
         "AutoMapper": {
           "target": "Package",
           "version": "[9.0.0, )"
+        },
+        "DimitriSauvageTools.Application": {
+          "target": "Package",
+          "version": "[1.0.0, )"
         }
       },
       "imports": [

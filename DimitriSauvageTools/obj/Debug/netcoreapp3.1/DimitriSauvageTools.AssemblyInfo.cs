@@ -10,7 +10,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DimitriSauvageTools")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("dimitrisauvage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Set of tools to help during development.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

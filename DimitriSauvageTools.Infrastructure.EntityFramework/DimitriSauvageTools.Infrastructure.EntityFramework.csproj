@@ -5,9 +5,19 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
     <LangVersion>8</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>Tools to help with EF</Title>
+    <Authors>dimitrisauvage</Authors>
+    <Description>Set of tools to help for the creation of an implementation layer of the DDD infrastructure layer, using Entity Framework</Description>
+    <PackageProjectUrl>https://github.com/DimitriSauvage/CSharp-Tools</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DimitriSauvage/CSharp-Tools</RepositoryUrl>
+    <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DimitriSauvageTools" Version="1.0.1" />
+    <PackageReference Include="DimitriSauvageTools.Domain" Version="1.0.0" />
+    <PackageReference Include="DimitriSauvageTools.Infrastructure" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
@@ -15,11 +25,5 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.3" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\DimitriSauvageTools.Domain\DimitriSauvageTools.Domain.csproj" />
-    <ProjectReference Include="..\DimitriSauvageTools.Infrastructure\DimitriSauvageTools.Infrastructure.csproj" />
-    <ProjectReference Include="..\DimitriSauvageTools\DimitriSauvageTools.csproj" />
   </ItemGroup>
 </Project>

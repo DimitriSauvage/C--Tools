@@ -2,15 +2,18 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Title>Tools to manage the DI</Title>
+        <Description>Set of tools to manage DI in a DDD Application with .Net core</Description>
+        <PackageProjectUrl>https://github.com/DimitriSauvage/CSharp-Tools</PackageProjectUrl>
+        <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/DimitriSauvage/CSharp-Tools</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>dimitrisauvage</Authors>
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="DimitriSauvageTools" Version="1.0.1" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.3" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\DimitriSauvageTools.Application\DimitriSauvageTools.Application.csproj" />
-      <ProjectReference Include="..\DimitriSauvageTools\DimitriSauvageTools.csproj" />
     </ItemGroup>
 
 </Project>

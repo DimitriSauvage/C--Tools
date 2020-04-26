@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0",
+  "version": "1.0.1",
   "restore": {
     "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure.EntityFramework\\DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
     "projectName": "DimitriSauvageTools.Infrastructure.EntityFramework",
@@ -14,17 +14,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Domain\\DimitriSauvageTools.Domain.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Domain\\DimitriSauvageTools.Domain.csproj"
-          },
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure\\DimitriSauvageTools.Infrastructure.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure\\DimitriSauvageTools.Infrastructure.csproj"
-          },
-          "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools\\DimitriSauvageTools.csproj": {
-            "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools\\DimitriSauvageTools.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {
@@ -36,6 +26,18 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "DimitriSauvageTools": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "DimitriSauvageTools.Domain": {
+          "target": "Package",
+          "version": "[1.0.0, )"
+        },
+        "DimitriSauvageTools.Infrastructure": {
+          "target": "Package",
+          "version": "[1.0.0, )"
+        },
         "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
           "target": "Package",
           "version": "[3.1.3, )"

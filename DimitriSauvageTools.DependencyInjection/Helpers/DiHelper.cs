@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Microsoft.Extensions.DependencyInjection;
-using DimitriSauvageTools.Application.Abstractions;
 using DimitriSauvageTools.Helpers;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace DimitriSauvageTools.DependencyInjection.Helpers
 {
@@ -17,15 +17,22 @@ namespace DimitriSauvageTools.DependencyInjection.Helpers
         /// </summary>
         /// <param name="serviceCollection">Service collection</param>
         /// <param name="assemblies">Assemblies to browse</param>
-        public static void AddAllServices(this IServiceCollection serviceCollection, IEnumerable<Assembly> assemblies)
+        /// <param name="baseServiceTypes">Base types which are inherited or implemented by services</param>
+        public static void AddAllServices(this IServiceCollection serviceCollection,
+            IEnumerable<Assembly> assemblies,
+            IEnumerable<Type> baseServiceTypes)
         {
             //Get all types
             var services = assemblies
-                .SelectMany(x => x.GetTypes())
-                .Where(type => !type.IsAbstract && type.GetAllBaseTypes().Any(x =>
-                                   x.GUID.Equals(typeof(BaseService).GUID)
-                                   || x.GUID.Equals(typeof(BaseService<,>)
-                                       .GUID)))
+                .SelectMany(x => x.GetTypes()) //Get all types
+                .Where(type =>
+                    type
+                        .GetAllBaseTypes()
+                        .Any(baseType => baseServiceTypes.Any(x => x.GUID == baseType.GUID))
+                    ||
+                    type
+                        .GetInterfaces()
+                        .Any(baseInterface => baseServiceTypes.Any(x => x.GUID == baseInterface.GUID)))
                 .ToList();
 
             //Add to the DI
