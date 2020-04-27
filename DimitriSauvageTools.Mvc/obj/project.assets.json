@@ -9353,7 +9353,7 @@
     "C:\\Users\\dimit\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Mvc\\DimitriSauvageTools.Mvc.csproj",
       "projectName": "DimitriSauvageTools.Mvc",
