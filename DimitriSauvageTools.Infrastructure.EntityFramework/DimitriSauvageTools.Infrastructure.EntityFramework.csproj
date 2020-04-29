@@ -15,7 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DimitriSauvageTools" Version="1.0.1" />
+    <PackageReference Include="DimitriSauvageTools" Version="1.0.2" />
     <PackageReference Include="DimitriSauvageTools.Domain" Version="1.0.0" />
     <PackageReference Include="DimitriSauvageTools.Infrastructure" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />

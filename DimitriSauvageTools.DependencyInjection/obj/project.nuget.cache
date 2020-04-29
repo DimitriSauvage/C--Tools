@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RpCcbrPcCBpVvpdsnJ2vVHZ7x/UMr9AI6MzpvoKKhIBJ9hLEDVxg34Opd6NzdKYS7wAeD9Br4DtRdvbdFBPYNw==",
+  "dgSpecHash": "s4hnGCpITpYPtgv9UrbXtTEeP2RxDkuWARK+uWdyhcmilwK/CjitX/sHHmpUTZRWdrZc4SahFcdXYN4Ju8Yxfw==",
   "success": true,
   "projectFilePath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.DependencyInjection\\DimitriSauvageTools.DependencyInjection.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.1\\dimitrisauvagetools.1.0.1.nupkg.sha512",
+    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.2\\dimitrisauvagetools.1.0.2.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.3\\microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512",

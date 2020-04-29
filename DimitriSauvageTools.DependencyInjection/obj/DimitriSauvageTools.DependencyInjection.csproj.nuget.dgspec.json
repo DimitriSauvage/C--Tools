@@ -38,7 +38,7 @@
           "dependencies": {
             "DimitriSauvageTools": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.2, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",

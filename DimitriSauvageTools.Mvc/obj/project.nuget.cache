@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fueqLHkUqa1nYqvZT534XtWLTTX5SsjO7xtHyFPK3gCGQGRPMS3/P1ZOnBUDY4wvw9GsK3Tv6TjMvJ9QOKRg/A==",
+  "dgSpecHash": "bTDPxhN4W+wmxV07DuIAWurlYzklNaDECuiUEcD8+x+VTqPcvNurXCNvcNFaoa4/OxeThV9rIEEU45N2dFgEkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Mvc\\DimitriSauvageTools.Mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dimit\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.1\\dimitrisauvagetools.1.0.1.nupkg.sha512",
+    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.2\\dimitrisauvagetools.1.0.2.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools.application\\1.0.0\\dimitrisauvagetools.application.1.0.0.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools.domain\\1.0.0\\dimitrisauvagetools.domain.1.0.0.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools.http\\1.0.0\\dimitrisauvagetools.http.1.0.0.nupkg.sha512",

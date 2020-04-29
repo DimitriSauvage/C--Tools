@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u1LF5JCO2l6k4N0Ro5pIfLTZduleRUeHpOzlNXgOGdvMo2/xV+h5a+uPKHVgco3kVRwNxPE7TDk+bKtTwQCb9g==",
+  "dgSpecHash": "HmbPJUfzIAaKgY4myGyVDrAOYDHqGjrmoLM/21MVmpxV9/lJy+CVW/VybdHF6awF88Tje/KRhWS6i2zX4RWRfA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Http\\DimitriSauvageTools.Http.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.1\\dimitrisauvagetools.1.0.1.nupkg.sha512",
+    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.2\\dimitrisauvagetools.1.0.2.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.aspnetcore.hosting\\2.2.7\\microsoft.aspnetcore.hosting.2.2.7.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",

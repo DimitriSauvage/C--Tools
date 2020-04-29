@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "E5QcSCgvmySzc3Fte1qayMoVt5ov1j3KKGB+rJuWeipJQa4jWcGc0oXq+wbp9S087dhz4oQ/7ZUbf5RdmW80mQ==",
+  "dgSpecHash": "FvK/ACYnSxWTG2nSSGG2LW9jLw/zF8oeImJdUOgtzc1Ly1giB+VZ+3nbckUCrJh+fw18CkOP7KOzI23A8AmLXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure.EntityFramework\\DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.1\\dimitrisauvagetools.1.0.1.nupkg.sha512",
+    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.2\\dimitrisauvagetools.1.0.2.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools.domain\\1.0.0\\dimitrisauvagetools.domain.1.0.0.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools.http\\1.0.0\\dimitrisauvagetools.http.1.0.0.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools.infrastructure\\1.0.0\\dimitrisauvagetools.infrastructure.1.0.0.nupkg.sha512",

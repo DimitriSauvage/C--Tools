@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DimitriSauvageTools" Version="1.0.1" />
+    <PackageReference Include="DimitriSauvageTools" Version="1.0.2" />
     <PackageReference Include="DimitriSauvageTools.Application" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Localization" Version="2.2.0" />
   </ItemGroup>

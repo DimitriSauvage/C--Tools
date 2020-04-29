@@ -3,12 +3,17 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace DimitriSauvageTools.Helpers
 {
-    public static class ServiceCollectionHelper
+    public class ServiceCollectionHelper
     {
         #region Fields
 
         /// <summary>
-        /// Service collection
+        /// Service collection which manage the DI
+        /// </summary>
+        private static IServiceCollection ServiceCollection { get; set; }
+
+        /// <summary>
+        /// Service provider to get the services
         /// </summary>
         private static IServiceProvider _serviceProvider = null;
 
@@ -22,13 +27,22 @@ namespace DimitriSauvageTools.Helpers
                 if (_serviceProvider != null) return _serviceProvider;
 
                 //Get the service collection
-                _serviceProvider = new ServiceCollection().BuildServiceProvider();
-
-                return _serviceProvider;
+                return _serviceProvider = ServiceCollection.BuildServiceProvider();
             }
         }
 
         #endregion
+
+        #region Constructor
+
+        public ServiceCollectionHelper(IServiceCollection serviceCollection)
+        {
+            ServiceCollection = serviceCollection;
+        }
+
+        #endregion
+
+        #region Methods
 
         /// <summary>
         /// Get an element from the dependency injection
@@ -39,5 +53,7 @@ namespace DimitriSauvageTools.Helpers
         {
             return ServiceProvider.GetService<TElement>();
         }
+
+        #endregion
     }
 }

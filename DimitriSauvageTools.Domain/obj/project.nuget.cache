@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Qt1GY0HcUtsQ0zQd6Pzu4wGWFTzYQqd4NnGN3MjwY5aO92HQey8oxqmEGPELB4cOVPZ/blpXG7QcVpNRUXM6qw==",
+  "dgSpecHash": "1qTJZuecsXL7JPDGzI6liXimzbopz13Gj6xAUrVKsvihIelgXQlWKt4ZPoFJOX2Ji3u9i8EeJAxZpA4KvZQPfg==",
   "success": true,
   "projectFilePath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Domain\\DimitriSauvageTools.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.1\\dimitrisauvagetools.1.0.1.nupkg.sha512",
+    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.2\\dimitrisauvagetools.1.0.2.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\mediatr\\5.1.0\\mediatr.5.1.0.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\5.1.0\\mediatr.extensions.microsoft.dependencyinjection.5.1.0.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
