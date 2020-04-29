@@ -23,24 +23,19 @@ namespace DimitriSauvageTools.DependencyInjection.Helpers
             IEnumerable<Type> baseServiceTypes)
         {
             //Get all types
-            var services = assemblies
+            assemblies
                 .SelectMany(x => x.GetTypes()) //Get all types
                 .Where(type =>
-                    !(type.IsAbstract || type.IsInterface)
-                    && type
-                        .GetAllBaseTypes()
-                        .Any(baseType => baseServiceTypes.Any(x => x.GUID == baseType.GUID))
-                    ||
-                    type
-                        .GetInterfaces()
-                        .Any(baseInterface => baseServiceTypes.Any(x => x.GUID == baseInterface.GUID)))
-                .ToList();
-
-            //Add to the DI
-            foreach (var service in services)
-            {
-                serviceCollection.AddScoped(service);
-            }
+                    !(type.IsAbstract || type.IsInterface) //Get not abstract class
+                    && (type
+                            .GetAllBaseTypes()
+                            .Any(baseType => baseServiceTypes.Any(x => x.GUID == baseType.GUID))
+                        ||
+                        type
+                            .GetInterfaces()
+                            .Any(baseInterface => baseServiceTypes.Any(x => x.GUID == baseInterface.GUID))))
+                .ToList()
+                .ForEach(x => serviceCollection.AddScoped(x)); //Add services to DI
         }
     }
 }
