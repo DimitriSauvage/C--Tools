@@ -13,7 +13,7 @@
     <repository url="https://github.com/DimitriSauvage/CSharp-Tools" />
     <dependencies>
       <group targetFramework=".NETCoreApp3.1">
-        <dependency id="DimitriSauvageTools" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="DimitriSauvageTools" version="1.0.2" exclude="Build,Analyzers" />
         <dependency id="Microsoft.AspNetCore.Hosting" version="2.2.7" exclude="Build,Analyzers" />
         <dependency id="Microsoft.AspNetCore.Http" version="2.2.0" exclude="Build,Analyzers" />
         <dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.2.0" exclude="Build,Analyzers" />

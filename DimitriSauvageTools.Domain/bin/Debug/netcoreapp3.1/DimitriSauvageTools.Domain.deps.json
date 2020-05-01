@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "DimitriSauvageTools.Domain/1.0.0": {
         "dependencies": {
-          "DimitriSauvageTools": "1.0.1",
+          "DimitriSauvageTools": "1.0.2",
           "MediatR": "5.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "5.1.0",
           "System.ComponentModel.Annotations": "4.5.0"
@@ -17,7 +17,7 @@
           "DimitriSauvageTools.Domain.dll": {}
         }
       },
-      "DimitriSauvageTools/1.0.1": {
+      "DimitriSauvageTools/1.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "3.1.3",
           "Microsoft.Extensions.Logging": "3.1.3",
@@ -167,12 +167,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DimitriSauvageTools/1.0.1": {
+    "DimitriSauvageTools/1.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fcqsPPZKMeZX8m1dqvFv9kfvksIQq/xMInDI8Qc5by+QxjZt1ORcnvh4TrVpez5fFkcU9No4Gr9Cu+Hs8hQj7Q==",
-      "path": "dimitrisauvagetools/1.0.1",
-      "hashPath": "dimitrisauvagetools.1.0.1.nupkg.sha512"
+      "sha512": "sha512-Jbkq0w40HEHlAn2KNIzOrIFWsdpwGKwpE6E7kucd6VDEyHrKL6y4FJWEHSiX/fMH1RHpJ6MeilUliMgorw2cKw==",
+      "path": "dimitrisauvagetools/1.0.2",
+      "hashPath": "dimitrisauvagetools.1.0.2.nupkg.sha512"
     },
     "MediatR/5.1.0": {
       "type": "package",

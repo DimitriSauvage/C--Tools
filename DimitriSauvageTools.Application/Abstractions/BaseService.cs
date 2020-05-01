@@ -14,13 +14,22 @@ namespace DimitriSauvageTools.Application.Abstractions
         /// <summary>
         /// Data manager
         /// </summary>
-        protected TRepository Repository { get; } =
-            ServiceCollectionHelper.GetElementFromDependencyInjection<TRepository>();
+        protected TRepository Repository { get; }
 
         /// <summary>
         /// Mapper
         /// </summary>
-        protected IMapper Mapper { get; } = ServiceCollectionHelper.GetElementFromDependencyInjection<IMapper>();
+        protected IMapper Mapper { get; }
+
+        #endregion
+
+        #region Constructor
+
+        protected BaseService(TRepository repository, IMapper mapper)
+        {
+            this.Repository = repository;
+            this.Mapper = mapper;
+        }
 
         #endregion
     }

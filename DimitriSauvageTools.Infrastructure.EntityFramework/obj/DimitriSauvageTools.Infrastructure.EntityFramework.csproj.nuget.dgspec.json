@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure.EntityFramework\\DimitriSauvageTools.Infrastructure.EntityFramework.csproj": {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "restore": {
         "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure.EntityFramework\\DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
         "projectName": "DimitriSauvageTools.Infrastructure.EntityFramework",
@@ -42,11 +42,11 @@
             },
             "DimitriSauvageTools.Domain": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.0.1, )"
             },
             "DimitriSauvageTools.Infrastructure": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.0.3, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",

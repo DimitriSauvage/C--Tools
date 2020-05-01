@@ -11,13 +11,13 @@
     <Description>Set of tools to help for the creation of an implementation layer of the DDD infrastructure layer, using Entity Framework</Description>
     <PackageProjectUrl>https://github.com/DimitriSauvage/CSharp-Tools</PackageProjectUrl>
     <RepositoryUrl>https://github.com/DimitriSauvage/CSharp-Tools</RepositoryUrl>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="DimitriSauvageTools" Version="1.0.2" />
-    <PackageReference Include="DimitriSauvageTools.Domain" Version="1.0.0" />
-    <PackageReference Include="DimitriSauvageTools.Infrastructure" Version="1.0.0" />
+    <PackageReference Include="DimitriSauvageTools.Domain" Version="1.0.1" />
+    <PackageReference Include="DimitriSauvageTools.Infrastructure" Version="1.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />

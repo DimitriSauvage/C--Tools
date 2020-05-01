@@ -9,7 +9,7 @@
         <RepositoryUrl>https://github.com/DimitriSauvage/CSharp-Tools</RepositoryUrl>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Authors>dimitrisauvage</Authors>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageVersion>1.0.2</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>

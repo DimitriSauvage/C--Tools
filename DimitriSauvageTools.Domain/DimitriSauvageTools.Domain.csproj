@@ -12,6 +12,7 @@
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/DimitriSauvage/CSharp-Tools</RepositoryUrl>
     <Authors>dimitrisauvage</Authors>
+    <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>

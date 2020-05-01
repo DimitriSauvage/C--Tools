@@ -12,11 +12,12 @@
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/DimitriSauvage/CSharp-Tools</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageVersion>1.0.3</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DimitriSauvageTools.Domain" Version="1.0.0" />
-    <PackageReference Include="DimitriSauvageTools.Http" Version="1.0.0" />
+    <PackageReference Include="DimitriSauvageTools.Domain" Version="1.0.1" />
+    <PackageReference Include="DimitriSauvageTools.Http" Version="1.0.1" />
     <PackageReference Include="EnterpriseLibrary.TransientFaultHandling.Data.NetCore" Version="6.0.1312" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.0" />

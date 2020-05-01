@@ -15,11 +15,16 @@ namespace DimitriSauvageTools.Mvc.Abstractions
         /// <summary>
         /// Data manager
         /// </summary>
-        protected TService Service { get; } = ServiceCollectionHelper.GetElementFromDependencyInjection<TService>();
+        protected TService Service { get; }
 
         #endregion
 
         #region Constructors
+
+        protected ApiController(TService service)
+        {
+            this.Service = service;
+        }
 
         #endregion
     }

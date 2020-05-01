@@ -12,11 +12,12 @@
     <RepositoryUrl>https://github.com/DimitriSauvage/CSharp-Tools</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>dimitrisauvage</Authors>
+    <PackageVersion>1.0.3</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="9.0.0" />
-    <PackageReference Include="DimitriSauvageTools.Infrastructure" Version="1.0.0" />
+    <PackageReference Include="DimitriSauvageTools.Infrastructure" Version="1.0.3" />
     <PackageReference Include="MediatR" Version="5.1.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="5.1.0" />
   </ItemGroup>

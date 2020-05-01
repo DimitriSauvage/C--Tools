@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DimitriSauvageTools.Application</id>
+    <version>1.0.3</version>
+    <title>Tools to manage DDD Application layer</title>
+    <authors>dimitrisauvage</authors>
+    <owners>dimitrisauvage</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
+    <projectUrl>https://github.com/DimitriSauvage/CSharp-Tools</projectUrl>
+    <description>Set of tools to create DDD Application layer</description>
+    <repository url="https://github.com/DimitriSauvage/CSharp-Tools" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="AutoMapper" version="9.0.0" exclude="Build,Analyzers" />
+        <dependency id="DimitriSauvageTools.Infrastructure" version="1.0.3" exclude="Build,Analyzers" />
+        <dependency id="MediatR" version="5.1.0" exclude="Build,Analyzers" />
+        <dependency id="MediatR.Extensions.Microsoft.DependencyInjection" version="5.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Application\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Application.dll" target="lib\netcoreapp3.1\DimitriSauvageTools.Application.dll" />
+  </files>
+</package>

@@ -35,7 +35,7 @@
           }
         }
       },
-      "DimitriSauvageTools.Application/1.0.0": {
+      "DimitriSauvageTools.Application/1.0.1": {
         "type": "package",
         "dependencies": {
           "AutoMapper": "9.0.0",
@@ -3105,14 +3105,14 @@
         "lib/netcoreapp3.1/en/DimitriSauvageTools.resources.dll"
       ]
     },
-    "DimitriSauvageTools.Application/1.0.0": {
-      "sha512": "En9WzWMsxB9szvpaTu168y9cRTQNtQIxDIJAIECyWy1OY3XQjReYS+gaJhKRMdMOJZJSKKthmmNOQLoNNOQWzQ==",
+    "DimitriSauvageTools.Application/1.0.1": {
+      "sha512": "kLxiK5Dj7XlBAB6wV4cJZLZm5LKx+RWmazDIOI4x/Q7xhvkZD7QPXokK7HHUDt/XNF3pcc568VVw6S/dMrmdcw==",
       "type": "package",
-      "path": "dimitrisauvagetools.application/1.0.0",
+      "path": "dimitrisauvagetools.application/1.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dimitrisauvagetools.application.1.0.0.nupkg.sha512",
+        "dimitrisauvagetools.application.1.0.1.nupkg.sha512",
         "dimitrisauvagetools.application.nuspec",
         "lib/netcoreapp3.1/DimitriSauvageTools.Application.dll"
       ]
@@ -9345,7 +9345,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DimitriSauvageTools >= 1.0.2",
-      "DimitriSauvageTools.Application >= 1.0.0",
+      "DimitriSauvageTools.Application >= 1.0.1",
       "Microsoft.AspNetCore.Mvc.Localization >= 2.2.0"
     ]
   },
@@ -9353,7 +9353,7 @@
     "C:\\Users\\dimit\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.2",
+    "version": "1.0.4",
     "restore": {
       "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Mvc\\DimitriSauvageTools.Mvc.csproj",
       "projectName": "DimitriSauvageTools.Mvc",
@@ -9390,7 +9390,7 @@
           },
           "DimitriSauvageTools.Application": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[1.0.1, )"
           },
           "Microsoft.AspNetCore.Mvc.Localization": {
             "target": "Package",

@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0",
+  "version": "1.0.3",
   "restore": {
     "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure\\DimitriSauvageTools.Infrastructure.csproj",
     "projectName": "DimitriSauvageTools.Infrastructure",
@@ -28,11 +28,11 @@
       "dependencies": {
         "DimitriSauvageTools.Domain": {
           "target": "Package",
-          "version": "[1.0.0, )"
+          "version": "[1.0.1, )"
         },
         "DimitriSauvageTools.Http": {
           "target": "Package",
-          "version": "[1.0.0, )"
+          "version": "[1.0.1, )"
         },
         "EnterpriseLibrary.TransientFaultHandling.Data.NetCore": {
           "target": "Package",

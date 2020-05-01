@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.GeoLocation.Domain\\DimitriSauvageTools.GeoLocation.Domain.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.GeoLocation.Domain\\DimitriSauvageTools.GeoLocation.Domain.csproj",
         "projectName": "DimitriSauvageTools.GeoLocation.Domain",
@@ -38,7 +38,7 @@
           "dependencies": {
             "DimitriSauvageTools.Domain": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.0.1, )"
             }
           },
           "imports": [

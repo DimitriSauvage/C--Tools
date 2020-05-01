@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "DimitriSauvageTools/1.0.1": {
+      "DimitriSauvageTools/1.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "3.1.3",
@@ -22,10 +22,10 @@
           }
         }
       },
-      "DimitriSauvageTools.Domain/1.0.0": {
+      "DimitriSauvageTools.Domain/1.0.1": {
         "type": "package",
         "dependencies": {
-          "DimitriSauvageTools": "1.0.1",
+          "DimitriSauvageTools": "1.0.2",
           "MediatR": "5.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "5.1.0",
           "System.ComponentModel.Annotations": "4.5.0"
@@ -37,10 +37,10 @@
           "lib/netcoreapp3.1/DimitriSauvageTools.Domain.dll": {}
         }
       },
-      "DimitriSauvageTools.Http/1.0.0": {
+      "DimitriSauvageTools.Http/1.0.1": {
         "type": "package",
         "dependencies": {
-          "DimitriSauvageTools": "1.0.1",
+          "DimitriSauvageTools": "1.0.2",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -1654,39 +1654,39 @@
     }
   },
   "libraries": {
-    "DimitriSauvageTools/1.0.1": {
-      "sha512": "fcqsPPZKMeZX8m1dqvFv9kfvksIQq/xMInDI8Qc5by+QxjZt1ORcnvh4TrVpez5fFkcU9No4Gr9Cu+Hs8hQj7Q==",
+    "DimitriSauvageTools/1.0.2": {
+      "sha512": "Jbkq0w40HEHlAn2KNIzOrIFWsdpwGKwpE6E7kucd6VDEyHrKL6y4FJWEHSiX/fMH1RHpJ6MeilUliMgorw2cKw==",
       "type": "package",
-      "path": "dimitrisauvagetools/1.0.1",
+      "path": "dimitrisauvagetools/1.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dimitrisauvagetools.1.0.1.nupkg.sha512",
+        "dimitrisauvagetools.1.0.2.nupkg.sha512",
         "dimitrisauvagetools.nuspec",
         "lib/netcoreapp3.1/DimitriSauvageTools.dll",
         "lib/netcoreapp3.1/en/DimitriSauvageTools.resources.dll"
       ]
     },
-    "DimitriSauvageTools.Domain/1.0.0": {
-      "sha512": "p1e27ckiQSlsdNIfq2XEDXzW7i0s/qj71M8xPmbEtuqlBXyLMnQCSXlN9B1UCogqNn8mTbDldZUn0zE4imx7OA==",
+    "DimitriSauvageTools.Domain/1.0.1": {
+      "sha512": "HXB2efYS6qzUHwOAJXR7JmDcVCBnSeHLXz4iOhsnR/A312BxpJAg3nkyuO+UB1MGjl7knn92ESQbCmIw8G+H+Q==",
       "type": "package",
-      "path": "dimitrisauvagetools.domain/1.0.0",
+      "path": "dimitrisauvagetools.domain/1.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dimitrisauvagetools.domain.1.0.0.nupkg.sha512",
+        "dimitrisauvagetools.domain.1.0.1.nupkg.sha512",
         "dimitrisauvagetools.domain.nuspec",
         "lib/netcoreapp3.1/DimitriSauvageTools.Domain.dll"
       ]
     },
-    "DimitriSauvageTools.Http/1.0.0": {
-      "sha512": "1umz5k7ceTqJF1fN73rTD2xpIXzE/l7HMT4dVjg6D8pYqwpma5ytVlmfR5yA4nH/JswyrUHixospf5AG6Ip7RQ==",
+    "DimitriSauvageTools.Http/1.0.1": {
+      "sha512": "lja1f4FHmVjvXUfE+aesVKQ9GraGo3LCTPSh4b98eWxla/lbysCxoiwZpLfa9+E1gKGmxSwbMXATcf0nmSQiPg==",
       "type": "package",
-      "path": "dimitrisauvagetools.http/1.0.0",
+      "path": "dimitrisauvagetools.http/1.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "dimitrisauvagetools.http.1.0.0.nupkg.sha512",
+        "dimitrisauvagetools.http.1.0.1.nupkg.sha512",
         "dimitrisauvagetools.http.nuspec",
         "lib/netcoreapp3.1/DimitriSauvageTools.Http.dll"
       ]
@@ -5810,8 +5810,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DimitriSauvageTools.Domain >= 1.0.0",
-      "DimitriSauvageTools.Http >= 1.0.0",
+      "DimitriSauvageTools.Domain >= 1.0.1",
+      "DimitriSauvageTools.Http >= 1.0.1",
       "EnterpriseLibrary.TransientFaultHandling.Data.NetCore >= 6.0.1312",
       "Microsoft.AspNetCore.Hosting >= 2.2.7",
       "Microsoft.AspNetCore.Http >= 2.2.0",
@@ -5829,7 +5829,7 @@
     "C:\\Users\\dimit\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.3",
     "restore": {
       "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure\\DimitriSauvageTools.Infrastructure.csproj",
       "projectName": "DimitriSauvageTools.Infrastructure",
@@ -5862,11 +5862,11 @@
         "dependencies": {
           "DimitriSauvageTools.Domain": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[1.0.1, )"
           },
           "DimitriSauvageTools.Http": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[1.0.1, )"
           },
           "EnterpriseLibrary.TransientFaultHandling.Data.NetCore": {
             "target": "Package",

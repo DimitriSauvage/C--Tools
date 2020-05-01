@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FvK/ACYnSxWTG2nSSGG2LW9jLw/zF8oeImJdUOgtzc1Ly1giB+VZ+3nbckUCrJh+fw18CkOP7KOzI23A8AmLXA==",
+  "dgSpecHash": "avuN8aZ6LSI1lRXQvwlZvYFwQ6ltzPfQ+4dgY8nB+O8tfXR7xPDXIlkLHniIn5Sm00jl8fCT3s1FaGHpvX4iRA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure.EntityFramework\\DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.2\\dimitrisauvagetools.1.0.2.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools.domain\\1.0.0\\dimitrisauvagetools.domain.1.0.0.nupkg.sha512",
+    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools.domain\\1.0.1\\dimitrisauvagetools.domain.1.0.1.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools.http\\1.0.0\\dimitrisauvagetools.http.1.0.0.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools.infrastructure\\1.0.0\\dimitrisauvagetools.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools.infrastructure\\1.0.3\\dimitrisauvagetools.infrastructure.1.0.3.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\enterpriselibrary.transientfaulthandling.data.netcore\\6.0.1312\\enterpriselibrary.transientfaulthandling.data.netcore.6.0.1312.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\enterpriselibrary.transientfaulthandling.netcore\\6.0.1312\\enterpriselibrary.transientfaulthandling.netcore.6.0.1312.nupkg.sha512",
     "C:\\Users\\dimit\\.nuget\\packages\\mediatr\\5.1.0\\mediatr.5.1.0.nupkg.sha512",
