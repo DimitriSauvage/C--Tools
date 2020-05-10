@@ -21,7 +21,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\bin\Debug\netcoreapp3.1\en\DimitriSauvageTools.resources.dll" target="lib\netcoreapp3.1\en\DimitriSauvageTools.resources.dll" />
-    <file src="C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools\bin\Debug\netcoreapp3.1\DimitriSauvageTools.dll" target="lib\netcoreapp3.1\DimitriSauvageTools.dll" />
+    <file src="/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools/bin/Debug/netcoreapp3.1/en/DimitriSauvageTools.resources.dll" target="lib/netcoreapp3.1/en/DimitriSauvageTools.resources.dll" />
+    <file src="/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools/bin/Debug/netcoreapp3.1/DimitriSauvageTools.dll" target="lib/netcoreapp3.1/DimitriSauvageTools.dll" />
   </files>
 </package>

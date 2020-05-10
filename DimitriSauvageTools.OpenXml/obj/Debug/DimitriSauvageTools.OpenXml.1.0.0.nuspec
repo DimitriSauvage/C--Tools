@@ -19,6 +19,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.OpenXml\bin\Debug\netcoreapp3.1\DimitriSauvageTools.OpenXml.dll" target="lib\netcoreapp3.1\DimitriSauvageTools.OpenXml.dll" />
+    <file src="/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.OpenXml/bin/Debug/netcoreapp3.1/DimitriSauvageTools.OpenXml.dll" target="lib/netcoreapp3.1/DimitriSauvageTools.OpenXml.dll" />
   </files>
 </package>

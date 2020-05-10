@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.OpenXml\\DimitriSauvageTools.OpenXml.csproj",
+    "projectUniqueName": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.OpenXml/DimitriSauvageTools.OpenXml.csproj",
     "projectName": "DimitriSauvageTools.OpenXml",
-    "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.OpenXml\\DimitriSauvageTools.OpenXml.csproj",
-    "outputPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.OpenXml\\obj\\",
+    "projectPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.OpenXml/DimitriSauvageTools.OpenXml.csproj",
+    "outputPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.OpenXml/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -50,7 +50,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
     }
   }
 }

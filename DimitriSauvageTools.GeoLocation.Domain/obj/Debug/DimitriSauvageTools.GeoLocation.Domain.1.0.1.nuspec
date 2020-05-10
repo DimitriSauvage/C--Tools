@@ -18,6 +18,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.GeoLocation.Domain\bin\Debug\netcoreapp3.1\DimitriSauvageTools.GeoLocation.Domain.dll" target="lib\netcoreapp3.1\DimitriSauvageTools.GeoLocation.Domain.dll" />
+    <file src="/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.GeoLocation.Domain/bin/Debug/netcoreapp3.1/DimitriSauvageTools.GeoLocation.Domain.dll" target="lib/netcoreapp3.1/DimitriSauvageTools.GeoLocation.Domain.dll" />
   </files>
 </package>

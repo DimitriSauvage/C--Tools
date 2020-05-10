@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "JYE1CyWQuB1Dar3l3vYsxh253srbxKE1qR8bVjEKw9l0oKCGPpCTRw3x8oALUHaivbgJnMjbRJorvbNoIC/X/Q==",
+  "dgSpecHash": "2IibXLO+JXbwMGpQMZMhouAuo06d8WU+yP3jBvelJBmG0cjLRENTW99PV+cc74gkHdT/jreawfEm7tuH3pOCLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Typescript\\DimitriSauvageTools.Typescript.csproj",
+  "projectFilePath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Typescript/DimitriSauvageTools.Typescript.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dimit\\.nuget\\packages\\cstots\\1.3.12\\cstots.1.3.12.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\handlebars.net\\1.10.1\\handlebars.net.1.10.1.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\microsoft.csharp\\4.4.0\\microsoft.csharp.4.4.0.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\system.reflection.typeextensions\\4.4.0\\system.reflection.typeextensions.4.4.0.nupkg.sha512"
+    "/home/dsauvage/.nuget/packages/cstots/1.3.12/cstots.1.3.12.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/handlebars.net/1.10.1/handlebars.net.1.10.1.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/microsoft.csharp/4.4.0/microsoft.csharp.4.4.0.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/system.reflection.typeextensions/4.4.0/system.reflection.typeextensions.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }

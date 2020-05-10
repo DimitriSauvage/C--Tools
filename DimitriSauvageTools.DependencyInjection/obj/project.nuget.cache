@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "imgk6vs/31hLFmhKVLPR6xHBcqCYur4yZOt5GgV/MEuw0bwyG9ONbF7SADX5uF5mlLVr505+YIFNvDa+Xzx4lQ==",
+  "dgSpecHash": "YuAFEgQkL2I0LO87tqR3FKE1gEa1My54BOdZZEABGVIAEbyg7KFg+D2J/+XFDkWY4hhNmGXHlVMj4zuLFpI/4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.DependencyInjection\\DimitriSauvageTools.DependencyInjection.csproj",
+  "projectFilePath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.DependencyInjection/DimitriSauvageTools.DependencyInjection.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\dimit\\.nuget\\packages\\dimitrisauvagetools\\1.0.2\\dimitrisauvagetools.1.0.2.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.3\\microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.3\\microsoft.extensions.dependencyinjection.3.1.3.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.3\\microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.logging\\3.1.3\\microsoft.extensions.logging.3.1.3.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.3\\microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.options\\3.1.3\\microsoft.extensions.options.3.1.3.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
-    "C:\\Users\\dimit\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512"
+    "/home/dsauvage/.nuget/packages/dimitrisauvagetools/1.0.2/dimitrisauvagetools.1.0.2.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/microsoft.extensions.configuration/3.1.3/microsoft.extensions.configuration.3.1.3.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.3/microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/microsoft.extensions.configuration.binder/3.1.3/microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.3/microsoft.extensions.dependencyinjection.3.1.3.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.3/microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/microsoft.extensions.logging/3.1.3/microsoft.extensions.logging.3.1.3.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.3/microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/microsoft.extensions.options/3.1.3/microsoft.extensions.options.3.1.3.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/microsoft.extensions.primitives/3.1.3/microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
+    "/home/dsauvage/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

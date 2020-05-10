@@ -1,44 +1,49 @@
 ﻿using System.Collections.Generic;
+using DimitriSauvageTools.Infrastructure.Enumerations;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace DimitriSauvageTools.Infrastructure.Settings
 {
     public class DatabaseSettings
     {
-        public DatabaseSettings(bool trackEntities)
-        {
-            TrackEntities = trackEntities;
-        }
-        public DatabaseSettings() : this(false)
-        {
-
-        }
+        #region Fields
 
         /// <summary>
-        /// Affecte ou obtient le nom de la chaine de connexion à utiliser
+        /// Get or set the name of the used connection string
         /// </summary>
         public string UsedConnectionString { get; set; }
 
         /// <summary>
-        /// Affecte ou obtient la liste des chaine de connexions
+        /// Get or set the connection string list
         /// </summary>
-        public List<ConnectionStringSettings> ConnectionStrings { get; } = new List<ConnectionStringSettings>();
+        public ICollection<ConnectionStringSettings> ConnectionStrings { get; } = new List<ConnectionStringSettings>();
 
         /// <summary>
         /// Track the entities or not
         /// </summary>
         public bool TrackEntities { get; set; } = false;
-    }
-
-    public class ConnectionStringSettings
-    {
-        /// <summary>
-        /// Affecte ou obtient le nom de la chaine de connexion
-        /// </summary>
-        public string Name { get; set; }
 
         /// <summary>
-        /// Affecte ou obtient la chaine de connexion à la base de données
+        /// Get or set the type of the used database
         /// </summary>
-        public string ConnectionString { get; set; }
+        [JsonConverter(typeof(StringEnumConverter))]
+        public DbType DbType { get; set; }
+
+        #endregion
+
+
+        #region Constructors
+
+        public DatabaseSettings(bool trackEntities)
+        {
+            TrackEntities = trackEntities;
+        }
+
+        public DatabaseSettings() : this(false)
+        {
+        }
+
+        #endregion
     }
 }

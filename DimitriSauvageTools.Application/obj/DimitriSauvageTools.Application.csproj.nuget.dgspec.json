@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Application\\DimitriSauvageTools.Application.csproj": {}
+    "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Application/DimitriSauvageTools.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Application\\DimitriSauvageTools.Application.csproj": {
+    "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Application/DimitriSauvageTools.Application.csproj": {
       "version": "1.0.3",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Application\\DimitriSauvageTools.Application.csproj",
+        "projectUniqueName": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Application/DimitriSauvageTools.Application.csproj",
         "projectName": "DimitriSauvageTools.Application",
-        "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Application\\DimitriSauvageTools.Application.csproj",
-        "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Application\\obj\\",
+        "projectPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Application/DimitriSauvageTools.Application.csproj",
+        "packagesPath": "/home/dsauvage/.nuget/packages/",
+        "outputPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/dsauvage/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     }

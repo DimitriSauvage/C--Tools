@@ -16,6 +16,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Api.OData\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Api.OData.dll" target="lib\netcoreapp3.1\DimitriSauvageTools.Api.OData.dll" />
+    <file src="/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Api.OData/bin/Debug/netcoreapp3.1/DimitriSauvageTools.Api.OData.dll" target="lib/netcoreapp3.1/DimitriSauvageTools.Api.OData.dll" />
   </files>
 </package>

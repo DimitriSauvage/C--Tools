@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Api.OData\\DimitriSauvageTools.Api.OData.csproj",
+    "projectUniqueName": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Api.OData/DimitriSauvageTools.Api.OData.csproj",
     "projectName": "DimitriSauvageTools.Api.OData",
-    "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Api.OData\\DimitriSauvageTools.Api.OData.csproj",
-    "outputPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Api.OData\\obj\\",
+    "projectPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Api.OData/DimitriSauvageTools.Api.OData.csproj",
+    "outputPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Api.OData/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -40,7 +40,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
     }
   }
 }

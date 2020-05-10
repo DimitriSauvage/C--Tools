@@ -14,7 +14,7 @@
     <dependencies>
       <group targetFramework=".NETCoreApp3.1">
         <dependency id="DimitriSauvageTools.Domain" version="1.0.1" exclude="Build,Analyzers" />
-        <dependency id="DimitriSauvageTools.Http" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="DimitriSauvageTools.Http" version="1.0.1" exclude="Build,Analyzers" />
         <dependency id="EnterpriseLibrary.TransientFaultHandling.Data.NetCore" version="6.0.1312" exclude="Build,Analyzers" />
         <dependency id="Microsoft.AspNetCore.Hosting" version="2.2.7" exclude="Build,Analyzers" />
         <dependency id="Microsoft.AspNetCore.Http" version="2.2.0" exclude="Build,Analyzers" />
@@ -30,6 +30,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Infrastructure\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Infrastructure.dll" target="lib\netcoreapp3.1\DimitriSauvageTools.Infrastructure.dll" />
+    <file src="/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure/bin/Debug/netcoreapp3.1/DimitriSauvageTools.Infrastructure.dll" target="lib/netcoreapp3.1/DimitriSauvageTools.Infrastructure.dll" />
   </files>
 </package>

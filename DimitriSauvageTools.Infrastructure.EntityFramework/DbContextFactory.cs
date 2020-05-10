@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using DimitriSauvageTools.Infrastructure.Enumerations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
@@ -8,12 +9,6 @@ using DimitriSauvageTools.Infrastructure.Settings;
 
 namespace DimitriSauvageTools.Infrastructure.EntityFramework
 {
-    public enum DbType
-    {
-        SQL_SERVER,
-        MYSQL
-    }
-
     public class DbContextFactory<TContext> : IDesignTimeDbContextFactory<TContext>
         where TContext : DbContext
     {
@@ -56,7 +51,7 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework
 
             switch (dbType)
             {
-                case DbType.SQL_SERVER:
+                case DbType.SqlServer:
                     builder.UseSqlServer(connectionString);
                     break;
                 default:

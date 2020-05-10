@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.3",
   "restore": {
-    "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure.EntityFramework\\DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
+    "projectUniqueName": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure.EntityFramework/DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
     "projectName": "DimitriSauvageTools.Infrastructure.EntityFramework",
-    "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure.EntityFramework\\DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
-    "outputPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.Infrastructure.EntityFramework\\obj\\",
+    "projectPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure.EntityFramework/DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
+    "outputPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure.EntityFramework/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -14,7 +14,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure/DimitriSauvageTools.Infrastructure.csproj": {
+            "projectPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure/DimitriSauvageTools.Infrastructure.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
@@ -82,7 +86,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
     }
   }
 }

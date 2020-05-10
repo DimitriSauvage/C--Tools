@@ -20,6 +20,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mvc\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Mvc.dll" target="lib\netcoreapp3.1\DimitriSauvageTools.Mvc.dll" />
+    <file src="/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Mvc/bin/Debug/netcoreapp3.1/DimitriSauvageTools.Mvc.dll" target="lib/netcoreapp3.1/DimitriSauvageTools.Mvc.dll" />
   </files>
 </package>

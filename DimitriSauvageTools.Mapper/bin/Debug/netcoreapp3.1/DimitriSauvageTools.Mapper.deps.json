@@ -9,7 +9,7 @@
       "DimitriSauvageTools.Mapper/1.0.0": {
         "dependencies": {
           "AutoMapper": "9.0.0",
-          "DimitriSauvageTools.Application": "1.0.0"
+          "DimitriSauvageTools.Application": "1.0.1"
         },
         "runtime": {
           "DimitriSauvageTools.Mapper.dll": {}
@@ -46,7 +46,7 @@
           }
         }
       },
-      "DimitriSauvageTools.Application/1.0.0": {
+      "DimitriSauvageTools.Application/1.0.1": {
         "dependencies": {
           "AutoMapper": "9.0.0",
           "DimitriSauvageTools.Infrastructure": "1.0.0",
@@ -647,7 +647,7 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -656,7 +656,7 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -665,7 +665,7 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1257,12 +1257,12 @@
       "path": "dimitrisauvagetools/1.0.1",
       "hashPath": "dimitrisauvagetools.1.0.1.nupkg.sha512"
     },
-    "DimitriSauvageTools.Application/1.0.0": {
+    "DimitriSauvageTools.Application/1.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-En9WzWMsxB9szvpaTu168y9cRTQNtQIxDIJAIECyWy1OY3XQjReYS+gaJhKRMdMOJZJSKKthmmNOQLoNNOQWzQ==",
-      "path": "dimitrisauvagetools.application/1.0.0",
-      "hashPath": "dimitrisauvagetools.application.1.0.0.nupkg.sha512"
+      "sha512": "sha512-kLxiK5Dj7XlBAB6wV4cJZLZm5LKx+RWmazDIOI4x/Q7xhvkZD7QPXokK7HHUDt/XNF3pcc568VVw6S/dMrmdcw==",
+      "path": "dimitrisauvagetools.application/1.0.1",
+      "hashPath": "dimitrisauvagetools.application.1.0.1.nupkg.sha512"
     },
     "DimitriSauvageTools.Domain/1.0.0": {
       "type": "package",

@@ -1292,19 +1292,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dimit\\.nuget\\packages\\": {}
+    "/home/dsauvage/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.WindowsService\\DimitriSauvageTools.WindowsService.csproj",
+      "projectUniqueName": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.WindowsService/DimitriSauvageTools.WindowsService.csproj",
       "projectName": "DimitriSauvageTools.WindowsService",
-      "projectPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.WindowsService\\DimitriSauvageTools.WindowsService.csproj",
-      "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dimit\\Github\\CSharp-Tools\\DimitriSauvageTools.WindowsService\\obj\\",
+      "projectPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.WindowsService/DimitriSauvageTools.WindowsService.csproj",
+      "packagesPath": "/home/dsauvage/.nuget/packages/",
+      "outputPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.WindowsService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/dsauvage/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1346,7 +1346,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -14,11 +14,11 @@
     <dependencies>
       <group targetFramework=".NETCoreApp3.1">
         <dependency id="AutoMapper" version="9.0.0" exclude="Build,Analyzers" />
-        <dependency id="DimitriSauvageTools.Application" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="DimitriSauvageTools.Application" version="1.0.1" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\dimit\Github\CSharp-Tools\DimitriSauvageTools.Mapper\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Mapper.dll" target="lib\netcoreapp3.1\DimitriSauvageTools.Mapper.dll" />
+    <file src="/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Mapper/bin/Debug/netcoreapp3.1/DimitriSauvageTools.Mapper.dll" target="lib/netcoreapp3.1/DimitriSauvageTools.Mapper.dll" />
   </files>
 </package>
