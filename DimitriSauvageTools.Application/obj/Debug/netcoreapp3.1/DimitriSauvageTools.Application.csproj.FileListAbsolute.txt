@@ -19,3 +19,14 @@ C:/Users/dimit/Github/CSharp-Tools/DimitriSauvageTools.Application/obj/Debug/net
 /home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Application/obj/Debug/netcoreapp3.1/DimitriSauvageTools.Application.AssemblyInfo.cs
 /home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Application/obj/Debug/netcoreapp3.1/DimitriSauvageTools.Application.dll
 /home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Application/obj/Debug/netcoreapp3.1/DimitriSauvageTools.Application.pdb
+/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Application/bin/Debug/netcoreapp3.1/DimitriSauvageTools.Application.dll.config
+/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Application/bin/Debug/netcoreapp3.1/DimitriSauvageTools.Application.deps.json
+/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Application/bin/Debug/netcoreapp3.1/DimitriSauvageTools.Application.dll
+/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Application/bin/Debug/netcoreapp3.1/DimitriSauvageTools.Application.pdb
+/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Application/obj/Debug/netcoreapp3.1/DimitriSauvageTools.Application.csprojAssemblyReference.cache
+/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Application/obj/Debug/netcoreapp3.1/DimitriSauvageTools.Application.dll.config
+/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Application/obj/Debug/netcoreapp3.1/DimitriSauvageTools.Application.csproj.CoreCompileInputs.cache
+/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Application/obj/Debug/netcoreapp3.1/DimitriSauvageTools.Application.AssemblyInfoInputs.cache
+/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Application/obj/Debug/netcoreapp3.1/DimitriSauvageTools.Application.AssemblyInfo.cs
+/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Application/obj/Debug/netcoreapp3.1/DimitriSauvageTools.Application.dll
+/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Application/obj/Debug/netcoreapp3.1/DimitriSauvageTools.Application.pdb

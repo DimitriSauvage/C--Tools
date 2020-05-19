@@ -9706,19 +9706,19 @@
     ]
   },
   "packageFolders": {
-    "/home/dsauvage/.nuget/packages/": {}
+    "/home/dimitri/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.3",
     "restore": {
-      "projectUniqueName": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure.EntityFramework/DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
+      "projectUniqueName": "/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure.EntityFramework/DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
       "projectName": "DimitriSauvageTools.Infrastructure.EntityFramework",
-      "projectPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure.EntityFramework/DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
-      "packagesPath": "/home/dsauvage/.nuget/packages/",
-      "outputPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure.EntityFramework/obj/",
+      "projectPath": "/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure.EntityFramework/DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
+      "packagesPath": "/home/dimitri/.nuget/packages/",
+      "outputPath": "/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure.EntityFramework/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dsauvage/.nuget/NuGet/NuGet.Config"
+        "/home/dimitri/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -9729,8 +9729,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure/DimitriSauvageTools.Infrastructure.csproj": {
-              "projectPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure/DimitriSauvageTools.Infrastructure.csproj"
+            "/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure/DimitriSauvageTools.Infrastructure.csproj": {
+              "projectPath": "/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure/DimitriSauvageTools.Infrastructure.csproj"
             }
           }
         }
@@ -9800,7 +9800,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/dimitri/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
       }
     }
   }

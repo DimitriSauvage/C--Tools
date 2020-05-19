@@ -9350,19 +9350,19 @@
     ]
   },
   "packageFolders": {
-    "/home/dsauvage/.nuget/packages/": {}
+    "/home/dimitri/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.4",
     "restore": {
-      "projectUniqueName": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Mvc/DimitriSauvageTools.Mvc.csproj",
+      "projectUniqueName": "/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Mvc/DimitriSauvageTools.Mvc.csproj",
       "projectName": "DimitriSauvageTools.Mvc",
-      "projectPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Mvc/DimitriSauvageTools.Mvc.csproj",
-      "packagesPath": "/home/dsauvage/.nuget/packages/",
-      "outputPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Mvc/obj/",
+      "projectPath": "/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Mvc/DimitriSauvageTools.Mvc.csproj",
+      "packagesPath": "/home/dimitri/.nuget/packages/",
+      "outputPath": "/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Mvc/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dsauvage/.nuget/NuGet/NuGet.Config"
+        "/home/dimitri/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -9412,7 +9412,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/dimitri/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
       }
     }
   }

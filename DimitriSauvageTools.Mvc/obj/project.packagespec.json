@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.4",
   "restore": {
-    "projectUniqueName": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Mvc/DimitriSauvageTools.Mvc.csproj",
+    "projectUniqueName": "/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Mvc/DimitriSauvageTools.Mvc.csproj",
     "projectName": "DimitriSauvageTools.Mvc",
-    "projectPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Mvc/DimitriSauvageTools.Mvc.csproj",
-    "outputPath": "/home/dsauvage/Git/CSharp-Tools/DimitriSauvageTools.Mvc/obj/",
+    "projectPath": "/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Mvc/DimitriSauvageTools.Mvc.csproj",
+    "outputPath": "/home/dimitri/Git/CSharp-Tools/DimitriSauvageTools.Mvc/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -54,7 +54,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/home/dimitri/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
     }
   }
 }
