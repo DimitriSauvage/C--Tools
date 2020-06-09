@@ -1,8 +1,0 @@
-C:\Users\dimit\Github\CSharp-Tools\Tools.WindowsService\bin\Debug\netstandard2.1\Tools.WindowsService.deps.json
-C:\Users\dimit\Github\CSharp-Tools\Tools.WindowsService\bin\Debug\netstandard2.1\Tools.WindowsService.dll
-C:\Users\dimit\Github\CSharp-Tools\Tools.WindowsService\bin\Debug\netstandard2.1\Tools.WindowsService.pdb
-C:\Users\dimit\Github\CSharp-Tools\Tools.WindowsService\obj\Debug\netstandard2.1\Tools.WindowsService.csprojAssemblyReference.cache
-C:\Users\dimit\Github\CSharp-Tools\Tools.WindowsService\obj\Debug\netstandard2.1\Tools.WindowsService.AssemblyInfoInputs.cache
-C:\Users\dimit\Github\CSharp-Tools\Tools.WindowsService\obj\Debug\netstandard2.1\Tools.WindowsService.AssemblyInfo.cs
-C:\Users\dimit\Github\CSharp-Tools\Tools.WindowsService\obj\Debug\netstandard2.1\Tools.WindowsService.dll
-C:\Users\dimit\Github\CSharp-Tools\Tools.WindowsService\obj\Debug\netstandard2.1\Tools.WindowsService.pdb
