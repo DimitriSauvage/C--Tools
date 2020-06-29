@@ -21,6 +21,31 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
         public DbRepository(DbContext dbContext) : base(dbContext)
         {
         }
+
+        #region Methods
+
+        /// <summary>
+        /// Add a new entity
+        /// </summary>
+        /// <param name="entity">Entity to add</param>
+        public new void Add(TEntity entity)
+        {
+            entity.Id = Guid.NewGuid();
+            base.Add(entity);
+        }
+
+        /// <summary>
+        /// Add a new entity in an asynchrnous way
+        /// </summary>
+        /// <param name="entity">Entity to add</param>
+        /// <returns></returns>
+        public new async Task AddAsync(TEntity entity)
+        {
+            entity.Id = Guid.NewGuid();
+            await base.AddAsync(entity);
+        }
+
+        #endregion
     }
 
     /// <summary>
@@ -464,7 +489,6 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
 
             return result;
         }
-
 
         #endregion
     }

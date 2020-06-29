@@ -1,0 +1,61 @@
+﻿{
+  "version": "1.0.4",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\dimit\\Git\\CSharp-Tools\\DimitriSauvageTools.Mvc\\DimitriSauvageTools.Mvc.csproj",
+    "projectName": "DimitriSauvageTools.Mvc",
+    "projectPath": "C:\\Users\\dimit\\Git\\CSharp-Tools\\DimitriSauvageTools.Mvc\\DimitriSauvageTools.Mvc.csproj",
+    "outputPath": "C:\\Users\\dimit\\Git\\CSharp-Tools\\DimitriSauvageTools.Mvc\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "DimitriSauvageTools": {
+          "target": "Package",
+          "version": "[1.0.2, )"
+        },
+        "DimitriSauvageTools.Application": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "Microsoft.AspNetCore.Mvc.Localization": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Users\\dimit\\.dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+    }
+  }
+}
