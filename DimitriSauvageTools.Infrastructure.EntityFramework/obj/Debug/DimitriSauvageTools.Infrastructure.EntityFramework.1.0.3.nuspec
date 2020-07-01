@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DimitriSauvageTools.Infrastructure.EntityFramework</id>
+    <version>1.0.3</version>
+    <title>Tools to help with EF</title>
+    <authors>dimitrisauvage</authors>
+    <owners>dimitrisauvage</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/DimitriSauvage/CSharp-Tools</projectUrl>
+    <description>Set of tools to help for the creation of an implementation layer of the DDD infrastructure layer, using Entity Framework</description>
+    <repository url="https://github.com/DimitriSauvage/CSharp-Tools" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="DimitriSauvageTools.Infrastructure" version="1.0.3" exclude="Build,Analyzers" />
+        <dependency id="DimitriSauvageTools" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="DimitriSauvageTools.Domain" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Identity.EntityFrameworkCore" version="3.1.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CSharp" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="3.1.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="3.1.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="3.1.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="3.1.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/mnt/c/Users/dimit/Git/CSharp-Tools/DimitriSauvageTools.Infrastructure.EntityFramework/bin/Debug/netcoreapp3.1/DimitriSauvageTools.Infrastructure.EntityFramework.dll" target="lib/netcoreapp3.1/DimitriSauvageTools.Infrastructure.EntityFramework.dll" />
+  </files>
+</package>

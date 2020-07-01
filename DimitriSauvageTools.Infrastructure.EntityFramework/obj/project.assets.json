@@ -9713,7 +9713,7 @@
     "C:\\Users\\dimit\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "restore": {
       "projectUniqueName": "C:\\Users\\dimit\\Git\\CSharp-Tools\\DimitriSauvageTools.Infrastructure.EntityFramework\\DimitriSauvageTools.Infrastructure.EntityFramework.csproj",
       "projectName": "DimitriSauvageTools.Infrastructure.EntityFramework",

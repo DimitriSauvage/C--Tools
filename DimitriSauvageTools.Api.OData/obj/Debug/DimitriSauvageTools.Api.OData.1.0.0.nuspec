@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DimitriSauvageTools.Api.OData</id>
+    <version>1.0.0</version>
+    <title>Tools to execute request to OData API</title>
+    <authors>dimitrisauvage</authors>
+    <owners>dimitrisauvage</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
+    <projectUrl>https://github.com/DimitriSauvage/CSharp-Tools</projectUrl>
+    <description>Set of tools to request OData API</description>
+    <repository url="https://github.com/DimitriSauvage/CSharp-Tools" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Api.OData\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Api.OData.dll" target="lib\netcoreapp3.1\DimitriSauvageTools.Api.OData.dll" />
+  </files>
+</package>

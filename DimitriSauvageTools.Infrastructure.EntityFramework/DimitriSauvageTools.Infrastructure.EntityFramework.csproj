@@ -11,7 +11,7 @@
     <Description>Set of tools to help for the creation of an implementation layer of the DDD infrastructure layer, using Entity Framework</Description>
     <PackageProjectUrl>https://github.com/DimitriSauvage/CSharp-Tools</PackageProjectUrl>
     <RepositoryUrl>https://github.com/DimitriSauvage/CSharp-Tools</RepositoryUrl>
-    <PackageVersion>1.0.3</PackageVersion>
+    <PackageVersion>1.0.4</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>

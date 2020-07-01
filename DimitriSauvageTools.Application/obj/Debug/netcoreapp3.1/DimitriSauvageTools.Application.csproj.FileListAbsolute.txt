@@ -1,0 +1,11 @@
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Application\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Application.dll.config
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Application\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Application.deps.json
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Application\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Application.dll
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Application\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Application.pdb
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Application\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Application.csprojAssemblyReference.cache
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Application\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Application.dll.config
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Application\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Application.csproj.CoreCompileInputs.cache
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Application\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Application.AssemblyInfoInputs.cache
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Application\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Application.AssemblyInfo.cs
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Application\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Application.dll
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Application\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Application.pdb

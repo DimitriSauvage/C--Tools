@@ -1,0 +1,8 @@
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Api.OData\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Api.OData.deps.json
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Api.OData\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Api.OData.dll
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Api.OData\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Api.OData.pdb
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Api.OData\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Api.OData.csproj.CoreCompileInputs.cache
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Api.OData\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Api.OData.AssemblyInfoInputs.cache
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Api.OData\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Api.OData.AssemblyInfo.cs
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Api.OData\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Api.OData.dll
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Api.OData\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Api.OData.pdb

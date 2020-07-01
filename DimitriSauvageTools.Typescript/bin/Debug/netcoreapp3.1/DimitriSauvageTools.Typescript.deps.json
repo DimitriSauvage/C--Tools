@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DimitriSauvageTools.Typescript/1.0.0": {
+        "dependencies": {
+          "CsToTs": "1.3.12"
+        },
+        "runtime": {
+          "DimitriSauvageTools.Typescript.dll": {}
+        }
+      },
+      "CsToTs/1.3.12": {
+        "dependencies": {
+          "Handlebars.Net": "1.10.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CsToTs.dll": {
+            "assemblyVersion": "1.3.12.0",
+            "fileVersion": "1.3.12.0"
+          }
+        }
+      },
+      "Handlebars.Net/1.10.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.4.0",
+          "System.Reflection.TypeExtensions": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Handlebars.dll": {
+            "assemblyVersion": "1.10.1.0",
+            "fileVersion": "1.10.1.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.4.0": {},
+      "System.Reflection.TypeExtensions/4.4.0": {}
+    }
+  },
+  "libraries": {
+    "DimitriSauvageTools.Typescript/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsToTs/1.3.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f2zIq6WJ0UaVPr2i+hHXrK5ImiPwuTV1aJaZp0rrUUVPqJ+DAoRa3OpnJx9wG3WJOAeUrNLjmb/ZzmKEk+o7nQ==",
+      "path": "cstots/1.3.12",
+      "hashPath": "cstots.1.3.12.nupkg.sha512"
+    },
+    "Handlebars.Net/1.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F/1eETC5AUfxaK+zG6EhUZa89TfxRtTMvTg9T6AsWzPkli/szv+OWEKpgQgXcONtM+nLkn7Q5Lfau0BA8eTxlQ==",
+      "path": "handlebars.net/1.10.1",
+      "hashPath": "handlebars.net.1.10.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vvVR/B08YVghQ4jHEloxqw2ZWzEGE1AOA5E0DioUM3ujbXz6FD3AfB/0Jl2ohJPd0nXYGwmPe1En6HTsSriq1A==",
+      "path": "microsoft.csharp/4.4.0",
+      "hashPath": "microsoft.csharp.4.4.0.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dkmh/ySlwnXJp/1qYP9uyKkCK1CXR/REFzl7abHcArxBcV91mY2CgrrzSRA5Z/X4MevJWwXsklGRdR3A7K9zbg==",
+      "path": "system.reflection.typeextensions/4.4.0",
+      "hashPath": "system.reflection.typeextensions.4.4.0.nupkg.sha512"
+    }
+  }
+}

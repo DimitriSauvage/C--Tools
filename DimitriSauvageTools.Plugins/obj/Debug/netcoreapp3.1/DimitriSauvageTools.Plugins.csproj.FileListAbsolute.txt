@@ -1,0 +1,9 @@
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Plugins\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Plugins.deps.json
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Plugins\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Plugins.dll
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Plugins\bin\Debug\netcoreapp3.1\DimitriSauvageTools.Plugins.pdb
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Plugins\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Plugins.csprojAssemblyReference.cache
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Plugins\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Plugins.csproj.CoreCompileInputs.cache
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Plugins\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Plugins.AssemblyInfoInputs.cache
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Plugins\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Plugins.AssemblyInfo.cs
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Plugins\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Plugins.dll
+C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.Plugins\obj\Debug\netcoreapp3.1\DimitriSauvageTools.Plugins.pdb

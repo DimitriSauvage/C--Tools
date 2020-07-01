@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DimitriSauvageTools.OpenXml</id>
+    <version>1.0.0</version>
+    <title>Tools to help to use XML</title>
+    <authors>dimitrisauvage</authors>
+    <owners>dimitrisauvage</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
+    <projectUrl>https://github.com/DimitriSauvage/CSharp-Tools</projectUrl>
+    <description>Tools to help to use OpenXML And Excel</description>
+    <repository url="https://github.com/DimitriSauvage/CSharp-Tools" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="DocumentFormat.OpenXml" version="2.8.1" exclude="Build,Analyzers" />
+        <dependency id="ExcelDataReader" version="3.4.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\dimit\Git\CSharp-Tools\DimitriSauvageTools.OpenXml\bin\Debug\netcoreapp3.1\DimitriSauvageTools.OpenXml.dll" target="lib\netcoreapp3.1\DimitriSauvageTools.OpenXml.dll" />
+  </files>
+</package>
