@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DimitriSauvageTools.Mail</id>
+    <version>1.0.0</version>
+    <title>Module d'envoi de mail</title>
+    <authors>DimitriSauvageTools.Mail</authors>
+    <owners>DimitriSauvageTools.Mail</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
+    <projectUrl>https://github.com/DimitriSauvage/CSharp-Tools</projectUrl>
+    <description>Module permettant d'envoyer simplement des mails</description>
+    <repository url="https://github.com/DimitriSauvage/CSharp-Tools" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="DimitriSauvageTools" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="NETCore.MailKit" version="2.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/mnt/c/Users/dimit/Git/CSharp-Tools/DimitriSauvageTools.Mail/bin/Debug/netcoreapp3.1/DimitriSauvageTools.Mail.dll" target="lib/netcoreapp3.1/DimitriSauvageTools.Mail.dll" />
+  </files>
+</package>

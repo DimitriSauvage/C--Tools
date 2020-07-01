@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage;
-using Nestor.DimitriSauvageTools.Infrastructure.EntityFramework.Exceptions;
 using DimitriSauvageTools.Domain.Abstractions;
 using DimitriSauvageTools.Domain.DataAnnotations;
 using DimitriSauvageTools.Exceptions;
 using DimitriSauvageTools.Helpers;
 using DimitriSauvageTools.Infrastructure.Abstraction;
 using DimitriSauvageTools.Infrastructure.EntityFramework.Exceptions;
+using DimitriSauvageTools.Infrastructure.Exceptions;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
+using Nestor.DimitriSauvageTools.Infrastructure.EntityFramework.Exceptions;
 
 namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
 {
@@ -30,8 +31,7 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
         /// <param name="entity">Entity to add</param>
         public new void Add(TEntity entity)
         {
-            entity.Id = Guid.NewGuid();
-            base.Add(entity);
+            this.AddAsync(entity).Wait();
         }
 
         /// <summary>
@@ -62,7 +62,7 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
         /// <summary>
         /// Affecte ou obtient le contexte
         /// </summary>
-        public DbContext Context { get; set; }
+        private DbContext Context { get; set; }
 
         #endregion
 
@@ -79,7 +79,7 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
 
         public void Add(TEntity entity)
         {
-            Context.Set<TEntity>().Add(entity);
+            this.AddAsync(entity).Wait();
         }
 
         public async Task AddAsync(TEntity entity)
@@ -87,19 +87,11 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
             await Context.Set<TEntity>().AddAsync(entity);
         }
 
-        /// <summary>
-        /// Attache l'entité passée en paramètre au contexte courant
-        /// </summary>
-        /// <param name="entity"></param>
         public void Attach(TEntity entity)
         {
             Context.Set<TEntity>().Attach(entity);
         }
 
-        /// <summary>
-        /// Attache la collection d'entitées passée en paramètre au contexte courant
-        /// </summary>
-        /// <param name="entity"></param>
         public void Attach(IEnumerable<TEntity> entities)
         {
             Context.Set<TEntity>().AttachRange(entities);
@@ -107,8 +99,7 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
 
         public int Delete(TEntity entity)
         {
-            Context.Set<TEntity>().Remove(entity);
-            return Context.SaveChanges();
+            return this.DeleteAsync(entity).Result;
         }
 
         public async Task<int> DeleteAsync(TEntity entity)
@@ -122,9 +113,10 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
             Context.Entry(entity).State = EntityState.Modified;
         }
 
-        public ICollection<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate)
+        public ICollection<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate,
+            ICollection<string> includes = null, bool noTracking = false)
         {
-            return Context.Set<TEntity>().Where(predicate).ToList();
+            return this.FindByAsync(predicate, includes, noTracking).Result;
         }
 
         public async Task<ICollection<TEntity>> FindByAsync(Expression<Func<TEntity, bool>> predicate,
@@ -151,19 +143,14 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
 
         public TEntity GetById(TId id)
         {
-            return Context.Set<TEntity>().Where(entity => entity.Id.Equals(id)).SingleOrDefault();
+            return this.GetByIdAsync(id).Result;
         }
 
         public async Task<TEntity> GetByIdAsync(TId id)
         {
-            return await Context.Set<TEntity>().Where(entity => entity.Id.Equals(id)).SingleOrDefaultAsync();
+            return await Context.Set<TEntity>().SingleOrDefaultAsync(entity => entity.Id.Equals(id));
         }
 
-        /// <summary>
-        /// Obtient une <see cref="TEntity"/> depuis les propriétés qui composent sa clé unique
-        /// </summary>
-        /// <param name="obj"></param>
-        /// <returns></returns>
         public virtual async Task<TEntity> GetByUniqueKeyAsync(TEntity obj)
         {
             var uniqueByAttribute =
@@ -184,6 +171,8 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
             foreach (var uniqueKeyProperty in uniqueKeyProperties)
             {
                 var prop = typeof(TEntity).GetProperty(uniqueKeyProperty.Key);
+                if (prop == null) throw new ObjectPropertyNotFoundException(uniqueKeyProperty.Key, typeof(TEntity));
+
                 if (prop.PropertyType.IsSubclassOf(typeof(Entity)))
                     throw new CantExecuteAutoUniqueKeyQueryOnClassPropertyException(uniqueKeyProperty.Key);
                 else
@@ -212,11 +201,6 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
             return await query.SingleOrDefaultAsync();
         }
 
-        /// <summary>
-        /// Obtient une <see cref="TEntity"/> depuis les propriétés qui composent sa clé unique
-        /// </summary>
-        /// <param name="obj"></param>
-        /// <returns></returns>
         public TEntity GetByUniqueKey(TEntity obj)
         {
             return GetByUniqueKeyAsync(obj).Result;
@@ -224,7 +208,7 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
 
         public ICollection<TEntity> List()
         {
-            return Context.Set<TEntity>().ToList();
+            return this.ListAsync().Result;
         }
 
         public async Task<ICollection<TEntity>> ListAsync()
@@ -234,7 +218,7 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
 
         public void SaveChanges()
         {
-            Context.SaveChanges();
+            this.SaveChangesAsync().Wait();
         }
 
         public async Task SaveChangesAsync()
@@ -244,7 +228,12 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
 
         public IDbContextTransaction BeginTransaction()
         {
-            return Context.Database.BeginTransaction();
+            return this.BeginTransactionAsync().Result;
+        }
+
+        public async Task<IDbContextTransaction> BeginTransactionAsync()
+        {
+            return await this.Context.Database.BeginTransactionAsync();
         }
 
         /// <summary>
@@ -254,12 +243,12 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
         /// <returns>Le nombre d'éléments</returns>
         public int CountBy(Expression<Func<TEntity, bool>> predicate)
         {
-            return Context.Set<TEntity>().Where(predicate).Count();
+            return this.CountByAsync(predicate).Result;
         }
 
-        public Task<int> CountByAsync(Expression<Func<TEntity, bool>> predicate)
+        public async Task<int> CountByAsync(Expression<Func<TEntity, bool>> predicate)
         {
-            return Context.Set<TEntity>().Where(predicate).CountAsync();
+            return await Context.Set<TEntity>().Where(predicate).CountAsync();
         }
 
         public IQueryable<TEntity> Query()
@@ -267,19 +256,11 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
             return Context.Set<TEntity>().AsQueryable();
         }
 
-        /// <summary>
-        /// Force le rechargement de l'entité passée en paramètre
-        /// </summary>
-        /// <param name="entity">entité à recharger</param>
         public async Task ReloadAsync(TEntity entity)
         {
             await Context.Entry<TEntity>(entity).ReloadAsync();
         }
 
-        /// <summary>
-        /// Force le rechargement des entités passées en paramètre
-        /// </summary>
-        /// <param name="entities">entités à recharger</param>
         public async Task ReloadAsync(IEnumerable<TEntity> entities)
         {
             foreach (var item in entities)
@@ -288,12 +269,6 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
             }
         }
 
-
-        /// <summary>
-        /// Méthode d'execution d'un traitement Entity Framework dans un nouveau contexte de transaction
-        /// </summary>
-        /// <param name="action">Méthode à executer</param>
-        /// <param name="obj">Objet</param>
         public async Task TransactionalExecutionAsync(Action<TEntity, IDbContextTransaction> action, TEntity obj)
         {
             await TransactionalExecutionAsync(action, obj, onSuccessAction: null, onErrorAction: null);
@@ -369,20 +344,20 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
             TEntity obj,
             Func<TEntity, TOut> onSuccessFunc, Action<AppException> onErrorAction)
         {
-            using var transaction = BeginTransaction();
+            await using var transaction = await BeginTransactionAsync();
             TOut result = default;
             try
             {
-                result = await Task.Run(() =>
+                result = await Task.Run(async () =>
                 {
                     action(obj, transaction);
-                    transaction.Commit();
+                    await transaction.CommitAsync();
                     return onSuccessFunc != null ? onSuccessFunc.Invoke(obj) : default;
                 });
             }
             catch (Exception e)
             {
-                transaction.Rollback();
+                await transaction.RollbackAsync();
                 onErrorAction?.Invoke(new EntityFrameworkException(e, obj));
             }
 
@@ -470,22 +445,27 @@ namespace DimitriSauvageTools.Infrastructure.EntityFramework.Abstractions
             TId id,
             Func<TId, TOut> onSuccessFunc, Action<AppException> onErrorAction)
         {
-            using var transaction = BeginTransaction();
-            TOut result = default;
-            try
+            //Get the entity with the id
+            var entity = await this.GetByIdAsync(id);
+            if (entity == null) throw new EntityNotFoundException<TEntity>();
+
+            //Transform entries to reuse existing code
+            void ActionWithEntity(TEntity actionEntity, IDbContextTransaction actionTransaction)
             {
-                result = await Task.Run(() =>
-                {
-                    action(id, transaction);
-                    transaction.Commit();
-                    return onSuccessFunc != null ? onSuccessFunc.Invoke(id) : default;
-                });
+                action(actionEntity.Id, actionTransaction);
             }
-            catch (Exception e)
+
+            TOut OnSuccessFuncWithEntity(TEntity funcEntity)
             {
-                transaction.Rollback();
-                onErrorAction?.Invoke(new EntityFrameworkException(e, id));
+                return onSuccessFunc(funcEntity.Id);
             }
+
+            //Execute 
+            var result = await this.TransactionalExecutionAsync(
+                ActionWithEntity,
+                entity,
+                OnSuccessFuncWithEntity,
+                onErrorAction);
 
             return result;
         }

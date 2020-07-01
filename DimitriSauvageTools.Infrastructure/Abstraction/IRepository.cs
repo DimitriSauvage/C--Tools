@@ -48,13 +48,14 @@ namespace DimitriSauvageTools.Infrastructure.Abstraction
         /// </summary>
         /// <param name="predicate">Prédicat de sélection</param>
         /// <returns></returns>
-        ICollection<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate);
+        ICollection<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate,
+            ICollection<string> includes = null, bool noTracking = false);
 
         /// <summary>
         /// Effectue un select de type <typeparamref name="TEntity"/>, la clause where sera passée en paramètre grâce à un prédicat
         /// </summary>
         /// <param name="predicate">Prédicat de sélection</param>
-        /// <param name="Includes">Liaisons à inclure dans l'objet retourné</param>
+        /// <param name="includes">Liaisons à inclure dans l'objet retourné</param>
         /// <param name="noTracking">Recharge obligatoirement les données de la BDD et ne prend pas en compte les données cache</param>
         /// <returns></returns>
         Task<ICollection<TEntity>> FindByAsync(Expression<Func<TEntity, bool>> predicate,
@@ -163,6 +164,12 @@ namespace DimitriSauvageTools.Infrastructure.Abstraction
         /// </summary>
         /// <returns></returns>
         IDbContextTransaction BeginTransaction();
+
+        /// <summary>
+        /// Démarre une nouvelle transaction de base de données de manière asynchrone
+        /// </summary>
+        /// <returns>Transaction</returns>
+        Task<IDbContextTransaction> BeginTransactionAsync();
 
         /// <summary>
         /// Méthode d'execution d'un traitement Entity Framework dans un nouveau contexte de transaction
